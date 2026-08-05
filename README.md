@@ -39,3 +39,7 @@ Param=-direct -txt
     - `Blade Sentinel` now gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
     - `Blade Sentinel` now gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
     - `Blade Sentinel` now gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
+## Backported Druid's skill synergies inspired by Diablo II: Resurrected
+- `Rabies` synergy increased from 18% to **20%**
+- `Fire Claw` synergies removed from `Fissure` and `Volcano`
+- `Shock Wave` synergy increased from 5% to **10%**
