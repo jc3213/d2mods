@@ -1,5 +1,19 @@
 # Diablo: LoD Mods
 
+## How to use
+- Download latest [release](//github.com/jc3213/d2mods/releases/latest)
+- Extract to the folder where your Diablo II installed
+- Run **Game.exe** with parameters `-direct -txt`
+    - Create a shortcut to run `C:\Diablo II\Game.exe -direct -txt` for example
+
+## Play with PlugY
+- Modify **PlugY.ini** and add `-direct -txt` to `[LAUNCHING] > Oaran`
+```ini
+[LAUNCHING]
+Param=-direct -txt
+```
+- Run **PlugY.exe**
+
 ## Changes
 - Backported Amazon's skill synergies inspired by Diablo II: Resurrected
     - `Multiple Shot` now gains **+12% Damage** per level of `Guided Arrow`
