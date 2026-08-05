@@ -15,7 +15,11 @@ Param=-direct -txt
 - Run **PlugY.exe**
 
 ## Changes
-- Backported Amazon's skill synergies inspired by Diablo II: Resurrected
+
+### Skill synergies
+Backported skill synergies inspired by Diablo II: Resurrected
+
+- Amazon
     - `Multiple Shot` now gains **+12% Damage** per level of `Guided Arrow`
     - `Guided Arrow` now gains **+12% Damage** per level of `Multiple Shot`
     - `Strafe` now gains **+5% Damage** per level of `Multiple Shot` and **+10% Damage** per level of `Guided Arrow`
@@ -24,7 +28,7 @@ Param=-direct -txt
     - `Power Strike` synergy increased from 10% to **14%**
     - `Charged Strike` synergy increased from 10% to **14%**
     - `Lightning Strike` synergy increased from 8% to **11%**
-- Backported Assassin's skill synergies inspired by Diablo II: Resurrected
+- Assassin
     - `Fire Blast` synergy increased from 9% to **11%**
       - Removed synergy from `Death Sentry`
     - `Shock Web` synergy increased from 11% to **17%**
@@ -39,7 +43,7 @@ Param=-direct -txt
     - `Blade Sentinel` now gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
     - `Blade Sentinel` now gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
     - `Blade Sentinel` now gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
-## Backported Druid's skill synergies inspired by Diablo II: Resurrected
-- `Rabies` synergy increased from 18% to **20%**
-- `Fire Claw` synergies removed from `Fissure` and `Volcano`
-- `Shock Wave` synergy increased from 5% to **10%**
+- Druid
+    - `Rabies` synergy increased from 18% to **20%**
+    - `Fire Claw` synergies removed from `Fissure` and `Volcano`
+    - `Shock Wave` synergy increased from 5% to **10%**
