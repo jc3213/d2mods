@@ -29,6 +29,16 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Power Strike` synergy increased from 10% to **14%**
     - `Charged Strike` synergy increased from 10% to **14%**
     - `Lightning Strike` synergy increased from 8% to **11%**
+- Sorceress
+    - `Chilling Armor` damage synergy increased from 7% to **9%**
+    - `Nova` now gains **5%** damage synergy per level of `Lightning`
+    - `Thunder Storm` now gains **7%** damage synergy per level of `Lightning`
+    - `Inferno` damage synergy increased from 13% to **16%**
+    - `Blaze` damage synergy from `Warmth` increased from 4% to **6%**
+        - Removed synergy from `Fire Wall`
+- Necromancer
+    - `Bone Spear` damage synergy increased from 7% to **8%**
+    - `Bone Spirit` damage synergy increased from 6% to **8%**
 - Assassin
     - `Fire Blast` synergy increased from 9% to **11%**
       - Removed synergy from `Death Sentry`
