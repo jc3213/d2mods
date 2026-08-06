@@ -17,6 +17,7 @@ Param=-direct -txt
 ## Changes
 
 ### Skill synergies
+
 Backported skill synergies inspired by Diablo II: Resurrected
 
 - Amazon
@@ -47,3 +48,20 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Rabies` synergy increased from 18% to **20%**
     - `Fire Claw` synergies removed from `Fissure` and `Volcano`
     - `Shock Wave` synergy increased from 5% to **10%**
+    - `Summon Spirit Wolf` won't replace **Dire Wolves** and **Grizzly**
+    - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
+    - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
+
+### Runewords
+
+Backported changes on runeword inspired by Diablo II: Resurrected
+
+- Insight
+    - Now works on `Missile Weapon`
+- Infinite
+    - Now works on `Spear`
+
+### Hireling
+
+- Rogue scout
+    - Now available to equip `Amazon Bow`
