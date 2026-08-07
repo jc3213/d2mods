@@ -39,6 +39,8 @@ Backported skill synergies inspired by Diablo II: Resurrected
 - Necromancer
     - `Bone Spear` damage synergy increased from 7% to **8%**
     - `Bone Spirit` damage synergy increased from 6% to **8%**
+- Paladin
+    - `Holy Fire` damage synergy from `Resist Fire` increased from 18% to **21%**, from `Salvation` increased from 6% to **10%**
 - Assassin
     - `Fire Blast` synergy increased from 9% to **11%**
       - Removed synergy from `Death Sentry`
