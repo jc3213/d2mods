@@ -65,7 +65,7 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
     - `Molten Boulder` synergy increased from 10% to **12%**, cast delay reduced from 2 seconds to **1** second
     - `Volcano` synergy increased from 12% to **16%**
-    - `Armageddon` now gains **+18% Damage** instead of **+14% Fie Damage** per level of `Volcano`
+    - `Armageddon` now gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
         - Physic damage is now displayed and significantly increased
         - Average fire damage has not been reduced **Help wanted**
 
