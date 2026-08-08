@@ -63,16 +63,17 @@ Backported skill synergies inspired by Diablo II: Resurrected
 - Druid
     - `Rabies` synergy increased from 18% to **20%**
     - `Fire Claw` synergies removed from `Fissure` and `Volcano`
+        - Fire damage has been significantly increased
     - `Shock Wave` synergy increased from 5% to **10%**
     - `Raven` now gains **+12% Damage% per level from `Summon Spirit Wolf`, `Summon Dire Wolf`, and `Summon Grizzly`
-        - The damage was significantly increased
+        - Physic damage has been significantly increased
     - `Summon Spirit Wolf` won't replace **Dire Wolves** and **Grizzly**
     - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
     - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
     - `Molten Boulder` synergy increased from 10% to **12%**, cast delay reduced from 2 seconds to **1** second
     - `Volcano` synergy increased from 12% to **16%**
     - `Armageddon` now gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
-        - Physic damage is now displayed and significantly increased
+        - Physic damage is now displayed and has been significantly increased
         - Average fire damage has not been decreased yet, **Help wanted**
 
 ### Runewords
