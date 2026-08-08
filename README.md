@@ -70,7 +70,7 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Volcano` synergy increased from 12% to **16%**
     - `Armageddon` now gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
         - Physic damage is now displayed and significantly increased
-        - Average fire damage has not been reduced **Help wanted**
+        - Average fire damage has not been decreased yet, **Help wanted**
 
 ### Runewords
 
