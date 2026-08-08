@@ -36,6 +36,7 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Inferno` synergy increased from 13% to **16%**
     - `Blaze` synergy from `Warmth` increased from 4% to **6%**
         - Removed synergy from `Fire Wall`
+    - `Hydra` removed cast delay, and limited up to 6 hydras
 - Necromancer
     - `Bone Spear` damage synergy increased from 7% to **8%**
     - `Bone Spirit` damage synergy increased from 6% to **8%**
@@ -60,6 +61,8 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Rabies` synergy increased from 18% to **20%**
     - `Fire Claw` synergies removed from `Fissure` and `Volcano`
     - `Shock Wave` synergy increased from 5% to **10%**
+    - `Raven` now gains **+12% Damage% per level from `Summon Spirit Wolf`, `Summon Dire Wolf`, and `Summon Grizzly`
+        - The damage was significantly increased
     - `Summon Spirit Wolf` won't replace **Dire Wolves** and **Grizzly**
     - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
     - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
