@@ -25,10 +25,12 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Guided Arrow` now gains **+12% Damage** per level of `Multiple Shot`
     - `Strafe` now gains **+5% Damage** per level of `Multiple Shot` and **+10% Damage** per level of `Guided Arrow`
     - `Exploding Arrow` synergy increased from 12% to **14%**
-    - `Plague Javelin` synergy increased from 10% to **14%**
+    - `Immolation Arrow` cast delay reduced from 1 second to **0.6** second
+    - `Plague Javelin` synergy increased from 10% to **14%**, cast delay reduced from 4 seconds to **1** second
     - `Power Strike` synergy increased from 10% to **14%**
     - `Charged Strike` synergy increased from 10% to **14%**
     - `Lightning Strike` synergy increased from 8% to **11%**
+    - `Valkyrie` cast delay reduced from 6 seconds to **0.6** second
 - Sorceress
     - `Chilling Armor` synergy increased from 7% to **9%**
     - `Nova` now gains **+5% Lightning Damage** per level of `Lightning`
@@ -42,6 +44,7 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Bone Spirit` damage synergy increased from 6% to **8%**
 - Paladin
     - `Holy Fire` damage synergy from `Resist Fire` increased from 18% to **21%**, from `Salvation` increased from 6% to **10%**
+    - `Fist of the Heavens` cast delay reduced from 1 second to **0.4** second
 - Assassin
     - `Fire Blast` synergy increased from 9% to **11%**
       - Removed synergy from `Death Sentry`
