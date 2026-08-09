@@ -65,7 +65,7 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Fire Claw` synergies removed from `Fissure` and `Volcano`
         - Fire damage has been significantly increased
     - `Shock Wave` synergy increased from 5% to **10%**
-    - `Raven` now gains **+12% Damage% per level from `Summon Spirit Wolf`, `Summon Dire Wolf`, and `Summon Grizzly`
+    - `Raven` now gains **+12% Damage%** per level from `Summon Spirit Wolf`, `Summon Dire Wolf`, and `Summon Grizzly`
         - Physic damage has been significantly increased
     - `Summon Spirit Wolf` won't replace **Dire Wolves** and **Grizzly**
     - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
