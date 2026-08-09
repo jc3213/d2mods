@@ -7,7 +7,7 @@
     - Create a shortcut to run `C:\Diablo II\Game.exe -direct -txt` for example
 
 ## Play with PlugY
-- Modify **PlugY.ini** and add `-direct -txt` to `[LAUNCHING] > Oaran`
+- Modify **PlugY.ini** and add `-direct -txt` to `[LAUNCHING] > Param`
 ```ini
 [LAUNCHING]
 Param=-direct -txt
