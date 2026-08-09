@@ -1,4 +1,4 @@
-# Diablo: LoD Mods
+# Diablo II LoD Mods
 
 ## How to use
 - Download latest [release](//github.com/jc3213/d2mods/releases/latest)
