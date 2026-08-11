@@ -84,18 +84,32 @@ Backported skill synergies inspired by Diablo II: Resurrected
 
 Backported changes on runeword inspired by Diablo II: Resurrected
 
+- Bulwark
+    - Works on `Helms`
+- Cure
+    - Works on `Helms`
 - Flickering Flame
     - Works on `Helms`
+- Ground
+    - Works on `Helms`
+- Hearth
+    - Works on `Helms`
+- Hysteria
+    - Works on `Body Armors`
 - Infinity
     - Works on `Polearms`, and **`Spears`**
 - Insight
     - Works on `Polearms`, `Staves`, and **`Missile Weapons`**
+- Mania
+    - Works on `Weapons`
 - Mist
     - Works on `Missle Weapons`
 - Obsession
     - Works on `Staves`
 - Plague
     - Works on `Swords`, `Knives`, `Claws`
+- Temper
+    - Works on `Helms`
 - Unbending Will
     - Works on `Swords`
 - Wisdom
