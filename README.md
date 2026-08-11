@@ -84,10 +84,22 @@ Backported skill synergies inspired by Diablo II: Resurrected
 
 Backported changes on runeword inspired by Diablo II: Resurrected
 
-- Insight
-    - Now works on `Missile Weapon`
+- Flickering Flame
+    - Works on `Helms`
 - Infinite
     - Now works on `Spear`
+- Insight
+    - Now works on `Missile Weapon`
+- Mist
+    - Works on `Missle Weapons`
+- Obsession
+    - Works on `Staves`
+- Plague
+    - Works on `Swords`, `Knives`, `Claws`
+- Unbending Will
+    - Works on `Swords`
+- Wisdom
+    - Works on `Helms`
 
 ### Hireling
 
