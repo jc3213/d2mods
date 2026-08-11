@@ -32,13 +32,13 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Lightning Strike` synergy increased from 8% to **11%**
     - `Valkyrie` cast delay reduced from 6 seconds to **0.6** second
 - Sorceress
-    - `Chilling Armor` synergy increased from 7% to **9%**
+    - `Chilling Armor` cold damage synergy increased from 7% to **9%**
     - `Nova` now gains **+5% Lightning Damage** per level of `Lightning`
     - `Thunder Storm` now gains **7% Lightning Damage**  per level of `Lightning`
-    - `Inferno` synergy increased from 13% to **16%**
-    - `Blaze` synergy from `Warmth` increased from 4% to **6%**
+    - `Inferno` fire damage synergy increased from 13% to **16%**
+    - `Blaze` fire damage synergy from `Warmth` increased from 4% to **6%**
         - Removed synergy from `Fire Wall`
-    - `Hydra` removed cast delay, and limited up to 6 hydras
+    - `Hydra` removed cast delay, limited up to 6 hydras
 - Necromancer
     - `Bone Spear` damage synergy increased from 7% to **8%**
     - `Bone Spirit` damage synergy increased from 6% to **8%**
