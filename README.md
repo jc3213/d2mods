@@ -86,10 +86,10 @@ Backported changes on runeword inspired by Diablo II: Resurrected
 
 - Flickering Flame
     - Works on `Helms`
-- Infinite
-    - Now works on `Spear`
+- Infinity
+    - Works on `Polearms`, and **`Spears`**
 - Insight
-    - Now works on `Missile Weapon`
+    - Works on `Polearms`, `Staves`, and **`Missile Weapons`**
 - Mist
     - Works on `Missle Weapons`
 - Obsession
