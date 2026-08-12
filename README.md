@@ -61,8 +61,8 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Inferno Sentry` synergy increased from 7% / 10% to **18%**
       - Removed synergy from `Death Sentry`
     - `Blade Sentinel` now gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
-    - `Blade Sentinel` now gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
-    - `Blade Sentinel` now gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
+    - `Blade Fury` now gains **+10% Damage** per level of `Blade Sentinel` and `Blade Shield`
+    - `Blade Shield` now gains **+10% Damage** per level of `Blade Sentinel` and `Blade Fury`
 - Druid
     - `Rabies` synergy increased from 18% to **20%**
     - `Fire Claw` synergies removed from `Fissure` and `Volcano`
