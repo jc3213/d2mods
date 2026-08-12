@@ -47,8 +47,7 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Fist of the Heavens` cast delay reduced from 1 second to **0.4** second
 - Barbarian
     - `Leap Attack` base damage increased from 100% to **210%**
-    - `Whirlwind` base damage increased from -50% to **30%**, damage per level decreased from 8% to **5%**
-        - Attack rating needs fix **Help wanted**
+    - `Whirlwind` base damage increased from -50% to **30%**, damage per level decreased from 8% to **5%**, added **50%** base attack rating
 - Assassin
     - `Fire Blast` synergy increased from 9% to **11%**
       - Removed synergy from `Death Sentry`
