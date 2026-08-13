@@ -122,3 +122,14 @@ Backported changes on runeword inspired by Diablo II: Resurrected
 
 - Rogue scout
     - Now available to equip `Amazon Bow`
+
+### Horadric Cube
+
+- Basic Set Weapons → Exceptional
+    - `Ral Rune` + `Sol Rune` + `Perfect Emerald`
+- Exceptional Set Weapons → Elite
+    - `Lum Rune` + `Pul Rune` + `Perfect Emerald`
+- Basic Set Armors → Exceptional
+    - `Tal Rune` + `Shael Rune` + `Perfect Diamond`
+- Exceptional Set Armors → Elite
+    - `Ko Rune` + `Lem Rune` + `Perfect Diamond`
