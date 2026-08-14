@@ -1,12 +1,18 @@
 # Diablo II LoD Mods
 
+## About
+
+Backported all possible changes inspired by Diablo II: Resurrected
+
 ## How to use
+
 - Download latest [release](//github.com/jc3213/d2mods/releases/latest)
 - Extract to the folder where your Diablo II installed
 - Run **Game.exe** with parameters `-direct -txt`
     - Create a shortcut to run `C:\Diablo II\Game.exe -direct -txt` for example
 
 ## Play with PlugY
+
 - Modify **PlugY.ini** and add `-direct -txt` to `[LAUNCHING] > Param`
 ```ini
 [LAUNCHING]
@@ -16,38 +22,46 @@ Param=-direct -txt
 
 ## Changes
 
-### Skill synergies
-
-Backported skill synergies inspired by Diablo II: Resurrected
+### Skills
 
 - Amazon
-    - `Multiple Shot` now gains **+12% Damage** per level of `Guided Arrow`
-    - `Guided Arrow` now gains **+12% Damage** per level of `Multiple Shot`
-    - `Strafe` now gains **+5% Damage** per level of `Multiple Shot` and **+10% Damage** per level of `Guided Arrow`
+    - `Multiple Shot` gains **+12% Damage** per level of `Guided Arrow`
+    - `Guided Arrow` gains **+12% Damage** per level of `Multiple Shot`
+    - `Strafe` gains **+5% Damage** per level of `Multiple Shot` 
+        - Gains **+10% Damage** per level of `Guided Arrow`
     - `Exploding Arrow` synergy increased from 12% to **14%**
     - `Immolation Arrow` cast delay reduced from 1 second to **0.6** second
-    - `Plague Javelin` synergy increased from 10% to **14%**, cast delay reduced from 4 seconds to **1** second
+    - `Plague Javelin` synergy increased from 10% to **14%**
+        - Cast delay reduced from 4 seconds to **1** second
     - `Power Strike` synergy increased from 10% to **14%**
     - `Charged Strike` synergy increased from 10% to **14%**
     - `Lightning Strike` synergy increased from 8% to **11%**
     - `Valkyrie` cast delay reduced from 6 seconds to **0.6** second
+
 - Sorceress
     - `Chilling Armor` cold damage synergy increased from 7% to **9%**
-    - `Nova` now gains **+5% Lightning Damage** per level of `Lightning`
-    - `Thunder Storm` now gains **7% Lightning Damage**  per level of `Lightning`
+    - `Nova` gains **+5% Lightning Damage** per level of `Lightning`
+    - `Thunder Storm` gains **7% Lightning Damage**  per level of `Lightning`
     - `Inferno` fire damage synergy increased from 13% to **16%**
     - `Blaze` fire damage synergy from `Warmth` increased from 4% to **6%**
         - Removed synergy from `Fire Wall`
     - `Hydra` removed cast delay, limited up to 6 hydras
+
 - Necromancer
     - `Bone Spear` damage synergy increased from 7% to **8%**
     - `Bone Spirit` damage synergy increased from 6% to **8%**
+
 - Paladin
-    - `Holy Fire` damage synergy from `Resist Fire` increased from 18% to **21%**, from `Salvation` increased from 6% to **10%**
+    - `Holy Fire` fire damage synergy from `Resist Fire` increased from 18% to **21%**
+        - Fire damage synergy from `Salvation` increased from 6% to **10%**
     - `Fist of the Heavens` cast delay reduced from 1 second to **0.4** second
+
 - Barbarian
     - `Leap Attack` base damage increased from 100% to **210%**
-    - `Whirlwind` base damage increased from -50% to **30%**, damage per level decreased from 8% to **5%**, added **50%** base attack rating
+    - `Whirlwind` base damage increased from -50% to **+30%**
+        - Damage per level decreased from 8% to **5%**
+        - Added base **+50% Attack Rating**
+
 - Assassin
     - `Fire Blast` synergy increased from 9% to **11%**
       - Removed synergy from `Death Sentry`
@@ -60,11 +74,13 @@ Backported skill synergies inspired by Diablo II: Resurrected
     - `Wake of Fire` synergy increased from 8% to **10%**
     - `Inferno Sentry` synergy increased from 7% / 10% to **18%**
       - Removed synergy from `Death Sentry`
-    - `Blade Sentinel` now gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
-    - `Blade Fury` now gains **+10% Damage** per level of `Blade Sentinel` and `Blade Shield`
-    - `Blade Shield` now gains **+10% Damage** per level of `Blade Sentinel` and `Blade Fury`
-         - Base duration increased from 20 seconds to **120** seconds, duration per level increased from 5 seconds to **12** seconds
+    - `Blade Sentinel` gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
+    - `Blade Fury` gains **+10% Damage** per level of `Blade Sentinel` and `Blade Shield`
+    - `Blade Shield` gains **+10% Damage** per level of `Blade Sentinel` and `Blade Fury`
+         - Base duration increased from 20 seconds to **120** seconds
+         - Duration per level increased from 5 seconds to **12** seconds
     - `Venom` duration per level increased from 4 seconds to **12** seconds
+
 - Druid
     - `Rabies` synergy increased from 18% to **20%**
     - `Fire Claw` synergies removed from `Fissure` and `Volcano`
@@ -87,38 +103,52 @@ Backported skill synergies inspired by Diablo II: Resurrected
 
 ### Runewords
 
-Backported changes on runeword inspired by Diablo II: Resurrected
-
 - Bulwark
     - Works on `Helms`
+    - `Shael Rune` + `Io Rune` + `Sol Rune`
 - Cure
     - Works on `Helms`
+    - `Shael Rune` + `Io Rune` + `Tal Rune`
 - Flickering Flame
     - Works on `Helms`
+    - `Nef Rune` + `Pul Rune` + `Vex Rune`
 - Ground
     - Works on `Helms`
+    - `Shael Rune` + `Io Rune` + `Ort Rune`
 - Hearth
     - Works on `Helms`
+    - `Shael Rune` + `Io Rune` + `Thul Rune`
 - Hysteria
     - Works on `Body Armors`
+    - `Shael Rune` + `Ko Rune` + `Eld Rune`
 - Infinity
     - Works on `Polearms`, and **`Spears`**
+    - `Ber Rune` + `Mal Rune` + `Ber Rune` + `Ist Rune`
 - Insight
     - Works on `Polearms`, `Staves`, and **`Missile Weapons`**
+    - `Ral Rune` + `Tir Rune` + `Tal Rune` + `Sol Rune`
 - Mania
     - Works on `Weapons`
+    - `Shael Rune` + `Ko Rune` + `Eld Rune`
 - Mist
-    - Works on `Missle Weapons`
+    - Works on `Missile Weapons`
+    - `Cham Rune` + `Shael Rune` + `Gul Rune` + `Thul Rune` + `Ith Rune`
 - Obsession
     - Works on `Staves`
+    - `Zod Rune` + `Ist Rune` + `Lem Rune` + `Lum Rune` + `Io Rune` + `Nef Rune`
 - Plague
     - Works on `Swords`, `Knives`, `Claws`
+    - `Cham Rune` + `Shael Rune` + `Um Rune`
 - Temper
     - Works on `Helms`
+    - `Shael Rune` + `Io Rune` + `Thul Rune`
 - Unbending Will
     - Works on `Swords`
+    - `Fal Rune` + `Io Rune` + `Ith Rune` + `Eld Rune` + `El Rune` + `Hel Rune`
 - Wisdom
     - Works on `Helms`
+    - `Pul Rune` + `Ith Rune` + `Eth Rune`
+
 
 ### Hireling
 
