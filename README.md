@@ -157,6 +157,13 @@ Param=-direct -txt
 
 - Rogue scout
     - Now available to equip `Amazon Bow`
+    - **Cold Arrow** rogue now fires `Insight`, `Cold Arrow`, and **`Freezing Arrow`**
+    - **Fire Arrow** rogue now fires `Insight`, `Cold Arrow`, and **`Exploding Arrow`**
+- Iron wolf
+    - **Fire** now casts **`Fire Bolt`**, `Fire Ball` and **`Enchant`**
+    - **Lightning** now casts `Charged Bolt`, `Lightning`, and **`Static Field`**
+- Barbarian
+    - Now ues `Bash`, `Stun` and **`Battle Cry`**
 
 ### Horadric Cube
 
