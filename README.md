@@ -95,7 +95,8 @@ Param=-direct -txt
     - `Summon Spirit Wolf` won't replace **Dire Wolves** and **Grizzly**
     - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
     - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
-    - `Molten Boulder` synergy increased from 10% to **12%**, cast delay reduced from 2 seconds to **1** second
+    - `Molten Boulder` synergy increased from 10% to **12%**
+        - Cast delay reduced from 2 seconds to **1** second
     - `Volcano` synergy increased from 12% to **16%**
     - `Armageddon` now gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
         - Physic damage is now displayed and has been significantly increased
