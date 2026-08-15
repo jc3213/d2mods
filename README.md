@@ -54,6 +54,7 @@ Param=-direct -txt
 - Paladin
     - `Holy Fire` fire damage synergy from `Resist Fire` increased from 18% to **21%**
         - Fire damage synergy from `Salvation` increased from 6% to **10%**
+        - Fire damage has been significantly increased
     - `Fist of the Heavens` cast delay reduced from 1 second to **0.4** second
 
 - Barbarian
