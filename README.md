@@ -55,6 +55,8 @@ Param=-direct -txt
     - `Holy Fire` fire damage synergy from `Resist Fire` increased from 18% to **21%**
         - Fire damage synergy from `Salvation` increased from 6% to **10%**
         - Fire damage has been significantly increased
+    - `Holy Freeze` maximum aura damage has been doubled
+    - `Holy Shock` maximum aura damage has been doubled
     - `Fist of the Heavens` cast delay reduced from 1 second to **0.4** second
 
 - Barbarian
