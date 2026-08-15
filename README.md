@@ -153,7 +153,6 @@ Param=-direct -txt
     - Works on `Helms`
     - `Pul Rune` + `Ith Rune` + `Eth Rune`
 
-
 ### Hireling
 
 - Rogue scout
