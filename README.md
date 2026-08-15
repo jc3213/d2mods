@@ -52,9 +52,9 @@ Param=-direct -txt
     - `Bone Spirit` damage synergy increased from 6% to **8%**
 
 - Paladin
-    - `Holy Fire` fire damage synergy from `Resist Fire` increased from 18% to **21%**
+    - `Holy Fire` fire damage damage has been significantly increased
         - Fire damage synergy from `Salvation` increased from 6% to **10%**
-        - Fire damage has been significantly increased
+        - Fire synergy from `Resist Fire` increased from 18% to **21%**
     - `Holy Freeze` maximum aura cold damage has been doubled
     - `Holy Shock` maximum aura lightning damage has been doubled
     - `Sancturary` maximum aura magic damage has been doubled
