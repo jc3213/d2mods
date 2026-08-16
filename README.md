@@ -76,14 +76,19 @@ Param=-direct -txt
     - `Lightning Sentry` synergy increased from 12% to **18%**
       - Removed synergy from `Death Sentry`
     - `Wake of Fire` synergy increased from 8% to **10%**
-    - `Inferno Sentry` synergy increased from 7% / 10% to **18%**
+    - `Wake of Inferno` synergy increased from 7% / 10% to **18%**
+      - Base fire damage has been significantly increased
       - Removed synergy from `Death Sentry`
     - `Blade Sentinel` gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
+        - Cast delay reduced from 2 seconds to **1** second
     - `Blade Fury` gains **+10% Damage** per level of `Blade Sentinel` and `Blade Shield`
     - `Blade Shield` gains **+10% Damage** per level of `Blade Sentinel` and `Blade Fury`
          - Base duration increased from 20 seconds to **120** seconds
          - Duration per level increased from 5 seconds to **12** seconds
+    - `Shadow Warrior` cast delay reduced from 6 seconds to **0.6** second
     - `Venom` duration per level increased from 4 seconds to **12** seconds
+    - `Shadow Master` cast delay reduced from 6 seconds to **0.6** second
+    - `Dragon Flight` removed cast delay
 
 - Druid
     - `Rabies` synergy increased from 18% to **20%**
