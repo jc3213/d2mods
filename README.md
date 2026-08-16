@@ -157,7 +157,6 @@ Param=-direct -txt
 ### Hireling
 
 - Rogue scout
-    - Now available to equip `Amazon Bow`
     - **Cold Arrow** rogue now fires `Insight`, `Cold Arrow`, and **`Freezing Arrow`**
         - **D2R data needed**
     - **Fire Arrow** rogue now fires `Insight`, `Cold Arrow`, and **`Exploding Arrow`**
