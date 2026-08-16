@@ -31,11 +31,18 @@ Param=-direct -txt
         - Gains **+10% Damage** per level of `Guided Arrow`
     - `Exploding Arrow` synergy increased from 12% to **14%**
     - `Immolation Arrow` cast delay reduced from 1 second to **0.6** second
-    - `Plague Javelin` synergy increased from 10% to **14%**
-        - Cast delay reduced from 4 seconds to **1** second
     - `Power Strike` synergy increased from 10% to **14%**
+        - Removed synergy from `Lightning Fury`
+    - `Poison Javelin`
+        - Maximum poison damage over skill level 30 has been increased
     - `Charged Strike` synergy increased from 10% to **14%**
+        - Removed synergy from `Lightning Fury`
+    - `Plague Javelin` synergy increased from 10% to **14%**
+        - Poison damage has been significantly increased
+        - Decreased poison length
+        - Cast delay reduced from 4 seconds to **1** second
     - `Lightning Strike` synergy increased from 8% to **11%**
+        - Removed synergy from `Lightning Fury`
     - `Valkyrie` cast delay reduced from 6 seconds to **0.6** second
 
 - Sorceress
