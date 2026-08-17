@@ -69,7 +69,7 @@ Param=-direct -txt
 
 - Barbarian
     - `Leap` base distance increased from 4.6 yards to **7.3** yards
-    - `Double Throw` added **+8% damage** per level
+    - `Double Throw` added **+8% Damage** per level
     - `Leap Attack` base damage increased from 100% to **210%**
     - `Whirlwind` base damage increased from -50% to **+30%**
         - Damage per level decreased from 8% to **5%**
