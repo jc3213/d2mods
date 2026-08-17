@@ -47,8 +47,8 @@ Param=-direct -txt
 
 - Sorceress
     - `Chilling Armor` cold damage synergy increased from 7% to **9%**
-    - `Nova` gains **+5% Lightning Damage** per level of `Lightning`
-    - `Thunder Storm` gains **7% Lightning Damage**  per level of `Lightning`
+    - `Nova` gains **+5% Lightning Damage** per level of `Static Field`
+    - `Thunder Storm` gains **7% Lightning Damage**  per level of `Static Field`
     - `Inferno` fire damage synergy increased from 13% to **16%**
     - `Blaze` fire damage synergy from `Warmth` increased from 4% to **6%**
         - Removed synergy from `Fire Wall`
