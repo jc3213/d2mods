@@ -68,10 +68,13 @@ Param=-direct -txt
     - `Fist of the Heavens` cast delay reduced from 1 second to **0.4** second
 
 - Barbarian
+    - `Leap` base distance increased from 4.6 yards to **7.3** yards
+    - `Double Throw` added **+8% damage** per level
     - `Leap Attack` base damage increased from 100% to **210%**
     - `Whirlwind` base damage increased from -50% to **+30%**
         - Damage per level decreased from 8% to **5%**
         - Added base **+50% Attack Rating**
+    - `War Cry` physic damage has been increased
 
 - Assassin
     - `Fire Blast` synergy increased from 9% to **11%**
