@@ -30,6 +30,7 @@ Param=-direct -txt
     - `Strafe` gains **+5% Damage** per level of `Multiple Shot` 
         - Gains **+10% Damage** per level of `Guided Arrow`
     - `Exploding Arrow` synergy increased from 12% to **14%**
+        - Fire damage has been increased
     - `Immolation Arrow` cast delay reduced from 1 second to **0.6** second
     - `Power Strike` synergy increased from 10% to **14%**
         - Removed synergy from `Lightning Fury`
