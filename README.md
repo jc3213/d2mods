@@ -201,6 +201,6 @@ Param=-direct -txt
 
 ### Misc
 
-- `Arrow` and `Bolts` quantity incresed to **500**
-- Gems except `Amethyst`, the drop rate has been increased
-- `Throw Weapons` quantity has been incresed **+50%**
+- `Arrow` and `Bolts` quantity has been incresed to **500**
+- Gems now share the same drop rate as `Amethyst`
+- `Throw Weapons` quantity has been incresed by **50%**
