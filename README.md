@@ -98,7 +98,10 @@ Param=-direct -txt
     - `Shadow Warrior` cast delay reduced from 6 seconds to **0.6** second
     - `Venom` duration per level increased from 4 seconds to **12** seconds
     - `Shadow Master` cast delay reduced from 6 seconds to **0.6** second
-    - `Dragon Flight` removed cast delay
+    - `Dragon Claw` per level damage increased from 5% to **15%**
+    - `Dragon Tail` per level damage increased from 10% to **20%**
+    - `Dragon Flight` per level damage increased from 25% to **35%**
+        - Removed cast delay
 
 - Druid
     - `Rabies` synergy increased from 18% to **20%**
