@@ -198,3 +198,9 @@ Param=-direct -txt
     - `Tal Rune` + `Shael Rune` + `Perfect Diamond`
 - Exceptional Set Armors → Elite
     - `Ko Rune` + `Lem Rune` + `Perfect Diamond`
+
+### Misc
+
+- `Arrow` and `Bolts` quantity incresed to **500**
+- Gems except `Amethyst`, the drop rate has been increased
+- `Throw Weapons` quantity has been incresed **+50%**
