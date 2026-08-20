@@ -47,6 +47,7 @@ Param=-direct -txt
     - `Valkyrie` cast delay reduced from 6 seconds to **0.6** second
 
 - Sorceress
+    - `Frost Nova` per level cold damage has been incresed
     - `Chilling Armor` cold damage synergy increased from 7% to **9%**
     - `Nova` gains **+5% Lightning Damage** per level of `Static Field`
     - `Thunder Storm` gains **7% Lightning Damage**  per level of `Static Field`
