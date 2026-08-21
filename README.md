@@ -51,8 +51,10 @@ Param=-direct -txt
     - `Chilling Armor` cold damage synergy increased from 7% to **9%**
     - `Nova` gains **+5% Lightning Damage** per level of `Static Field`
     - `Thunder Storm` gains **7% Lightning Damage**  per level of `Static Field`
-    - `Inferno` fire damage synergy increased from 13% to **16%**
-    - `Blaze` fire damage synergy from `Warmth` increased from 4% to **6%**
+    - `Inferno` fire damage has been increased
+        - Fire damage synergy increased from 13% to **16%**
+    - `Blaze` per level damage has been increased
+        - Fire damage synergy from `Warmth` increased from 4% to **6%**
         - Removed synergy from `Fire Wall`
     - `Hydra` removed cast delay, limited up to 6 hydras
 
