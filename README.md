@@ -79,7 +79,7 @@ Param=-direct -txt
     - `Whirlwind` base damage increased from -50% to **+30%**
         - Damage per level decreased from 8% to **5%**
         - Added base **+50% Attack Rating**
-    - `Find Item` added **+1% Chance** synergy from `Find Potion`
+    - `Find Item` gains **+1% Chance** per level of `Find Potion`
     - `War Cry` physic damage has been increased
 
 - Assassin
