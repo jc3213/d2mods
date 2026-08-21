@@ -55,6 +55,7 @@ Param=-direct -txt
         - Fire damage synergy increased from 13% to **16%**
     - `Blaze` per level damage has been increased
         - Fire damage synergy from `Warmth` increased from 4% to **6%**
+        - Added **+2%** `Walk/Run Speed` per level when activated
         - Removed synergy from `Fire Wall`
     - `Hydra` removed cast delay, limited up to 6 hydras
 
