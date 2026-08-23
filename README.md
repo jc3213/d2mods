@@ -40,14 +40,14 @@ Param=-direct -txt
         - Removed synergy from `Lightning Fury`
     - `Plague Javelin` synergy increased from 10% to **14%**
         - Poison damage has been significantly increased
-        - Decreased poison length
+        - Reduced poison length
         - Cast delay reduced from 4 seconds to **1** second
     - `Lightning Strike` synergy increased from 8% to **11%**
         - Removed synergy from `Lightning Fury`
     - `Valkyrie` cast delay reduced from 6 seconds to **0.6** second
 
 - Sorceress
-    - `Frost Nova` per level cold damage has been incresed
+    - `Frost Nova` per level cold damage has been increased
     - `Chilling Armor` cold damage synergy increased from 7% to **9%**
     - `Nova` gains **+5% Lightning Damage** per level of `Static Field`
     - `Thunder Storm` gains **7% Lightning Damage**  per level of `Static Field`
@@ -77,8 +77,8 @@ Param=-direct -txt
     - `Double Throw` added **+8% Damage** per level
     - `Leap Attack` base damage increased from 100% to **210%**
     - `Whirlwind` base damage increased from -50% to **+30%**
-        - Damage per level decreased from 8% to **5%**
-        - Added base **+50% Attack Rating**
+        - Damage per level reduced from 8% to **5%**
+        - Added **+50% Attack Rating** at level 1
     - `Find Item` gains **+1% Chance** per level of `Find Potion`
     - `War Cry` physic damage has been increased
 
@@ -123,10 +123,10 @@ Param=-direct -txt
         - Cast delay reduced from 2 seconds to **1** second
     - `Volcano` synergy increased from 12% to **16%**
     - `Armageddon` now gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
-        - Physic damage is now displayed and has been significantly increased
-        - Average fire damage has not been decreased yet, **Help wanted**
-        - Removed restriction to `Hurricane`
-            - Need fix for UI, **Help wanted**
+        - Physic damage has been significantly increased
+        - Physic damage is now displayed
+        - Average fire damage has not been reduced yet, **Help wanted**
+        - Removed restriction to `Hurricane`, need fix for UI, **Help wanted**
         - Removed cast delay
     - `Hurricane` removed cast delay
 
@@ -184,7 +184,7 @@ Param=-direct -txt
     - **Cold Arrow** rogue now fires `Insight`, `Cold Arrow`, and **`Freezing Arrow`**
         - **D2R data needed**
     - **Fire Arrow** rogue now fires `Insight`, `Cold Arrow`, and **`Exploding Arrow`**
-       - **D2R data needed**
+        - **D2R data needed**
 - Iron wolf
     - **Fire** iron wolf now casts **`Fire Bolt`**, `Fire Ball` and **`Enchant`**
         - **D2R data needed**
