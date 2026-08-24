@@ -47,13 +47,21 @@ Param=-direct -txt
     - `Valkyrie` cast delay reduced from 6 seconds to **0.6** second
 
 - Sorceress
-    - `Frost Nova` per level cold damage has been increased
-    - `Chilling Armor` cold damage synergy increased from 7% to **9%**
+    - `Frozen Armor` base duration increased from 120 seconds to **144** seconds
+    - `Frost Nova` cold damage per level has been increased
+    - `Shiver Armor` base duration increased from 120 seconds to **144** seconds
+        - Cold damage per level has been increased
+    - `Chilling Armor` base defense bounus increased from 45% to **60%**
+        - Cold damage has been increased
+        - Cold damage synergy increased from 7% to **9%**
+        - Defense bounus per level increased from 5% to **9%**
+        - Duration per level increased from 6 seconds to **12** seconds
     - `Nova` gains **+5% Lightning Damage** per level of `Static Field`
     - `Thunder Storm` gains **7% Lightning Damage**  per level of `Static Field`
+    - `Energy Shield` duration per level reduced from 60 seconds to **24** seconds
     - `Inferno` fire damage has been increased
         - Fire damage synergy increased from 13% to **16%**
-    - `Blaze` per level damage has been increased
+    - `Blaze` fire damage per level has been increased
         - Fire damage synergy from `Warmth` increased from 4% to **6%**
         - Added **+2%** `Walk/Run Speed` per level when activated
         - Removed synergy from `Fire Wall`
@@ -104,9 +112,9 @@ Param=-direct -txt
     - `Shadow Warrior` cast delay reduced from 6 seconds to **0.6** second
     - `Venom` duration per level increased from 4 seconds to **12** seconds
     - `Shadow Master` cast delay reduced from 6 seconds to **0.6** second
-    - `Dragon Claw` per level damage increased from 5% to **15%**
-    - `Dragon Tail` per level damage increased from 10% to **20%**
-    - `Dragon Flight` per level damage increased from 25% to **35%**
+    - `Dragon Claw` damage per level increased from 5% to **15%**
+    - `Dragon Tail` damage per level increased from 10% to **20%**
+    - `Dragon Flight` damage per level increased from 25% to **35%**
         - Removed cast delay
 
 - Druid
