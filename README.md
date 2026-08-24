@@ -126,6 +126,8 @@ Param=-direct -txt
         - Attack rating per level increased from 7% to **10%**
     - `Dragon Flight` damage per level increased from 25% to **35%**
         - Removed cast delay
+    - `Phoenix Strike` base attack rating increased from 15% to **25%**
+        - Attack rating per level increased from 7% to **10%**
 
 - Druid
     - `Rabies` synergy increased from 18% to **20%**
