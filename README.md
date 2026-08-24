@@ -65,6 +65,7 @@ Param=-direct -txt
         - Fire damage synergy from `Warmth` increased from 4% to **6%**
         - Added **+2%** `Walk/Run Speed` per level when activated
         - Removed synergy from `Fire Wall`
+    - `Fire Ball` radius display has been corrected to **2.6** yards
     - `Hydra` removed cast delay, limited up to 6 hydras
 
 - Necromancer
