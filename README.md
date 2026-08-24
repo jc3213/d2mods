@@ -112,8 +112,18 @@ Param=-direct -txt
     - `Shadow Warrior` cast delay reduced from 6 seconds to **0.6** second
     - `Venom` duration per level increased from 4 seconds to **12** seconds
     - `Shadow Master` cast delay reduced from 6 seconds to **0.6** second
+    - `Tiger Strike` base attack rating increased from 15% to **25%**
+        - Attack rating per level increased from 7% to **10%**
+    - `Fists of Fire` base attack rating increased from 15% to **25%**
+        - Attack rating per level increased from 7% to **10%**
     - `Dragon Claw` damage per level increased from 5% to **15%**
+    - `Cobra Strike` base attack rating increased from 15% to **25%**
+        - Attack rating per level increased from 7% to **10%**
+    - `Claws of Thunder` base attack rating increased from 15% to **25%**
+        - Attack rating per level increased from 7% to **10%**
     - `Dragon Tail` damage per level increased from 10% to **20%**
+    - `Blades of Ice` base attack rating increased from 15% to **25%**
+        - Attack rating per level increased from 7% to **10%**
     - `Dragon Flight` damage per level increased from 25% to **35%**
         - Removed cast delay
 
