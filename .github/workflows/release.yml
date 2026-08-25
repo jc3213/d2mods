@@ -20,30 +20,29 @@ jobs:
         id: rel
         run: |
           if [ "${{ github.event_name }}" = "release" ]; then
-            echo "mode=published" >> $GITHUB_OUTPUT
             echo "tag=${{ github.event.release.tag_name }}" >> $GITHUB_OUTPUT
-            echo "upload_url=${{ github.event.release.upload_url }}" >> $GITHUB_OUTPUT
           else
-            echo "mode=manual" >> $GITHUB_OUTPUT
             LATEST_TAG=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r '.tag_name')
-            UPLOAD_URL=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r '.upload_url')
             echo "tag=$LATEST_TAG" >> $GITHUB_OUTPUT
-            echo "upload_url=$UPLOAD_URL" >> $GITHUB_OUTPUT
           fi
 
-          echo "Mode: ${{ steps.rel.outputs.mode }}"
-          echo "Tag: ${{ steps.rel.outputs.tag }}"
-          echo "Upload URL: ${{ steps.rel.outputs.upload_url }}"
-
       - name: Extract d2mods source
+        id: pkg
         run: |
           SRC_URL="https://github.com/${{ github.repository }}/archive/refs/tags/${{ steps.rel.outputs.tag }}.zip"
           echo "Downloading source: $SRC_URL"
           curl -L "$SRC_URL" -o source.zip
-          unzip -o source.zip -d package
+
+          unzip -o source.zip
+
+          PKGDIR="${{ github.repository }}-${{ steps.rel.outputs.tag }}"
+          echo "PKGDIR=$PKGDIR" >> $GITHUB_OUTPUT
+
+          echo "Package directory: $PKGDIR"
 
       - name: Download PlugY
         run: |
+          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
           PLUGY_URL=$(curl -s https://api.github.com/repos/ChaosMarc/PlugY/releases/latest \
             | grep browser_download_url \
             | grep 'PlugY_The_Survival_Kit_v' \
@@ -58,13 +57,14 @@ jobs:
 
       - name: Modify PlugY.ini
         run: |
-          INI=package/PlugY.ini
+          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
 
-          sed -i '/^\[LAUNCHING\]/,/^\[/{s/^Param=.*/Param=-gfx -w -direct -txt/}' "$INI"
-          sed -i '/^\[MAIN SCREEN\]/,/^\[/{s/^ActivePrintPlugYVersion=.*/ActivePrintPlugYVersion=0/}' "$INI"
+          sed -i '/^\[LAUNCHING\]/,/^\[/{s/^Param=.*/Param=-gfx -w -direct -txt/}' "$PKGDIR/PlugY.ini"
+          sed -i '/^\[MAIN SCREEN\]/,/^\[/{s/^ActivePrintPlugYVersion=.*/ActivePrintPlugYVersion=0/}' "$PKGDIR/PlugY.ini"
 
       - name: Download D2DX
         run: |
+          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
           D2DX_URL=$(curl -s https://api.github.com/repos/Jarcho/d2dx/releases/latest \
             | grep browser_download_url \
             | grep external-res \
@@ -72,17 +72,18 @@ jobs:
 
           echo "d2dx URL: $D2DX_URL"
           curl -L "$D2DX_URL" -o d2dx.zip
-          unzip d2dx.zip -d package
+          unzip d2dx.zip -d "$PKGDIR"
 
       - name: Create d2dx.cfg
         run: |
-          cp package/d2dx-defaults.cfg package/d2dx.cfg
-          sed -i '/^\[window\]/,/^\[/{s/^scale=1.0/scale=2.0/}' package/d2dx.cfg
-          sed -i '/^\[optouts\]/,/^\[/{s/^nologo=false/nologo=true/}' package/d2dx.cfg
-
+          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
+          cp "$PKGDIR/d2dx-defaults.cfg" "$PKGDIR/d2dx.cfg"
+          sed -i '/^\[window\]/,/^\[/{s/^scale=1.0/scale=2.0/}' "$PKGDIR/d2dx.cfg"
+          sed -i '/^\[optouts\]/,/^\[/{s/^nologo=false/nologo=true/}' "$PKGDIR/d2dx.cfg"
 
       - name: Create SGD2FreeResolution.json
         run: |
+          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
           printf '%s\n' \
           '{' \
           '    "SlashGaming Diablo II Free Resolution": {' \
@@ -109,16 +110,22 @@ jobs:
           '        "Config Tab Width": 4' \
           '    }' \
           '}' \
-          > package/SGD2FreeResolution.json
+          > "$PKGDIR/SGD2FreeResolution.json"
 
       - name: Create Mod Package
         run: |
-          cd package
-          zip -r ../d2mods-full.zip .
+          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
+          ZIPFILE="${PKGDIR}-full.zip"
+      
+          cd "$PKGDIR"
+          zip -r "../$ZIPFILE" .
 
       - name: Upload Mod Package
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "Uploading asset to release: ${{ steps.rel.outputs.tag }}"
-          gh release upload "${{ steps.rel.outputs.tag }}" d2mods-full.zip --clobber
+          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
+          ZIPFILE="${PKGDIR}-full.zip"
+
+          echo "Uploading asset: $ZIPFILE"
+          gh release upload "${{ steps.rel.outputs.tag }}" "$ZIPFILE" --clobber
