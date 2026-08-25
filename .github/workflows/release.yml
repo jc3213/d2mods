@@ -114,11 +114,14 @@ jobs:
           zip -r ../d2mods-full.zip .
 
       - name: Upload Mod Package
-        uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.rel.outputs.upload_url }}
-          asset_path: ./d2mods-full.zip
-          asset_name: d2mods-with-PlugY-and-D2DX.zip
-          asset_content_type: application/zip
+        run: |
+          echo "Uploading asset to release: ${{ steps.rel.outputs.upload_url }}"
+      
+          gh api \
+            --method POST \
+            -H "Content-Type: application/zip" \
+            -H "Accept: application/vnd.github+json" \
+            "${{ steps.rel.outputs.upload_url }}?name=d2mods-with-PlugY-and-D2DX.zip" \
+            --input ./d2mods-full.zip
