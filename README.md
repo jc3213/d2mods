@@ -24,7 +24,7 @@ Param=-direct -txt
 
 ### Full Version
 
-- Download latest [d2mods-27-full.zip](https://github.com/jc3213/d2mods/releases/latest)
+- Download latest [d2mods-full.zip](https://github.com/jc3213/d2mods/releases/latest/download/d2mods-full.zip)
     - Full package includes `PlugY` by [Yohann](http://plugy.free.fr), and `D2DX` /w `D2FPS` & `SGD2FreeRes` by [Jarcho](https://github.com/Jarcho/d2dx)
 - Extract to the folder where your Diablo II installed
 - Run `PlugY.exe`, and enjoy
