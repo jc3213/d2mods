@@ -53,7 +53,7 @@ jobs:
       
           echo "PlugY URL: $PLUGY_URL"
           curl -L "$PLUGY_URL" -o plugy.zip
-          unzip -o plugy.zip -d package 2>/dev/null || true
+          unzip -o plugy.zip -d "$PKGDIR" 2>/dev/null || true
 
       - name: Modify PlugY.ini
         run: |
