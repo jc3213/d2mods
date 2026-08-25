@@ -21,13 +21,16 @@ jobs:
           # 如果你用 zip 发布源代码，则改成：
           # unzip source.zip -d package
 
-      - name: Download PlugY release (exclude *_source.zip)
+      - name: Download PlugY release (exclude *_source.zip and *_D2FilePatcher.zip)
         run: |
           PLUGY_URL=$(curl -s https://api.github.com/repos/ChaosMarc/PlugY/releases/latest \
             | grep browser_download_url \
-            | grep -v source \
-            | grep -o 'https.*PlugY_The_Survival_Kit_v.*\.zip')
-
+            | grep 'PlugY_The_Survival_Kit_v' \
+            | grep -v 'source' \
+            | grep -v 'D2FilePatcher' \
+            | head -n 1 \
+            | sed -E 's/.*"(https[^"]+)".*/\1/')
+      
           echo "PlugY URL: $PLUGY_URL"
           curl -L "$PLUGY_URL" -o plugy.zip
           unzip plugy.zip -d package
@@ -47,10 +50,7 @@ jobs:
         run: |
           INI=package/PlugY.ini
 
-          # 修改 Param=
           sed -i '/^\[LAUNCHING\]/,/^\[/{s/^Param=.*/Param=-gfx -w -direct -txt/}' "$INI"
-
-          # 修改 ActivePrintPlugYVersion=
           sed -i '/^\[MAIN SCREEN\]/,/^\[/{s/^ActivePrintPlugYVersion=.*/ActivePrintPlugYVersion=0/}' "$INI"
 
       - name: Copy and modify d2dx.cfg
