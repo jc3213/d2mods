@@ -29,15 +29,18 @@ jobs:
       - name: Extract d2mods source
         id: pkg
         run: |
-          SRC_URL="https://github.com/${{ github.repository }}/archive/refs/tags/${{ steps.rel.outputs.tag }}.zip"
+          REPO="${{ github.event.repository.name }}"
+          TAG="${{ steps.rel.outputs.tag }}"
+      
+          SRC_URL="https://github.com/${{ github.repository }}/archive/refs/tags/${TAG}.zip"
           echo "Downloading source: $SRC_URL"
           curl -L "$SRC_URL" -o source.zip
-
+      
           unzip -o source.zip
-
-          PKGDIR="${{ github.repository }}-${{ steps.rel.outputs.tag }}"
+      
+          PKGDIR="${REPO}-${TAG}"
           echo "PKGDIR=$PKGDIR" >> $GITHUB_OUTPUT
-
+      
           echo "Package directory: $PKGDIR"
 
       - name: Download PlugY
