@@ -99,10 +99,10 @@ jobs:
           '        "Ingame Resolutions": [' \
           '            "640x480",' \
           '            "800x600",' \
-          '            "960x720",' \
+          '            "1024x768",' \
           '            "1440x1080"' \
           '        ],' \
-          '        "Ingame Resolution Mode": 2,' \
+          '        "Ingame Resolution Mode": 1,' \
           '        "Main Menu Resolution": "800x600",' \
           '        "Custom MPQ File": "SGD2FreeRes.mpq",' \
           '        "Enable Screen Border Frame?": true,' \
@@ -129,9 +129,16 @@ jobs:
         run: |
           PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
           ZIPFILE="${PKGDIR}-full.zip"
+          TAG="${{ steps.rel.outputs.tag }}"
       
-          echo "Deleting existing asset if present: $ZIPFILE"
-          gh release delete-asset "${{ steps.rel.outputs.tag }}" "$ZIPFILE" --yes || true
+          echo "Deleting ALL existing assets for release: $TAG"
+      
+          ASSET_IDS=$(gh release view "$TAG" --json assets --jq '.assets[].id')
+      
+          for ID in $ASSET_IDS; do
+            echo "Deleting asset ID: $ID"
+            gh release delete-asset "$TAG" "$ID" --yes || true
+          done
       
           echo "Uploading asset: $ZIPFILE"
-          gh release upload "${{ steps.rel.outputs.tag }}" "$ZIPFILE"
+          gh release upload "$TAG" "$ZIPFILE"
