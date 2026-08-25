@@ -27,25 +27,24 @@ jobs:
           fi
 
       - name: Extract d2mods source
-        id: pkg
         run: |
-          REPO="${{ github.event.repository.name }}"
           TAG="${{ steps.rel.outputs.tag }}"
-      
+          REPO="${{ github.event.repository.name }}"
+
           SRC_URL="https://github.com/${{ github.repository }}/archive/refs/tags/${TAG}.zip"
           echo "Downloading source: $SRC_URL"
           curl -L "$SRC_URL" -o source.zip
-      
+
           unzip -o source.zip
-      
-          PKGDIR="${REPO}-${TAG}"
-          echo "PKGDIR=$PKGDIR" >> $GITHUB_OUTPUT
-      
-          echo "Package directory: $PKGDIR"
+
+          ORIGDIR="${REPO}-${TAG}"
+
+          echo "Renaming $ORIGDIR to d2mods-full"
+          rm -rf d2mods-full
+          mv "$ORIGDIR" d2mods-full
 
       - name: Download PlugY
         run: |
-          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
           PLUGY_URL=$(curl -s https://api.github.com/repos/ChaosMarc/PlugY/releases/latest \
             | grep browser_download_url \
             | grep 'PlugY_The_Survival_Kit_v' \
@@ -53,21 +52,20 @@ jobs:
             | grep -v 'D2FilePatcher' \
             | head -n 1 \
             | sed -E 's/.*"(https[^"]+)".*/\1/')
-      
+
           echo "PlugY URL: $PLUGY_URL"
           curl -L "$PLUGY_URL" -o plugy.zip
-          unzip -o plugy.zip -d "$PKGDIR" 2>/dev/null || true
+          unzip -o plugy.zip -d d2mods-full 2>/dev/null || true
 
       - name: Modify PlugY.ini
         run: |
-          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
+          INI="d2mods-full/PlugY.ini"
 
-          sed -i '/^\[LAUNCHING\]/,/^\[/{s/^Param=.*/Param=-gfx -w -direct -txt/}' "$PKGDIR/PlugY.ini"
-          sed -i '/^\[MAIN SCREEN\]/,/^\[/{s/^ActivePrintPlugYVersion=.*/ActivePrintPlugYVersion=0/}' "$PKGDIR/PlugY.ini"
+          sed -i '/^\[LAUNCHING\]/,/^\[/{s/^Param=.*/Param=-gfx -w -direct -txt/}' "$INI"
+          sed -i '/^\[MAIN SCREEN\]/,/^\[/{s/^ActivePrintPlugYVersion=.*/ActivePrintPlugYVersion=0/}' "$INI"
 
       - name: Download D2DX
         run: |
-          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
           D2DX_URL=$(curl -s https://api.github.com/repos/Jarcho/d2dx/releases/latest \
             | grep browser_download_url \
             | grep external-res \
@@ -75,18 +73,18 @@ jobs:
 
           echo "d2dx URL: $D2DX_URL"
           curl -L "$D2DX_URL" -o d2dx.zip
-          unzip d2dx.zip -d "$PKGDIR"
+          unzip d2dx.zip -d d2mods-full
 
       - name: Create d2dx.cfg
         run: |
-          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
-          cp "$PKGDIR/d2dx-defaults.cfg" "$PKGDIR/d2dx.cfg"
-          sed -i '/^\[window\]/,/^\[/{s/^scale=1.0/scale=2.0/}' "$PKGDIR/d2dx.cfg"
-          sed -i '/^\[optouts\]/,/^\[/{s/^nologo=false/nologo=true/}' "$PKGDIR/d2dx.cfg"
+          CFG="d2mods-full/d2dx.cfg"
+
+          cp d2mods-full/d2dx-defaults.cfg "$CFG"
+          sed -i '/^\[window\]/,/^\[/{s/^scale=1.0/scale=2.0/}' "$CFG"
+          sed -i '/^\[optouts\]/,/^\[/{s/^nologo=false/nologo=true/}' "$CFG"
 
       - name: Create SGD2FreeResolution.json
         run: |
-          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
           printf '%s\n' \
           '{' \
           '    "SlashGaming Diablo II Free Resolution": {' \
@@ -113,32 +111,26 @@ jobs:
           '        "Config Tab Width": 4' \
           '    }' \
           '}' \
-          > "$PKGDIR/SGD2FreeResolution.json"
+          > d2mods-full/SGD2FreeResolution.json
 
       - name: Create Mod Package
         run: |
-          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
-          ZIPFILE="${PKGDIR}-full.zip"
-      
-          cd "$PKGDIR"
-          zip -r "../$ZIPFILE" .
+          cd d2mods-full
+          zip -r ../d2mods-full.zip .
 
       - name: Upload Mod Package
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
-          ZIPFILE="${PKGDIR}-full.zip"
           TAG="${{ steps.rel.outputs.tag }}"
-      
+          ZIPFILE="d2mods-full.zip"
+
           echo "Deleting ALL existing assets for release: $TAG"
-      
           ASSET_IDS=$(gh release view "$TAG" --json assets --jq '.assets[].id')
-      
+
           for ID in $ASSET_IDS; do
-            echo "Deleting asset ID: $ID"
             gh release delete-asset "$TAG" "$ID" --yes || true
           done
-      
+
           echo "Uploading asset: $ZIPFILE"
           gh release upload "$TAG" "$ZIPFILE"
