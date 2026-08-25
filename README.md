@@ -137,6 +137,8 @@ Param=-direct -txt
     - `Shock Wave` synergy increased from 5% to **10%**
     - `Raven` now gains **+12% Damage%** per level from `Summon Spirit Wolf`, `Summon Dire Wolf`, and `Summon Grizzly`
         - Physic damage has been significantly increased
+    - `Poison Creeper` gains **+10% Poison Damage** per level of `Rabies`
+        - Poison damage has been significantly increased
     - `Summon Spirit Wolf` won't replace **Dire Wolves** and **Grizzly**
     - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
     - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
