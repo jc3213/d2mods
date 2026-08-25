@@ -2,16 +2,18 @@
 
 ## About
 
-Backported all possible changes inspired by Diablo II: Resurrected
+This mod backported all possible changes inspired by Diablo II: Resurrected
 
 ## How to use
+
+### Vanilla
 
 - Download latest [release](//github.com/jc3213/d2mods/releases/latest)
 - Extract to the folder where your Diablo II installed
 - Run **Game.exe** with parameters `-direct -txt`
     - Create a shortcut to run `C:\Diablo II\Game.exe -direct -txt` for example
 
-## Play with PlugY
+### Play with PlugY
 
 - Modify **PlugY.ini** and add `-direct -txt` to `[LAUNCHING] > Param`
 ```ini
@@ -19,6 +21,13 @@ Backported all possible changes inspired by Diablo II: Resurrected
 Param=-direct -txt
 ```
 - Run **PlugY.exe**
+
+### Full Version
+
+- Download latest [d2mods-27-full.zip](https://github.com/jc3213/d2mods/releases/latest)
+    - Full package includes `PlugY` by [Yohann](http://plugy.free.fr), and `D2DX` /w `D2FPS` & `SGD2FreeRes` by [Jarcho](https://github.com/Jarcho/d2dx)
+- Extract to the folder where your Diablo II installed
+- Run `PlugY.exe`, and enjoy
 
 ## Changes
 
