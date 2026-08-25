@@ -126,6 +126,9 @@ jobs:
         run: |
           PKGDIR="${{ steps.pkg.outputs.PKGDIR }}"
           ZIPFILE="${PKGDIR}-full.zip"
-
+      
+          echo "Deleting existing asset if present: $ZIPFILE"
+          gh release delete-asset "${{ steps.rel.outputs.tag }}" "$ZIPFILE" --yes || true
+      
           echo "Uploading asset: $ZIPFILE"
-          gh release upload "${{ steps.rel.outputs.tag }}" "$ZIPFILE" --clobber
+          gh release upload "${{ steps.rel.outputs.tag }}" "$ZIPFILE"
