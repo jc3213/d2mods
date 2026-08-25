@@ -117,11 +117,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "Uploading asset to release: ${{ steps.rel.outputs.upload_url }}"
-      
-          gh api \
-            --method POST \
-            -H "Content-Type: application/zip" \
-            -H "Accept: application/vnd.github+json" \
-            "${{ steps.rel.outputs.upload_url }}?name=d2mods-with-PlugY-and-D2DX.zip" \
-            --input ./d2mods-full.zip
+          echo "Uploading asset to release: ${{ steps.rel.outputs.tag }}"
+          gh release upload "${{ steps.rel.outputs.tag }}" d2mods-full.zip --clobber
