@@ -126,4 +126,4 @@ jobs:
           ZIPFILE="d2mods-full.zip"
 
           echo "Uploading asset: $ZIPFILE"
-          gh release upload "$TAG" "$ZIPFILE"
+          gh release upload "$TAG" "$ZIPFILE" --clobber || true
