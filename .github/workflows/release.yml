@@ -11,17 +11,35 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
-      - name: Prepare package folder
+      - name: Get release info
+        id: rel
         run: |
-          mkdir -p package
-          # 解压当前仓库的源代码到 package/
-          tar -xf $(basename $GITHUB_REPOSITORY).tar.gz -C package || true
-          # 如果你用 zip 发布源代码，则改成：
-          # unzip source.zip -d package
+          if [ "${{ github.event_name }}" = "release" ]; then
+            echo "mode=published" >> $GITHUB_OUTPUT
+            echo "tag=${{ github.event.release.tag_name }}" >> $GITHUB_OUTPUT
+            echo "upload_url=${{ github.event.release.upload_url }}" >> $GITHUB_OUTPUT
+          else
+            echo "mode=manual" >> $GITHUB_OUTPUT
+            LATEST_TAG=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r '.tag_name')
+            UPLOAD_URL=$(curl -s https://api.github.com/repos/${{ github.repository }}/releases/latest | jq -r '.upload_url')
+            echo "tag=$LATEST_TAG" >> $GITHUB_OUTPUT
+            echo "upload_url=$UPLOAD_URL" >> $GITHUB_OUTPUT
+          fi
 
-      - name: Download PlugY release (exclude *_source.zip and *_D2FilePatcher.zip)
+          echo "Mode: ${{ steps.rel.outputs.mode }}"
+          echo "Tag: ${{ steps.rel.outputs.tag }}"
+          echo "Upload URL: ${{ steps.rel.outputs.upload_url }}"
+
+      - name: Extract d2mods source
+        run: |
+          SRC_URL="https://github.com/${{ github.repository }}/archive/refs/tags/${{ steps.rel.outputs.tag }}.zip"
+          echo "Downloading source: $SRC_URL"
+          curl -L "$SRC_URL" -o source.zip
+          unzip -o source.zip -d package
+
+      - name: Download PlugY
         run: |
           PLUGY_URL=$(curl -s https://api.github.com/repos/ChaosMarc/PlugY/releases/latest \
             | grep browser_download_url \
@@ -35,7 +53,14 @@ jobs:
           curl -L "$PLUGY_URL" -o plugy.zip
           unzip -o plugy.zip -d package 2>/dev/null || true
 
-      - name: Download d2dx external-res
+      - name: Modify PlugY.ini
+        run: |
+          INI=package/PlugY.ini
+
+          sed -i '/^\[LAUNCHING\]/,/^\[/{s/^Param=.*/Param=-gfx -w -direct -txt/}' "$INI"
+          sed -i '/^\[MAIN SCREEN\]/,/^\[/{s/^ActivePrintPlugYVersion=.*/ActivePrintPlugYVersion=0/}' "$INI"
+
+      - name: Download D2DX
         run: |
           D2DX_URL=$(curl -s https://api.github.com/repos/Jarcho/d2dx/releases/latest \
             | grep browser_download_url \
@@ -46,17 +71,12 @@ jobs:
           curl -L "$D2DX_URL" -o d2dx.zip
           unzip d2dx.zip -d package
 
-      - name: Modify PlugY.ini
-        run: |
-          INI=package/PlugY.ini
-
-          sed -i '/^\[LAUNCHING\]/,/^\[/{s/^Param=.*/Param=-gfx -w -direct -txt/}' "$INI"
-          sed -i '/^\[MAIN SCREEN\]/,/^\[/{s/^ActivePrintPlugYVersion=.*/ActivePrintPlugYVersion=0/}' "$INI"
-
-      - name: Copy and modify d2dx.cfg
+      - name: Create d2dx.cfg
         run: |
           cp package/d2dx-defaults.cfg package/d2dx.cfg
-          sed -i '/^\[window\]/,/^\[/{s/^scale=.*/scale=2.0/}' package/d2dx.cfg
+          sed -i '/^\[window\]/,/^\[/{s/^scale=1.0/scale=2.0/}' package/d2dx.cfg
+          sed -i '/^\[optouts\]/,/^\[/{s/^nologo=false/nologo=true/}' package/d2dx.cfg
+
 
       - name: Create SGD2FreeResolution.json
         run: |
@@ -87,3 +107,18 @@ jobs:
           '    }' \
           '}' \
           > package/SGD2FreeResolution.json
+
+      - name: Create Mod Package
+        run: |
+          cd package
+          zip -r ../d2mods-full.zip .
+
+      - name: Upload Mod Package
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.rel.outputs.upload_url }}
+          asset_path: ./d2mods-full.zip
+          asset_name: d2mods-with-PlugY-and-D2DX.zip
+          asset_content_type: application/zip
