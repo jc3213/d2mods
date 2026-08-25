@@ -33,7 +33,7 @@ jobs:
       
           echo "PlugY URL: $PLUGY_URL"
           curl -L "$PLUGY_URL" -o plugy.zip
-          unzip plugy.zip -d package
+          unzip -o plugy.zip -d package 2>/dev/null || true
 
       - name: Download d2dx external-res
         run: |
