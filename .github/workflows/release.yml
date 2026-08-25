@@ -125,12 +125,5 @@ jobs:
           TAG="${{ steps.rel.outputs.tag }}"
           ZIPFILE="d2mods-full.zip"
 
-          echo "Deleting ALL existing assets for release: $TAG"
-          ASSET_IDS=$(gh release view "$TAG" --json assets --jq '.assets[].id')
-
-          for ID in $ASSET_IDS; do
-            gh release delete-asset "$TAG" "$ID" --yes || true
-          done
-
           echo "Uploading asset: $ZIPFILE"
           gh release upload "$TAG" "$ZIPFILE"
