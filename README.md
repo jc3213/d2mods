@@ -44,7 +44,7 @@ Param=-direct -txt
     - `Power Strike` synergy increased from 10% to **14%**
         - Removed synergy from `Lightning Fury`
     - `Poison Javelin`
-        - Maximum poison damage over skill level 30 has been increased
+        - Maximum poison damage over skill level 28 has been increased
     - `Charged Strike` synergy increased from 10% to **14%**
         - Removed synergy from `Lightning Fury`
     - `Plague Javelin` synergy increased from 10% to **14%**
