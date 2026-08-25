@@ -1,0 +1,90 @@
+name: Full Package with PlugY and D2DX
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare package folder
+        run: |
+          mkdir -p package
+          # 解压当前仓库的源代码到 package/
+          tar -xf $(basename $GITHUB_REPOSITORY).tar.gz -C package || true
+          # 如果你用 zip 发布源代码，则改成：
+          # unzip source.zip -d package
+
+      - name: Download PlugY release (exclude *_source.zip)
+        run: |
+          PLUGY_URL=$(curl -s https://api.github.com/repos/ChaosMarc/PlugY/releases/latest \
+            | grep browser_download_url \
+            | grep -v source \
+            | grep -o 'https.*PlugY_The_Survival_Kit_v.*\.zip')
+
+          echo "PlugY URL: $PLUGY_URL"
+          curl -L "$PLUGY_URL" -o plugy.zip
+          unzip plugy.zip -d package
+
+      - name: Download d2dx external-res
+        run: |
+          D2DX_URL=$(curl -s https://api.github.com/repos/Jarcho/d2dx/releases/latest \
+            | grep browser_download_url \
+            | grep external-res \
+            | grep -o 'https.*d2dx-.*external-res\.zip')
+
+          echo "d2dx URL: $D2DX_URL"
+          curl -L "$D2DX_URL" -o d2dx.zip
+          unzip d2dx.zip -d package
+
+      - name: Modify PlugY.ini
+        run: |
+          INI=package/PlugY.ini
+
+          # 修改 Param=
+          sed -i '/^\[LAUNCHING\]/,/^\[/{s/^Param=.*/Param=-gfx -w -direct -txt/}' "$INI"
+
+          # 修改 ActivePrintPlugYVersion=
+          sed -i '/^\[MAIN SCREEN\]/,/^\[/{s/^ActivePrintPlugYVersion=.*/ActivePrintPlugYVersion=0/}' "$INI"
+
+      - name: Copy and modify d2dx.cfg
+        run: |
+          cp package/d2dx-defaults.cfg package/d2dx.cfg
+          sed -i '/^\[window\]/,/^\[/{s/^scale=.*/scale=2.0/}' package/d2dx.cfg
+
+      - name: Create SGD2FreeResolution.json
+        run: |
+          cat > package/SGD2FreeResolution.json << 'EOF'
+{
+    "SlashGaming Diablo II Free Resolution": {
+        "!!!Metadata (Do not modify)!!!": {
+            "Major Version A": 3,
+            "Major Version B": 0,
+            "Minor Version A": 1,
+            "Minor Version B": 0
+        },
+        "Ingame Resolutions": [
+            "640x480",
+            "800x600",
+            "960x720",
+            "1440x1080"
+        ],
+        "Ingame Resolution Mode": 2,
+        "Main Menu Resolution": "800x600",
+        "Custom MPQ File": "SGD2FreeRes.mpq",
+        "Enable Screen Border Frame?": true,
+        "Use Original Screen Border Frame?": false,
+        "Use 800 Interface Bar?": true
+    },
+    "!!!Globals!!!": {
+        "Config Tab Width": 4
+    }
+}
+EOF
+
