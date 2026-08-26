@@ -149,8 +149,16 @@ Param=-direct -txt
     - `Poison Creeper` gains **+10% Poison Damage** per level of `Rabies`
         - Poison damage has been significantly increased
     - `Summon Spirit Wolf` won't replace **Dire Wolves** and **Grizzly**
+        - Base life has been increased
+        - Gains **+10% Life** per level
+        - Life synergy from `Summon Dire Wolf` reduced from 25% to **15%**
     - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
+        - Base life has been increased
+        - Damage has been increased
     - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
+        - Base life has been increased
+        - Gains **+10% Life** per level
+        - Life synergy from `Summon Dire Wolf` reduced from 25% to **15%**
     - `Molten Boulder` synergy increased from 10% to **12%**
         - Cast delay reduced from 2 seconds to **1** second
     - `Volcano` synergy increased from 12% to **16%**
