@@ -152,9 +152,12 @@ Param=-direct -txt
         - Base life has been increased
         - Gains **+10% Life** per level
         - Life synergy from `Summon Dire Wolf` reduced from 25% to **15%**
+        - Deals cold damage
+        - Cold damage per level has been increased
     - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
         - Base life has been increased
         - Damage has been increased
+        - Defense bounus display has been corrected
     - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
         - Base life has been increased
         - Gains **+10% Life** per level
