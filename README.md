@@ -250,6 +250,7 @@ Param=-direct -txt
 
 ### Misc
 
+- `Stash` size increased from 6x8 to **10x10**
 - `Arrow` and `Bolts` quantity has been incresed to **500**
 - Gems now share the same drop rate as `Amethyst`
 - `Throw Weapons` quantity has been increased by **50%**
