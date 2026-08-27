@@ -169,7 +169,7 @@ Param=-direct -txt
         - Physic damage has been significantly increased
         - Physic damage is now displayed
         - Average fire damage has not been reduced yet, **Help wanted**
-        - Removed restriction to `Hurricane`, need fix for UI, **Help wanted**
+        - Removed restriction to `Hurricane`
         - Removed cast delay
     - `Hurricane` removed cast delay
 
