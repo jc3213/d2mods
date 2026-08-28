@@ -205,12 +205,18 @@ Param=-direct -txt
 - Mist
     - Works on `Missile Weapons`
     - `Cham Rune` + `Shael Rune` + `Gul Rune` + `Thul Rune` + `Ith Rune`
+- Obedience
+    - Works on `Polearms`, and **`Spears`**
+    - `Hel Rune` + `Ko Rune` + `Thul Rune` + `Eth Rune` + `Fal Rune`
 - Obsession
     - Works on `Staves`
     - `Zod Rune` + `Ist Rune` + `Lem Rune` + `Lum Rune` + `Io Rune` + `Nef Rune`
 - Plague
-    - Works on `Swords`, `Knives`, `Claws`
+    - Works on `Swords`, `Knives`, and `Claws`
     - `Cham Rune` + `Shael Rune` + `Um Rune`
+- Pride
+    - Works on `Polearms`, and **`Spears`**
+    - `Cham Rune` + `Sur Rune` + `Io Rune` + `Lo Rune`
 - Temper
     - Works on `Helms`
     - `Shael Rune` + `Io Rune` + `Thul Rune`
