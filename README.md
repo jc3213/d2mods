@@ -41,7 +41,6 @@ Param=-direct -txt
     - `Exploding Arrow` synergy increased from 12% to **14%**
         - Fire damage has been increased
     - `Immolation Arrow` cast delay reduced from 1 second to **0.6** second
-
     - `Power Strike` synergy increased from 10% to **14%**
         - Removed synergy from `Lightning Fury`
     - `Poison Javelin`
@@ -54,7 +53,6 @@ Param=-direct -txt
         - Cast delay reduced from 4 seconds to **1** second
     - `Lightning Strike` synergy increased from 8% to **11%**
         - Removed synergy from `Lightning Fury`
-
     - `Valkyrie` cast delay reduced from 6 seconds to **0.6** second
 
 - Sorceress
@@ -67,11 +65,9 @@ Param=-direct -txt
         - Cold damage synergy increased from 7% to **9%**
         - Defense bounus per level increased from 5% to **9%**
         - Duration per level increased from 6 seconds to **12** seconds
-
     - `Nova` gains **+5% Lightning Damage** per level of `Static Field`
     - `Thunder Storm` gains **7% Lightning Damage**  per level of `Static Field`
     - `Energy Shield` duration per level reduced from 60 seconds to **24** seconds
-
     - `Inferno` fire damage has been increased
         - Fire damage synergy increased from 13% to **16%**
     - `Blaze` fire damage per level has been increased
@@ -92,7 +88,6 @@ Param=-direct -txt
     - `Holy Freeze` maximum aura cold damage has been doubled
     - `Holy Shock` maximum aura lightning damage has been doubled
     - `Sancturary` maximum aura magic damage has been doubled
-
     - `Fist of the Heavens` cast delay reduced from 1 second to **0.4** second
 
 - Barbarian
@@ -106,7 +101,6 @@ Param=-direct -txt
     - `Whirlwind` base damage increased from -50% to **+30%**
         - Damage per level reduced from 8% to **5%**
         - Added **+50% Attack Rating** at level 1
-
     - `Find Item` gains **+1% Chance** per level of `Find Potion`
     - `War Cry` physic damage has been increased
 
@@ -129,11 +123,9 @@ Param=-direct -txt
     - `Blade Shield` gains **+10% Damage** per level of `Blade Sentinel` and `Blade Fury`
          - Base duration increased from 20 seconds to **120** seconds
          - Duration per level increased from 5 seconds to **12** seconds
-
     - `Shadow Warrior` cast delay reduced from 6 seconds to **0.6** second
     - `Venom` duration per level increased from 4 seconds to **12** seconds
     - `Shadow Master` cast delay reduced from 6 seconds to **0.6** second
-
     - `Tiger Strike` base attack rating increased from 15% to **25%**
         - Attack rating per level increased from 7% to **10%**
     - `Fists of Fire` base attack rating increased from 15% to **25%**
@@ -161,7 +153,6 @@ Param=-direct -txt
         - Fire damage has been significantly increased
     - `Shock Wave` synergy increased from 5% to **10%**
     - `Fury` attack rating per level increased from 7% to **10%**
-
     - `Raven` now gains **+12% Damage%** per level from `Summon Spirit Wolf`, `Summon Dire Wolf`, and `Summon Grizzly`
         - Physic damage has been significantly increased
     - `Poison Creeper` gains **+10% Poison Damage** per level of `Rabies`
@@ -180,7 +171,6 @@ Param=-direct -txt
         - Base life has been increased
         - Gains **+10% Life** per level
         - Life synergy from `Summon Dire Wolf` reduced from 25% to **15%**
-
     - `Molten Boulder` synergy increased from 10% to **12%**
         - Cast delay reduced from 2 seconds to **1** second
     - `Volcano` synergy increased from 12% to **16%**
