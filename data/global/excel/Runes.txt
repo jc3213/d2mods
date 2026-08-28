@@ -63,7 +63,7 @@ Runeword141	Temptation																																															0
 Runeword142	Terror																																															0
 Runeword90	Nightfall																																															0
 Runeword91	Oath	1		swor	axe	mace							ShaelPulMalLum	r13	r21	r23	r17			dmg%		210	340	swing1		30	30	hit-skill	Bone Spirit	30	20	charged	IronGolem	14	17	charged	Heart of Wolverine	20	16	abs-mag		10	15	indestruct		1	1	0
-Runeword92	Obedience	1		pole									HelKoThulEthFal	r15	r18	r10	r05	r19		dmg%		370	370	crush		40	40	kill-skill	enchant	30	21	pierce-fire		25	25	ac		200	300	balance3		40	40	res-all		20	30	0
+Runeword92	Obedience	1		pole	spea								HelKoThulEthFal	r15	r18	r10	r05	r19		dmg%		370	370	crush		40	40	kill-skill	enchant	30	21	pierce-fire		25	25	ac		200	300	balance3		40	40	res-all		20	30	0
 Runeword93	Oblivion																																															0
 Runeword94	Obsession	1		staf									ZodIstLemLumIoNef	r33	r24	r20	r17	r16	r04	allskills		4	4	gethit-skill	Weaken	24	10	cast3		65	65	balance3		60	60	res-all		60	70	hp%		15	25	regen-mana		15	30	0
 Runeword49	Harmony	1		miss									TirIthSolKo	r03	r06	r12	r18			dmg%		200	275	dmg-elem		55	160	charged	Revive	25	20	aura	Vigor	10	10	oskill	Valkyrie	2	6	regen-mana		20	20	light		2	2	0
@@ -135,7 +135,7 @@ Runeword105	Pillar of Faith																																															0
 Runeword106	Plague	1		swor	knif	h2h							ChamShaelUm	r32	r13	r22				dmg%		220	320	gethit-skill	Lower Resist	20	12	hit-skill	Poison Nova	25	15	pierce-pois		23	23	deadly/lvl	3			aura	Cleansing	13	17	allskills		1	2	0
 Runeword107	Praise																																															0
 Runeword108	Prayer																																															0
-Runeword109	Pride	1		pole									ChamSurIoLo	r32	r29	r16	r28			dmg-dem/lvl	8			dmg-ltng		50	280	att%		260	300	aura	Concentration	16	20	gethit-skill	Fire Wall	25	17	regen		8	8	gold%/lvl	15			0
+Runeword109	Pride	1		pole	spea								ChamSurIoLo	r32	r29	r16	r28			dmg-dem/lvl	8			dmg-ltng		50	280	att%		260	300	aura	Concentration	16	20	gethit-skill	Fire Wall	25	17	regen		8	8	gold%/lvl	15			0
 Runeword110	Principle	1		tors									RalGulEld	r08	r25	r02				hit-skill	Holy Bolt	100	5	pal		2	2	hp		100	150	dmg-undead		50	50													0
 Runeword111	Prowess in Battle																																															0
 Runeword112	Prudence	1		tors										r23	r03					ac%		140	170	red-mag		10	10	red-dmg		3	3	res-all		25	35	balance2		25	25	rep-dur	25			light		1	1	0
