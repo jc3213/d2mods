@@ -64,6 +64,13 @@ jobs:
           sed -i '/^\[LAUNCHING\]/,/^\[/{s/^Param=.*/Param=-gfx -w -direct -txt/}' "$INI"
           sed -i '/^\[MAIN SCREEN\]/,/^\[/{s/^ActivePrintPlugYVersion=.*/ActivePrintPlugYVersion=0/}' "$INI"
 
+          sed -i '/^\[UBER QUEST\]/,/^\[/{s/^UberMephistoSpawnPercent=80/UberMephistoSpawnPercent=20/}' "$INI"
+          sed -i '/^\[UBER QUEST\]/,/^\[/{s/^UberMephistoSpawnRadius=30/UberMephistoSpawnRadius=10/}' "$INI"
+          sed -i '/^\[UBER QUEST\]/,/^\[/{s/^UberBaalSpawnPercent=30/UberBaalSpawnPercent=10/}' "$INI"
+          sed -i '/^\[UBER QUEST\]/,/^\[/{s/^UberBaalSpawnRadius=30/UberBaalSpawnRadius=10/}' "$INI"
+          sed -i '/^\[UBER QUEST\]/,/^\[/{s/^UberDiabloSpawnPercent=30/UberDiabloSpawnPercent=10/}' "$INI"
+          sed -i '/^\[UBER QUEST\]/,/^\[/{s/^UberDiabloSpawnRadius=30/UberDiabloSpawnRadius=10/}' "$INI"
+
       - name: Download D2DX
         run: |
           D2DX_URL=$(curl -s https://api.github.com/repos/Jarcho/d2dx/releases/latest \
