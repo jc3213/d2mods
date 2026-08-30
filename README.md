@@ -67,6 +67,8 @@ Param=-direct -txt
         - Duration per level increased from 6 seconds to **12** seconds
     - `Nova` gains **+5% Lightning Damage** per level of `Static Field`
     - `Thunder Storm` gains **7% Lightning Damage**  per level of `Static Field`
+        - Base duration increased from 32 seconds to **144** seconds
+        - Duration per level increased from 5 seconds to **24** seconds
     - `Energy Shield` duration per level reduced from 60 seconds to **24** seconds
     - `Inferno` fire damage has been increased
         - Fire damage synergy increased from 13% to **16%**
@@ -88,6 +90,7 @@ Param=-direct -txt
     - `Holy Freeze` maximum aura cold damage has been doubled
     - `Holy Shock` maximum aura lightning damage has been doubled
     - `Sancturary` maximum aura magic damage has been doubled
+    - `Conversion` maximum chance of conversion increased from 50% to **90%**
     - `Fist of the Heavens` cast delay reduced from 1 second to **0.4** second
 
 - Barbarian
