@@ -137,6 +137,8 @@ Param=-direct -txt
         - Life synergy from `Summon Dire Wolf` reduced from 25% to **15%**
     - `Molten Boulder` synergy increased from 10% to **12%**
         - Cast delay reduced from 2 seconds to **1** second
+    - `Arctic Blast` cold damage has been increased
+        - Removed synergy from `Hurricane`
     - `Volcano` synergy increased from 12% to **16%**
     - `Armageddon` now gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
         - Physic damage has been significantly increased
