@@ -69,6 +69,7 @@ Param=-direct -txt
     - `Thunder Storm` gains **7% Lightning Damage**  per level of `Static Field`
         - Base duration increased from 32 seconds to **144** seconds
         - Duration per level increased from 5 seconds to **24** seconds
+        - Display targeting radius.
     - `Energy Shield` duration per level reduced from 60 seconds to **24** seconds
     - `Inferno` fire damage has been increased
         - Fire damage synergy increased from 13% to **16%**
