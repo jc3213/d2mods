@@ -91,6 +91,7 @@ Param=-direct -txt
     - `Holy Freeze` maximum aura cold damage has been doubled
     - `Holy Shock` maximum aura lightning damage has been doubled
     - `Sancturary` maximum aura magic damage has been doubled
+    - `Holy Bolt` heal synergy increased from 15% to **20%**
     - `Conversion` maximum chance of conversion increased from 50% to **90%**
     - `Fist of the Heavens` cast delay reduced from 1 second to **0.4** second
 
