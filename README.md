@@ -107,6 +107,45 @@ Param=-direct -txt
     - `Find Item` gains **+1% Chance** per level of `Find Potion`
     - `War Cry` physic damage has been increased
 
+- Druid
+    - `Maul` per charge damage increased from 20% to **30%**
+        - Base attack rating increased from 20% to **40%**
+        - Attack rating per level increased from 10% to **15%**
+    - `Rabies` synergy increased from 18% to **20%**
+        - Attack rating per level increased from 7% to **10%**
+    - `Fire Claw` synergies removed from `Fissure` and `Volcano`
+        - Fire damage has been significantly increased
+    - `Shock Wave` synergy increased from 5% to **10%**
+    - `Fury` attack rating per level increased from 7% to **10%**
+    - `Raven` gains **+12% Damage%** per level from `Summon Spirit Wolf`, `Summon Dire Wolf`, and `Summon Grizzly`
+        - Physic damage has been significantly increased
+    - `Poison Creeper` gains **+10% Poison Damage** per level of `Rabies`
+        - Poison damage has been significantly increased
+    - `Summon Spirit Wolf` won't replace **Dire Wolves** and **Grizzly**
+        - Base life has been increased
+        - Gains **+10% Life** per level
+        - Life synergy from `Summon Dire Wolf` reduced from 25% to **15%**
+        - Deals cold damage
+        - Cold damage per level has been increased
+    - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
+        - Base life has been increased
+        - Damage has been increased
+        - Defense bonus display has been corrected
+    - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
+        - Base life has been increased
+        - Gains **+10% Life** per level
+        - Life synergy from `Summon Dire Wolf` reduced from 25% to **15%**
+    - `Molten Boulder` synergy increased from 10% to **12%**
+        - Cast delay reduced from 2 seconds to **1** second
+    - `Volcano` synergy increased from 12% to **16%**
+    - `Armageddon` now gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
+        - Physic damage has been significantly increased
+        - Physic damage is now displayed
+        - Average fire damage has not been reduced yet, **Help wanted**
+        - Removed restriction to `Hurricane`
+        - Removed cast delay
+    - `Hurricane` removed cast delay
+
 - Assassin
     - `Fire Blast` synergy increased from 9% to **11%**
       - Removed synergy from `Death Sentry`
@@ -147,45 +186,6 @@ Param=-direct -txt
         - Removed cast delay
     - `Phoenix Strike` base attack rating increased from 15% to **25%**
         - Attack rating per level increased from 7% to **10%**
-
-- Druid
-    - `Maul` per charge damage increased from 20% to **30%**
-        - Base attack rating increased from 20% to **40%**
-        - Attack rating per level increased from 10% to **15%**
-    - `Rabies` synergy increased from 18% to **20%**
-        - Attack rating per level increased from 7% to **10%**
-    - `Fire Claw` synergies removed from `Fissure` and `Volcano`
-        - Fire damage has been significantly increased
-    - `Shock Wave` synergy increased from 5% to **10%**
-    - `Fury` attack rating per level increased from 7% to **10%**
-    - `Raven` now gains **+12% Damage%** per level from `Summon Spirit Wolf`, `Summon Dire Wolf`, and `Summon Grizzly`
-        - Physic damage has been significantly increased
-    - `Poison Creeper` gains **+10% Poison Damage** per level of `Rabies`
-        - Poison damage has been significantly increased
-    - `Summon Spirit Wolf` won't replace **Dire Wolves** and **Grizzly**
-        - Base life has been increased
-        - Gains **+10% Life** per level
-        - Life synergy from `Summon Dire Wolf` reduced from 25% to **15%**
-        - Deals cold damage
-        - Cold damage per level has been increased
-    - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
-        - Base life has been increased
-        - Damage has been increased
-        - Defense bonus display has been corrected
-    - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
-        - Base life has been increased
-        - Gains **+10% Life** per level
-        - Life synergy from `Summon Dire Wolf` reduced from 25% to **15%**
-    - `Molten Boulder` synergy increased from 10% to **12%**
-        - Cast delay reduced from 2 seconds to **1** second
-    - `Volcano` synergy increased from 12% to **16%**
-    - `Armageddon` now gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
-        - Physic damage has been significantly increased
-        - Physic damage is now displayed
-        - Average fire damage has not been reduced yet, **Help wanted**
-        - Removed restriction to `Hurricane`
-        - Removed cast delay
-    - `Hurricane` removed cast delay
 
 ### Runewords
 
