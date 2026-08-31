@@ -60,10 +60,10 @@ Param=-direct -txt
     - `Frost Nova` cold damage per level has been increased
     - `Shiver Armor` base duration increased from 120 seconds to **144** seconds
         - Cold damage per level has been increased
-    - `Chilling Armor` base defense bounus increased from 45% to **60%**
+    - `Chilling Armor` base defense bonus increased from 45% to **60%**
         - Cold damage has been increased
         - Cold damage synergy increased from 7% to **9%**
-        - Defense bounus per level increased from 5% to **9%**
+        - Defense bonus per level increased from 5% to **9%**
         - Duration per level increased from 6 seconds to **12** seconds
     - `Nova` gains **+5% Lightning Damage** per level of `Static Field`
     - `Thunder Storm` gains **7% Lightning Damage**  per level of `Static Field`
@@ -127,6 +127,7 @@ Param=-direct -txt
          - Base duration increased from 20 seconds to **120** seconds
          - Duration per level increased from 5 seconds to **12** seconds
     - `Shadow Warrior` cast delay reduced from 6 seconds to **0.6** second
+        - Defense bonus display has been corrected
     - `Venom` duration per level increased from 4 seconds to **12** seconds
     - `Shadow Master` cast delay reduced from 6 seconds to **0.6** second
         - Minimum resist all increased from 5% to **17%**
@@ -170,7 +171,7 @@ Param=-direct -txt
     - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
         - Base life has been increased
         - Damage has been increased
-        - Defense bounus display has been corrected
+        - Defense bonus display has been corrected
     - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
         - Base life has been increased
         - Gains **+10% Life** per level
