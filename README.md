@@ -38,6 +38,8 @@ Param=-direct -txt
     - `Guided Arrow` gains **+12% Damage** per level of `Multiple Shot`
     - `Strafe` gains **+5% Damage** per level of `Multiple Shot` 
         - Gains **+10% Damage** per level of `Guided Arrow`
+        - Gains **30%** base attack rating
+        - Gains **9%** attack rating per level
     - `Exploding Arrow` synergy increased from 12% to **14%**
         - Fire damage has been increased
     - `Immolation Arrow` cast delay reduced from 1 second to **0.6** second
@@ -106,7 +108,7 @@ Param=-direct -txt
         - Not area attack yet, **Help wanted**
     - `Whirlwind` base damage increased from -50% to **+30%**
         - Damage per level reduced from 8% to **5%**
-        - Added **+50% Attack Rating** at level 1
+        - Gains **50%** base attack rating
     - `Find Item` gains **+1% Chance** per level of `Find Potion`
     - `War Cry` physic damage has been increased
 
