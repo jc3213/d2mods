@@ -117,7 +117,7 @@ Param=-direct -txt
         - Fire damage has been significantly increased
     - `Shock Wave` synergy increased from 5% to **10%**
     - `Fury` attack rating per level increased from 7% to **10%**
-    - `Raven` gains **+12% Damage%** per level from `Summon Spirit Wolf`, `Summon Dire Wolf`, and `Summon Grizzly`
+    - `Raven` gains **+12% Damage** per level of `Summon Spirit Wolf`, `Summon Dire Wolf` and `Summon Grizzly`
         - Physic damage has been significantly increased
     - `Poison Creeper` gains **+10% Poison Damage** per level of `Rabies`
         - Poison damage has been significantly increased
