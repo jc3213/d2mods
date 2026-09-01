@@ -184,6 +184,7 @@ Param=-direct -txt
         - Attack rating per level increased from 7% to **10%**
     - `Fists of Fire` base attack rating increased from 15% to **25%**
         - Attack rating per level increased from 7% to **10%**
+        - Damage radius increased from 2.6 yards to 4 yards
     - `Dragon Claw` damage per level increased from 5% to **15%**
     - `Cobra Strike` base attack rating increased from 15% to **25%**
         - Attack rating per level increased from 7% to **10%**
