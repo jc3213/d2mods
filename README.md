@@ -145,9 +145,9 @@ Param=-direct -txt
     - `Arctic Blast` cold damage has been increased
         - Removed synergy from `Hurricane`
     - `Volcano` synergy increased from 12% to **16%**
-    - `Armageddon` now gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
+    - `Armageddon` display physic damage 
         - Physic damage has been significantly increased
-        - Physic damage is now displayed
+        - Gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
         - Average fire damage has not been reduced yet, **Help wanted**
         - Removed restriction to `Hurricane`
         - Removed cast delay
@@ -172,6 +172,7 @@ Param=-direct -txt
     - `Blade Shield` gains **+10% Damage** per level of `Blade Sentinel` and `Blade Fury`
          - Base duration increased from 20 seconds to **120** seconds
          - Duration per level increased from 5 seconds to **12** seconds
+    - `Fade` display damage resist
     - `Shadow Warrior` cast delay reduced from 6 seconds to **0.6** second
         - Defense bonus display has been corrected
     - `Venom` duration per level increased from 4 seconds to **12** seconds
