@@ -43,6 +43,7 @@ Param=-direct -txt
     - `Exploding Arrow` synergy increased from 12% to **14%**
         - Fire damage has been increased
     - `Immolation Arrow` cast delay reduced from 1 second to **0.6** second
+        - Average fire damage has been increased
     - `Power Strike` synergy increased from 10% to **14%**
         - Removed synergy from `Lightning Fury`
     - `Poison Javelin` maximum poison damage over skill level 28 has been increased
