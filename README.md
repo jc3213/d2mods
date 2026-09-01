@@ -159,6 +159,7 @@ Param=-direct -txt
     - `Arctic Blast` cold damage has been increased
         - Removed synergy from `Hurricane`
     - `Volcano` synergy increased from 12% to **16%**
+        - Display duration
     - `Armageddon` display physic damage 
         - Physic damage has been significantly increased
         - Gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
