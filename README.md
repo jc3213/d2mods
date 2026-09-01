@@ -93,6 +93,7 @@ Param=-direct -txt
         - Fire damage synergy from `Salvation` increased from 6% to **10%**
         - Fire synergy from `Resist Fire` increased from 18% to **21%**
     - `Thorns` added extra `Attacker Takes Damage of` property when activated
+    - `Blessed Aim` display passive attack rating
     - `Holy Freeze` maximum aura cold damage has been doubled
     - `Holy Shock` maximum aura lightning damage has been doubled
     - `Sancturary` maximum aura magic damage has been doubled
