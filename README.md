@@ -76,13 +76,17 @@ Param=-direct -txt
         - Duration per level increased from 5 seconds to **24** seconds
         - Display targeting radius
     - `Energy Shield` duration per level reduced from 60 seconds to **24** seconds
-    - `Inferno` fire damage has been increased
+        - Display mana consumption
+    - `Inferno` base range increased from 3.3 yards to **5.3** yards
+        - Fire damage has been increased
         - Fire damage synergy increased from 13% to **16%**
+        - Mana per second reduced from 7 to **4**
     - `Blaze` fire damage per level has been increased
         - Fire damage synergy from `Warmth` increased from 4% to **6%**
         - Added **+2%** `Walk/Run Speed` per level when activated
         - Removed synergy from `Fire Wall`
     - `Fire Ball` radius display has been corrected to **2.6** yards
+    - `Fire Wall` base range increased from 4 yards to **6** yards
     - `Hydra` removed cast delay, limited up to 6 hydras
 
 - Necromancer
