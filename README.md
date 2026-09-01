@@ -148,7 +148,8 @@ Param=-direct -txt
         - Defense bonus display has been corrected
     - `Solar Creeper` base mana steal increased from 1% to **4%**
         - Gains **+1% Mana Steal** per level
-    - `Spirit of Barbs` use **Attacker Takes Damage of *number*** instead of ***number*% Damage Returned**
+    - `Spirit of Barbs` removed base radius ~~20 yards~~
+        - Use **Attacker Takes Damage of *number*** instead of ***number*% Damage Returned**
     - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
         - Base life has been increased
         - Gains **+10% Life** per level
