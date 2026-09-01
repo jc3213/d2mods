@@ -55,6 +55,9 @@ Param=-direct -txt
         - Cast delay reduced from 4 seconds to **1** second
     - `Lightning Strike` synergy increased from 8% to **11%**
         - Removed synergy from `Lightning Fury`
+    - `Inner Sight` radius increased from 13.3 yards to **18** yards
+    - `Slow Missiles` radius increased from 13.3 yards to **18** yards
+        - Updated calibration
     - `Valkyrie` cast delay reduced from 6 seconds to **0.6** second
 
 - Sorceress
