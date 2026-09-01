@@ -121,6 +121,7 @@ Param=-direct -txt
 
 - Druid
     - `Maul` per charge damage increased from 20% to **30%**
+        - Gains **+3% Attack Speed** per charge
         - Base attack rating increased from 20% to **40%**
         - Attack rating per level increased from 10% to **15%**
     - `Rabies` synergy increased from 18% to **20%**
@@ -139,10 +140,15 @@ Param=-direct -txt
         - Life synergy from `Summon Dire Wolf` reduced from 25% to **15%**
         - Deals cold damage
         - Cold damage per level has been increased
+    - `Carrion Vine` base life steal increased from 3% to **4%**
+        - Gains **+1% Life Steal** per level
     - `Summon Dire Wolf` won't replace **Spirit Wolves** and **Grizzly**
         - Base life has been increased
         - Damage has been increased
         - Defense bonus display has been corrected
+    - `Solar Creeper` base mana steal increased from 1% to **4%**
+        - Gains **+1% Mana Steal** per level
+    - `Spirit of Barbs` use **Attacker Takes Damage of *number*** instead of ***number*% Damage Returned**
     - `Summon Grizzly` won't replace **Spirit Wolves** and **Dire Wolves**
         - Base life has been increased
         - Gains **+10% Life** per level
