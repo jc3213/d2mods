@@ -163,7 +163,6 @@ Param=-direct -txt
     - `Armageddon` display physic damage 
         - Physic damage has been significantly increased
         - Gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
-        - Average fire damage has not been reduced yet, **Help wanted**
         - Removed restriction to `Hurricane`
         - Removed cast delay
     - `Hurricane` removed cast delay
