@@ -168,6 +168,7 @@ Param=-direct -txt
     - `Wake of Inferno` synergy increased from 7% / 10% to **18%**
       - Base fire damage has been significantly increased
       - Removed synergy from `Death Sentry`
+      - Display inferno range
     - `Blade Sentinel` gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
         - Cast delay reduced from 2 seconds to **1** second
     - `Blade Fury` gains **+10% Damage** per level of `Blade Sentinel` and `Blade Shield`
