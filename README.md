@@ -45,8 +45,7 @@ Param=-direct -txt
     - `Immolation Arrow` cast delay reduced from 1 second to **0.6** second
     - `Power Strike` synergy increased from 10% to **14%**
         - Removed synergy from `Lightning Fury`
-    - `Poison Javelin`
-        - Maximum poison damage over skill level 28 has been increased
+    - `Poison Javelin` maximum poison damage over skill level 28 has been increased
     - `Charged Strike` synergy increased from 10% to **14%**
         - Removed synergy from `Lightning Fury`
     - `Plague Javelin` synergy increased from 10% to **14%**
