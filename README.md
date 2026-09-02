@@ -122,10 +122,10 @@ Param=-direct -txt
     - `Throwing Master` base attack rating increased from 30% to **44%**
         - Gains **8-55%** chance to pierce
     - `Spear Master` base attack rating increased from 30% to **44%**
-    - `Leap` base distance increased from 4.6 yards to **7.3** yards
+    - `Leap` base radius increased from 4.6 yards to **7.3** yards
         - Display knockback radius
     - `Double Throw` added **+8% Damage** per level
-    - `Leap Attack` base distance increased from 4.6 yards to **7.3** yards
+    - `Leap Attack` base radius increased from 4.6 yards to **7.3** yards
         - Base damage increased from 100% to **200%**
         - Base attack rating increased from 50% to **100%**
         - Attack rating per level increased from 15% to **20%**
@@ -134,8 +134,16 @@ Param=-direct -txt
     - `Whirlwind` base damage increased from -50% to **+30%**
         - Damage per level reduced from 8% to **5%**
         - Gains **50%** base attack rating
+    - `Howl` display radius
+    - `Shout` base duration increased from 20 seconds to **30** seconds
+        - display radius
     - `Find Item` gains **+1% Chance** per level of `Find Potion`
+    - `Battle Cry` display radius
+    - `Battle Order` display radius
     - `War Cry` physic damage has been increased
+        - Display damage radius
+    - `Battle Command` base duration increased from 5 seconds to **30** seconds
+        - Display radius
 
 - Druid
     - `Maul` per charge damage increased from 20% to **30%**
