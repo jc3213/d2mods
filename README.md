@@ -100,10 +100,10 @@ Param=-direct -txt
         - Gains **7% Lightning Damage** per level of `Static Field`
         - Base duration increased from 32 seconds to **144** seconds
         - Duration per level increased from 5 seconds to **24** seconds
-        - Display targeting radius
+        - Display **Radius**
     - `Energy Shield`
         - Duration per level reduced from 60 seconds to **24** seconds
-        - Display mana consumption
+        - Display **Mana Consumption**
 - Fire Spells
     - `Inferno`
         - Base range increased from 3.3 yards to **5.3** yards
@@ -138,7 +138,7 @@ Param=-direct -txt
     - `Weaken`
         - Gains **-1% Enemy Damage** per level
     - `Decrepify`
-        - Display detailed weakening
+        - Display **Detailed Weakening**
 
 #### Paladin
 
@@ -150,7 +150,7 @@ Param=-direct -txt
     - `Thorns`
         - Gains extra `Attacker Takes Damage of` property when activated
     - `Blessed Aim`
-        - Display passive attack rating
+        - Display **Attack Rating (Passive)**
     - `Holy Freeze`
         - Maximum aura cold damage has been doubled
     - `Holy Shock`
@@ -159,11 +159,11 @@ Param=-direct -txt
         - Maximum aura magic damage has been doubled
 - Defensive Auras
     - `Resist Fire`
-        - Display additional maximum fire resist
+        - Display additional **Maximum Fire Resist**
     - `Resist Cold`
-        - Display additional maximum cold resist
+        - Display additional **Maximum Cold Resist**
     - `Resist Lightning`
-        - Display additional maximum lightning resist
+        - Display additional **Maximum Lightning Resist**
 - Combat Skills
     - `Holy Bolt`
         - Heal synergy increased from 15% to **20%**
@@ -191,7 +191,7 @@ Param=-direct -txt
 - Combat Skills
     - `Leap`
         - Base radius increased from 4.6 yards to **7.3** yards
-        - Display knockback radius
+        - Display **Knockback Radius**
     - `Double Throw`
         - Added **+8% Damage** per level
     - `Leap Attack`
@@ -206,23 +206,14 @@ Param=-direct -txt
         - Damage per level reduced from 8% to **5%**
         - Gains **50%** base attack rating
 - Warcries
-    - `Howl`
-        - Display radius
     - `Shout`
         - Base duration increased from 20 seconds to **30** seconds
-        - Display radius
     - `Find Item`
         - Gains **+1% Chance** per level of `Find Potion`
-    - `Battle Cry`
-        - Display radius
-    - `Battle Order`
-        - Display radius
     - `War Cry`
         - Physic damage has been increased
-        - Display radius
     - `Battle Command`
         - Base duration increased from 5 seconds to **30** seconds
-        - Display radius
 
 #### Druid
 
@@ -246,6 +237,8 @@ Param=-direct -txt
     - `Raven`
         - Gains **+12% Damage** per level of `Summon Spirit Wolf`, `Summon Dire Wolf` and `Summon Grizzly`
         - Physic damage has been significantly increased
+        - Display **Attack Rating**
+        - Attack rating per level increased from 15% to **30%**
     - `Poison Creeper`
         - Gains **+10% Poison Damage** per level of `Rabies`
         - Poison damage has been significantly increased
@@ -284,9 +277,9 @@ Param=-direct -txt
         - Removed synergy from `Hurricane`
     - `Volcano`
         - Synergy increased from 12% to **16%**
-        - Display duration
+        - Display **Duration**
     - `Armageddon`
-        - Display physic damage
+        - Display **Physic Damage**
         - Physic damage has been significantly increased
         - Gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
         - Removed restriction to `Hurricane`
