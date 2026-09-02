@@ -285,7 +285,7 @@ Param=-direct -txt
     - `Volcano`
         - Synergy increased from 12% to **16%**
         - Display duration
-     - `Armageddon`
+    - `Armageddon`
         - Display physic damage
         - Physic damage has been significantly increased
         - Gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
