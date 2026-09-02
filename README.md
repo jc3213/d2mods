@@ -115,6 +115,13 @@ Param=-direct -txt
     - `Fist of the Heavens` cast delay reduced from 1 second to **0.4** second
 
 - Barbarian
+    - `Sword Master` base attack rating increased from 28% to **40%**
+    - `Axe Master` base attack rating increased from 28% to **40%**
+    - `Mace Master` base attack rating increased from 28% to **40%**
+    - `Pole Arm Master` base attack rating increased from 30% to **44%**
+    - `Throwing Master` base attack rating increased from 30% to **44%**
+        - Gains **8-55%** chance to pierce
+    - `Spear Master` base attack rating increased from 30% to **44%**
     - `Leap` base distance increased from 4.6 yards to **7.3** yards
     - `Double Throw` added **+8% Damage** per level
     - `Leap Attack` base distance increased from 4.6 yards to **7.3** yards
