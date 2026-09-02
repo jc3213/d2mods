@@ -141,7 +141,7 @@ Param=-direct -txt
     - `Battle Cry` display radius
     - `Battle Order` display radius
     - `War Cry` physic damage has been increased
-        - Display damage radius
+        - Display radius
     - `Battle Command` base duration increased from 5 seconds to **30** seconds
         - Display radius
 
