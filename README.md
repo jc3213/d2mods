@@ -90,7 +90,7 @@ Param=-direct -txt
     - `Hydra` removed cast delay, limited up to 6 hydras
 
 - Necromancer
-    - `Blood Golem` gains 20% life per level
+    - `Blood Golem` gains **+20% Life** per level
         - Base damage has been increased
         - Damage per level increased from 35% to **55%**
     - `Bone Spear` damage synergy increased from 7% to **8%**
