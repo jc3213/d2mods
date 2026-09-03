@@ -357,6 +357,41 @@ Param=-direct -txt
         - Base attack rating increased from 15% to **25%**
         - Attack rating per level increased from 7% to **10%**
 
+### Unique Items
+
+- `Bloodletter`
+    - Gladius
+    - Added **+20% Faster Run/Walk**
+- `The Battlebranch`
+    - Poleaxe
+    - Base item level reduced from 34 to **30**
+    - Required level reduced from 25 to **17**
+- `Rogue's Bow`
+    - Composite Bow
+    - Added **+1-3 Fire Arrow (Amazon Only)**
+    - Added **+1-3 Cold Arrow (Amazon Only)**
+- `Pluckeye`
+    - Short Bow
+    - Added **+25% Increased Attack Speed**
+- `Bane Ash`
+    - Short Staff
+    - Removed **+20% Increased Attack Speed**
+    - Removed **+50-60% Enhanced Damage**
+    - Added **+20% Faster Cast Rate**
+- `Gravenspine`
+    - Yew Wand
+    - Added **+10% Faster Cast Rate**
+- `Blinkbat's Form`
+    - Leather Armor
+    - Faster Run/Walk increased from 10% to **30%**
+    - Added **+1 Mana After Each Kill**
+- `The Ward`
+    - Gothic Shield
+    - Added **Socketed (1)**
+- `Manald Heal`
+    - Ring
+    - Added **+10% Faster Cast Rate**
+
 ### Runewords
 
 - Bulwark
