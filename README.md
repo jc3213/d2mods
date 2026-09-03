@@ -438,6 +438,54 @@ Param=-direct -txt
 - Exceptional Set Armors → Elite
     - `Ko Rune` + `Lem Rune` + `Perfect Diamond`
 
+### Dungeons
+
+#### Act 1
+
+- `Underground Passage Level 2`
+    - Increased Level from 83 to **85**
+
+#### Act 2
+
+- `Stony Tomb Level 1`
+    - Increased Level from 78 to **85**
+- `Stony Tomb Level 2`
+    - Increased Level from 79 to **85**
+
+#### Act 3
+
+- `Spider Cave`
+    - Increased Level from 79 to **85**
+- `Spider Cavern`
+    - Increased Level from 79 to **85**
+- `Swampy Pit Level 1`
+    - Increased Level from 80 to **85**
+- `Swampy Pit Level 2`
+    - Increased Level from 81 to **85**
+- `Swampy Pit Level 3`
+    - Increased Level from 82 to **85**
+- `Sewers Level 1`
+    - Increased Level from 84 to **85**
+- `Ruined Temple`
+    - Increased Level from 84 to **85**
+- `Disused Fane`
+    - Increased Level from 84 to **85**
+- `Forgotten Reliquary`
+    - Increased Level from 84 to **85**
+
+#### Act 5
+
+- `Echo Chamber`
+    - Increased Level from 84 to **85**
+- `Glacial Caves Level 2`
+    - Increased Level from 83 to **85**
+- `Hell 1`
+    - Increased Level from 81 to **85**
+- `Hell 2`
+    - Increased Level from 82 to **85**
+- `Hell 3`
+    - Increased Level from 83 to **85**
+
 ### Misc
 
 - `Stash` size increased from 6x8 to **10x10**
