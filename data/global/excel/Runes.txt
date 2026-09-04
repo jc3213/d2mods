@@ -1,11 +1,7 @@
 Name	Rune Name	complete	server	itype1	itype2	itype3	itype4	itype5	itype6	etype1	etype2	etype3	*runes	Rune1	Rune2	Rune3	Rune4	Rune5	Rune6	T1Code1	T1Param1	T1Min1	T1Max1	T1Code2	T1Param2	T1Min2	T1Max2	T1Code3	T1Param3	T1Min3	T1Max3	T1Code4	T1Param4	T1Min4	T1Max4	T1Code5	T1Param5	T1Min5	T1Max5	T1Code6	T1Param6	T1Min6	T1Max6	T1Code7	T1Param7	T1Min7	T1Max7	eol
 Runeword1	Ancient's Pledge	1		shld										r08	r09	r07				res-cold		30	30	res-all		13	13	ac%		50	50	dmg-to-mana		10	10													0
 Runeword6	Black	1		club	hamm	mace								r10	r16	r04				crush		40	40	dmg%		120	120	swing2		15	15	red-mag		2	2	att		200	200	charged	74	12	4					0
-Runeword202	Bulwark	1		helm									ShaelIoSol	r13	r16	r12				hp%		5	5	ac%		75	100	red-dmg%		15	15	regen		30	30	lifesteal		4	6									0
-Runeword203	Cure	1		helm									ShaelIoTal	r13	r16	r07				hp%		5	5	ac%		75	100	res-pois		10	30	res-pois-len		50	50	aura	Cleansing	1	1									0
 Runeword44	Fury	1		mele										r31	r25	r05				dmg%		209	209	swing2		40	40	noheal		1	1	openwounds		66	66	lifesteal		6	6	deadly		33	33	skill	147	5	5	0
-Runeword204	Ground	1		helm									ShaelIoOrt	r13	r16	r09				hp%		5	5	ac%		75	100	res-ltng		10	30	abs-ltng%		10	15													0
-Runeword205	Hearth	1		helm									ShaelIoThul	r13	r16	r10				hp%		5	5	ac%		75	100	res-cold		10	30	abs-cold%		10	15	nofreeze		1	1									0
 Runeword54	Holy Thunder	1		scep										r05	r08	r09	r07			dmg%		60	60	dmg-ltng		20	60	dmg-max		10	10	res-ltng		60	60	res-ltng-max		5	5	skill	118	3	3	charged	53	60	7	0
 Runeword55	Honor	1		mele										r11	r01	r06	r03	r12		dmg%		160	160	regen		10	10	allskills		1	1	att		200	200	deadly		25	25	str		10	10					0
 Runeword65	King's Grace	1		swor	scep									r11	r08	r10				dmg%		100	100	att		150	150	dmg-demon		100	100	dmg-undead		50	50	att-demon		100	100	att-undead		100	100					0
@@ -100,12 +96,11 @@ Runeword31	Edge	1		miss									TirTalAmn	r03	r07	r11				dmg-demon		320	380	dmg-
 Runeword34	Enlightenment	1		tors									PulRalSur	r21	r08	r12				hit-skill	Fire Ball	5	15	gethit-skill	Blaze	5	15	sor		2	2	oskill	Warmth	1	1													0
 Runeword35	Envy																																															0
 Runeword52	Heaven's Will																																															0
-Runeword201	Hysteria	1		tors									ShaelKoEld	r13	r18	r02				move2		65	65	stamdrain		35	35	swing2		40	40	res-all		10	10	oskill	Evade	6	6									0
 Runeword53	Holy Tears																																															0
 Runeword57	Humility																																															0
 Runeword58	Hunger																																															0
 Runeword59	Ice	1		miss									AmnShaelJahLo	r11	r13	r31	r28			dmg%		140	210	aura	Holy Freeze	18	18	extra-cold		25	30	hit-skill	Frost Nova	25	22	levelup-skill	Blizzard	100	40	pierce-cold		20	20	gold%/lvl	25			0
-Runeword60	Infinity	1		pole									BerMalBerIst	r30	r23	r30	r24			dmg%		255	325	move3		35	35	vit/lvl	4			aura	Conviction	12	12	kill-skill	Chain Lightning	50	20	pierce-ltng		45	55	charged	Cyclone Armor	30	21	0
+Runeword60	Infinity	1		pole	spea								BerMalBerIst	r30	r23	r30	r24			dmg%		255	325	move3		35	35	vit/lvl	4			aura	Conviction	12	12	kill-skill	Chain Lightning	50	20	pierce-ltng		45	55	charged	Cyclone Armor	30	21	0
 Runeword61	Innocence																																															0
 Runeword62	Insight	1		pole	staf								RalTirTalSol	r08	r03	r07	r12			dmg%		200	260	att%		180	250	mag%		23	23	oskill	Critical Strike	1	6	cast2		35	35	aura	Meditation	12	17	all-stats		5	5	0
 Runeword63	Jealousy																																															0
@@ -118,8 +113,6 @@ Runeword73	Lightning																																															0
 Runeword77	Loyalty																																															0
 Runeword78	Lust																																															0
 Runeword79	Madness																																															0
-Runeword200	Mania	1		weap									ShaelKoEld	r13	r18	r02				hit-skill	Quickness	5	1	swing2		10	10	dmg%		180	200	aura	Fanaticism	1	1													0
-Runeword207	Metamorphosis	1		helm									IoChamFal	r16	r32	r19				hit-skill	Mark of the Bear	100	1	hit-skill	Mark of the Wolf	100	1	skilltab	16	5	5	ac%		50	80	res-all		10	10	crush		25	25					0
 Runeword84	Mist	1		miss									ChamShaelGulThulIth	r32	r13	r25	r10	r06		allskills		3	3	dmg%		325	375	aura	Concentration	8	12	pierce		100	100	vit		24	24	res-all		40	40					0
 Runeword85	Morning Dew																																															0
 Runeword86	Mystery																																															0
@@ -147,7 +140,6 @@ Runeword117	Rain	1		tors									OrtMalIth	r09	r23	r06				hit-skill	Twister	5	15
 Runeword118	Reason																																															0
 Runeword119	Red																																															0
 Runeword121	Rift	1		pole	scep								HelKoLemGul	r15	r18	r20	r25			dmg-mag		160	250	dmg-fire		60	180	dmg-to-mana		38	38	hit-skill	Tornado	20	16	att-skill	Frozen Orb	16	21	charged	Iron Maiden	40	15	all-stats		5	10	0
-Runeword206	Temper	1		helm									ShaelIoRal	r13	r16	r08				hp%		5	5	ac%		75	100	res-fire		10	30	abs-fire%		10	15													0
 Runeword76	The Lovers																																															0
 Runeword143	Thirst																																															0
 Runeword68	Thirst for Knowledge																																															0
@@ -167,7 +159,7 @@ Runeword157	Void																																															0
 Runeword158	War																																															0
 Runeword159	Water																																															0
 Runeword161	Whisper																																															0
-Runeword47	Widowmaker	1		swor	axe								EthTirLoMalRal	r05	r03	r28	r23	r08		dmg-dem/lvl	15			dmg		340	400	swing3		30	40	hit-skill	Venom	35	15	pierce-pois		20	25	ignore-ac		1	1	heal-kill		10	15	0
+Runeword47	Grief	1		swor	axe								EthTirLoMalRal	r05	r03	r28	r23	r08		dmg-dem/lvl	15			dmg		340	400	swing3		30	40	hit-skill	Venom	35	15	pierce-pois		20	25	ignore-ac		1	1	heal-kill		10	15	0
 Runeword163	Wind	1		mele										r29	r01					dmg%		120	160	swing2		40	40	move2		20	20	reduce-ac		50	50	hit-skill	245	10	9	charged	240	127	13	balance2		15	15	0
 Runeword164	Wings of Hope																																															0
 Runeword99	Winter	1		swor	mace								LemKoElEld	r20	r18	r01	r02			dmg-demon		220	350	dmg-undead		280	300	dmg-cold		100	220	pierce-cold		24	24	hit-skill	Ice Blast	18	20	hit-skill	Frozen Orb	15	13	nofreeze		1	1	0
@@ -176,3 +168,11 @@ Runeword166	Woe			weap	miss																																											0
 Runeword167	Wonder			wand										r04	r12	r24																																0
 Runeword168	Wrath	1		miss									PulLumBerMal	r21	r17	r30	r23			dmg-demon		300	300	dmg-undead		250	300	dmg-ltng		41	240	dmg-mag		85	120	hit-skill	Life Tap	5	10	hit-skill	decrepify	30	1	nofreeze		1	1	0
 Runeword169	Youth																																															0
+Runeword200	Mania	1		weap									ShaelKoEld	r13	r18	r02				hit-skill	Quickness	5	1	swing2		10	10	dmg%		180	200	aura	Fanaticism	1	1													0
+Runeword201	Hysteria	1		tors									ShaelKoEld	r13	r18	r02				move2		65	65	stamdrain		35	35	swing2		40	40	res-all		10	10	oskill	Evade	6	6									0
+Runeword202	Bulwark	1		helm									ShaelIoSol	r13	r16	r12				hp%		5	5	ac%		75	100	red-dmg%		15	15	regen		30	30	lifesteal		4	6									0
+Runeword203	Cure	1		helm									ShaelIoTal	r13	r16	r07				hp%		5	5	ac%		75	100	res-pois		10	30	res-pois-len		50	50	aura	Cleansing	1	1									0
+Runeword204	Ground	1		helm									ShaelIoOrt	r13	r16	r09				hp%		5	5	ac%		75	100	res-ltng		10	30	abs-ltng%		10	15													0
+Runeword205	Hearth	1		helm									ShaelIoThul	r13	r16	r10				hp%		5	5	ac%		75	100	res-cold		10	30	abs-cold%		10	15	nofreeze		1	1									0
+Runeword206	Temper	1		helm									ShaelIoRal	r13	r16	r08				hp%		5	5	ac%		75	100	res-fire		10	30	abs-fire%		10	15													0
+Runeword207	Metamorphosis	1		helm									IoChamFal	r16	r32	r19				hit-skill	Mark of the Bear	100	1	hit-skill	Mark of the Wolf	100	1	skilltab	16	5	5	ac%		80	80	res-all		10	10	crush		25	25					0
