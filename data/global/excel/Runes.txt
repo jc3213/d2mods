@@ -102,7 +102,7 @@ Runeword58	Hunger																																															0
 Runeword59	Ice	1		miss									AmnShaelJahLo	r11	r13	r31	r28			dmg%		140	210	aura	Holy Freeze	18	18	extra-cold		25	30	hit-skill	Frost Nova	25	22	levelup-skill	Blizzard	100	40	pierce-cold		20	20	gold%/lvl	25			0
 Runeword60	Infinity	1		pole	spea								BerMalBerIst	r30	r23	r30	r24			dmg%		255	325	move3		35	35	vit/lvl	4			aura	Conviction	12	12	kill-skill	Chain Lightning	50	20	pierce-ltng		45	55	charged	Cyclone Armor	30	21	0
 Runeword61	Innocence																																															0
-Runeword62	Insight	1		pole	staf								RalTirTalSol	r08	r03	r07	r12			dmg%		200	260	att%		180	250	mag%		23	23	oskill	Critical Strike	1	6	cast2		35	35	aura	Meditation	12	17	all-stats		5	5	0
+Runeword62	Insight	1		pole	staf	miss							RalTirTalSol	r08	r03	r07	r12			dmg%		200	260	att%		180	250	mag%		23	23	oskill	Critical Strike	1	6	cast2		35	35	aura	Meditation	12	17	all-stats		5	5	0
 Runeword63	Jealousy																																															0
 Runeword64	Judgment																																															0
 Runeword67	Knight's Vigil																																															0
@@ -162,8 +162,8 @@ Runeword161	Whisper																																															0
 Runeword47	Grief	1		swor	axe								EthTirLoMalRal	r05	r03	r28	r23	r08		dmg-dem/lvl	15			dmg		340	400	swing3		30	40	hit-skill	Venom	35	15	pierce-pois		20	25	ignore-ac		1	1	heal-kill		10	15	0
 Runeword163	Wind	1		mele										r29	r01					dmg%		120	160	swing2		40	40	move2		20	20	reduce-ac		50	50	hit-skill	245	10	9	charged	240	127	13	balance2		15	15	0
 Runeword164	Wings of Hope																																															0
-Runeword99	Winter	1		swor	mace								LemKoElEld	r20	r18	r01	r02			dmg-demon		220	350	dmg-undead		280	300	dmg-cold		100	220	pierce-cold		24	24	hit-skill	Ice Blast	18	20	hit-skill	Frozen Orb	15	13	nofreeze		1	1	0
-Runeword165	Wisdom	1		helm									PulIthEld	r21	r06	r02				pierce		100	100	manasteal		4	8	att%		15	25	mana-kill		5	5	nofreeze		1	1	enr		10	10					0
+Runeword99	Voice of Reason	1		swor	mace								LemKoElEld	r20	r18	r01	r02			dmg-demon		220	350	dmg-undead		280	300	dmg-cold		100	220	pierce-cold		24	24	hit-skill	Ice Blast	18	20	hit-skill	Frozen Orb	15	13	nofreeze		1	1	0
+Runeword165	Wisdom	1		helm									PulIthEld	r21	r06	r02				pierce		33	33	manasteal		4	8	att%		15	25	mana-kill		5	5	nofreeze		1	1	enr		10	10					0
 Runeword166	Woe			weap	miss																																											0
 Runeword167	Wonder			wand										r04	r12	r24																																0
 Runeword168	Wrath	1		miss									PulLumBerMal	r21	r17	r30	r23			dmg-demon		300	300	dmg-undead		250	300	dmg-ltng		41	240	dmg-mag		85	120	hit-skill	Life Tap	5	10	hit-skill	decrepify	30	1	nofreeze		1	1	0
@@ -175,4 +175,4 @@ Runeword203	Cure	1		helm									ShaelIoTal	r13	r16	r07				hp%		5	5	ac%		75	100	
 Runeword204	Ground	1		helm									ShaelIoOrt	r13	r16	r09				hp%		5	5	ac%		75	100	res-ltng		10	30	abs-ltng%		10	15													0
 Runeword205	Hearth	1		helm									ShaelIoThul	r13	r16	r10				hp%		5	5	ac%		75	100	res-cold		10	30	abs-cold%		10	15	nofreeze		1	1									0
 Runeword206	Temper	1		helm									ShaelIoRal	r13	r16	r08				hp%		5	5	ac%		75	100	res-fire		10	30	abs-fire%		10	15													0
-Runeword207	Metamorphosis	1		helm									IoChamFal	r16	r32	r19				hit-skill	Mark of the Bear	100	1	hit-skill	Mark of the Wolf	100	1	skilltab	16	5	5	ac%		80	80	res-all		10	10	crush		25	25					0
+Runeword207	Metamorphosis	1		helm									IoChamFal	r16	r32	r19				hit-skill	Mark of the Bear	100	1	hit-skill	Mark of the Wolf	100	1	skilltab	16	5	5	ac%		50	80	res-all		10	10	crush		25	25					0
