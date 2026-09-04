@@ -88,10 +88,10 @@ Param=-direct -txt
         - Base duration increased from 120 seconds to **144** seconds
         - Cold damage per level has been increased
     - `Chilling Armor`
-        - Base defense bonus increased from 45% to **60%**
         - Cold damage has been increased
         - Cold damage synergy increased from 7% to **9%**
-        - Defense bonus per level increased from 5% to **9%**
+        - Base defense increased from 45% to **60%**
+        - Defense per level increased from 5% to **9%**
         - Duration per level increased from 6 seconds to **12** seconds
 - Lightning Spells
     - `Nova`
@@ -145,8 +145,8 @@ Param=-direct -txt
 - Offensive Auras
     - `Holy Fire`
         - Fire damage damage has been significantly increased
+        - Fire damage synergy from `Resist Fire` increased from 18% to **21%**
         - Fire damage synergy from `Salvation` increased from 6% to **10%**
-        - Fire synergy from `Resist Fire` increased from 18% to **21%**
     - `Thorns`
         - Gains extra `Attacker Takes Damage of` property when activated
     - `Blessed Aim`
@@ -218,8 +218,12 @@ Param=-direct -txt
 #### Druid
 
 - Shape Shifting
+    - `Werebear`
+        - Damage per level increased from 8% to **15%**
+        - Base defense increased from 25% to **40%**
+        - Defense per level increased from 6% to **10%**
     - `Maul`
-        - Per charge damage increased from 20% to **30%**
+        - Damage per charge increased from 20% to **30%**
         - Gains **+3% Attack Speed** per charge
         - Base attack rating increased from 20% to **40%**
         - Attack rating per level increased from 10% to **15%**
@@ -256,7 +260,7 @@ Param=-direct -txt
         - Won't replace **Spirit Wolves** and **Grizzly**
         - Base life has been increased
         - Damage has been increased
-        - Defense bonus display has been corrected
+        - Defense display has been corrected
     - `Solar Creeper`
         - Base mana steal increased from 1% to **4%**
         - Gains **+1% Mana Steal** per level
@@ -277,7 +281,6 @@ Param=-direct -txt
         - Removed synergy from `Hurricane`
     - `Volcano`
         - Synergy increased from 12% to **16%**
-        - Display **Duration**
     - `Armageddon`
         - Display **Physic Damage**
         - Physic damage has been significantly increased
@@ -323,7 +326,7 @@ Param=-direct -txt
 - Shadow Disciplines
     - `Shadow Warrior`
         - Cast delay reduced from 6 seconds to **0.6** second
-        - Defense bonus display has been corrected
+        - Defense display has been corrected
     - `Venom`
         - Duration per level increased from 4 seconds to **12** seconds
     - `Shadow Master`
