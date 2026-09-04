@@ -435,6 +435,9 @@ Param=-direct -txt
 - Mania
     - Works on `Weapons`
     - `Shael Rune` + `Ko Rune` + `Eld Rune`
+- Metamorphosis
+    - Works on `Healms`
+    - `Io Rune` + `Cham Rune` + `Fal Rune`
 - Mist
     - Works on `Missile Weapons`
     - `Cham Rune` + `Shael Rune` + `Gul Rune` + `Thul Rune` + `Ith Rune`
