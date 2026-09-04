@@ -359,20 +359,13 @@ Param=-direct -txt
 
 ### Unique Items
 
-- `Bloodletter`
-    - Gladius
-    - Added **+20% Faster Run/Walk**
-- `The Battlebranch`
-    - Poleaxe
-    - Base item level reduced from 34 to **30**
-    - Required level reduced from 25 to **17**
+- `Pluckeye`
+    - Short Bow
+    - Added **+25% Increased Attack Speed**
 - `Rogue's Bow`
     - Composite Bow
     - Added **+1-3 Fire Arrow (Amazon Only)**
     - Added **+1-3 Cold Arrow (Amazon Only)**
-- `Pluckeye`
-    - Short Bow
-    - Added **+25% Increased Attack Speed**
 - `Bane Ash`
     - Short Staff
     - Removed **+20% Increased Attack Speed**
@@ -385,12 +378,34 @@ Param=-direct -txt
     - Leather Armor
     - Faster Run/Walk increased from 10% to **30%**
     - Added **+1 Mana After Each Kill**
+- `The Battlebranch`
+    - Poleaxe
+    - Base item level reduced from 34 to **30**
+    - Required level reduced from 25 to **17**
 - `The Ward`
     - Gothic Shield
     - Added **Socketed (1)**
+- `Bloodletter`
+    - Gladius
+    - Added **+20% Faster Run/Walk**
 - `Manald Heal`
     - Ring
     - Added **+10% Faster Cast Rate**
+
+### Set Items
+
+#### Angelic Raiment
+
+- `Angelic Sickle`
+    - Sabre
+    - Added **+6 Damage** 
+        - 3 pieces equipped
+- `Angelic Mantle`
+    - Ring Mail
+    - Added **+100% Damage to Undead**
+        - 3 pieces equipped
+- **Full Set**
+    - Added **+1 to All Skills**
 
 ### Runewords
 
