@@ -543,7 +543,7 @@ Param=-direct -txt
 
 ### Weapons
 
-#### Knife
+#### Knives
 
 - `Blade`
     - Maximum sockets increased from 2 to **3**
@@ -552,7 +552,7 @@ Param=-direct -txt
 - `Legend Spike`
     - Maximum sockets increased from 2 to **3**
 
-#### Throwing
+#### Throwing Weapons
 
 - `Throwing Knife`
     - Quantity increased from 160 to **240**
@@ -610,7 +610,6 @@ Param=-direct -txt
     - Quantity increased from 80 to **120**
 
 ### Misc
-
 - `Stash` size increased from 6x8 to **10x10**
 - `Arrow` and `Bolts` quantity has been incresed to **500**
 - Gems now share the same drop rate as `Amethyst`
