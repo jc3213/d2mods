@@ -541,6 +541,74 @@ Param=-direct -txt
 - `Hell 3`
     - Increased Level from 83 to **85**
 
+### Weapons
+
+#### Knife
+
+- `Blade`
+    - Maximum sockets increased from 2 to **3**
+- `Stilleto`
+    - Maximum sockets increased from 2 to **3**
+- `Legend Spike`
+    - Maximum sockets increased from 2 to **3**
+
+#### Throwing
+
+- `Throwing Knife`
+    - Quantity increased from 160 to **240**
+- `Throwing Axe`
+    - Quantity increased from 130 to **200**
+- `Balanced Knife`
+    - Quantity increased from 160 to **240**
+- `Balanced Axe`
+    - Quantity increased from 130 to **200**
+- `Javelin`
+    - Quantity increased from 60 to **90**
+- `Pilum`
+    - Quantity increased from 50 to **75**
+- `Short Spear`
+    - Quantity increased from 40 to **60**
+- `Glaive`
+    - Quantity increased from 40 to **60**
+- `Throwing Spear`
+    - Quantity increased from 80 to **120**
+ - `Battle Dart`
+    - Quantity increased from 160 to **240**
+- `Francisca`
+    - Quantity increased from 130 to **200**
+- `War Dart`
+    - Quantity increased from 160 to **240**
+- `Hurlbat`
+    - Quantity increased from 130 to **200**
+- `War Javelin`
+    - Quantity increased from 60 to **90**
+- `Great Pilum`
+    - Quantity increased from 50 to **75**
+- `Simbilan`
+    - Quantity increased from 40 to **60**
+- `Spiculum`
+    - Quantity increased from 20 to **30**
+- `Harpoon`
+    - Quantity increased from 80 to **120**
+- `Flying Knife`
+    - Quantity increased from 200 to **300**
+- `Flying Axe`
+    - Quantity increased from 180 to **270**
+- `Winged Knife`
+    - Quantity increased from 200 to **300**
+- `Winged Axe`
+    - Quantity increased from 180 to **270**
+- `Hyperion Javelin`
+    - Quantity increased from 100 to **150**
+- `Stygian Pilum`
+    - Quantity increased from 90 to **140**
+- `Balrog Spear`
+    - Quantity increased from 80 to **120**
+- `Ghost Glaive`
+    - Quantity increased from 75 to **120**
+- `Winged Harpoon`
+    - Quantity increased from 80 to **120**
+
 ### Misc
 
 - `Stash` size increased from 6x8 to **10x10**
