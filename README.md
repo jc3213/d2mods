@@ -165,6 +165,9 @@ Param=-direct -txt
     - `Resist Lightning`
         - Display additional **Maximum Lightning Resist**
 - Combat Skills
+    - `Sacrifice`
+        - Damage to self is **reduced by 1% every 3 skill levels**
+        - Minimum damage to self is **1%**
     - `Holy Bolt`
         - Heal synergy increased from 15% to **20%**
     - `Conversion`
