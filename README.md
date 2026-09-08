@@ -41,6 +41,7 @@ Param=-direct -txt
         - May not working
     - `Guided Arrow`
         - Gains **+12% Damage** per level of `Multiple Shot`
+        - Damage per level increased from 5% to **7%**
     - `Strafe`
         - Removed 3/4 weapon damage
         - Gains **+5% Damage** per level of `Multiple Shot`
