@@ -38,9 +38,11 @@ Param=-direct -txt
 - Bow and Crossbow Skills
     - `Multiple Shot`
         - Gains **+12% Damage** per level of `Guided Arrow`
+        - May not working
     - `Guided Arrow`
         - Gains **+12% Damage** per level of `Multiple Shot`
     - `Strafe`
+        - Removed 3/4 weapon damage
         - Gains **+5% Damage** per level of `Multiple Shot`
         - Gains **+10% Damage** per level of `Guided Arrow`
         - Gains **30%** base attack rating
@@ -316,11 +318,13 @@ Param=-direct -txt
         - Removed synergy from `Death Sentry`
         - Display inferno range
     - `Blade Sentinel`
+        - Weapon damage has been increased from 3/8 to **3/4**
         - Gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
         - Cast delay reduced from 2 seconds to **1** second
     - `Blade Fury`
         - Gains **+10% Damage** per level of `Blade Sentinel` and `Blade Shield`
     - `Blade Shield`
+        - Weapon damage has been increased from 1/4 to **3/4**
         - Gains **+10% Damage** per level of `Blade Sentinel` and `Blade Fury`
         - Base duration increased from 20 seconds to **120** seconds
         - Duration per level increased from 5 seconds to **12** seconds
