@@ -472,7 +472,7 @@ Param=-direct -txt
     - `Fal Rune` + `Io Rune` + `Ith Rune` + `Eld Rune` + `El Rune` + `Hel Rune`
 - Wisdom
     - Works on `Helms`
-    - `Pul Rune` + `Ith Rune` + `Eth Rune`
+    - `Pul Rune` + `Ith Rune` + `Eld Rune`
 
 ### Hireling
 
