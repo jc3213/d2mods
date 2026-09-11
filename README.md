@@ -100,7 +100,7 @@ Param=-direct -txt
     - `Nova`
         - Gains **+5% Lightning Damage** per level of `Static Field`
     - `Thunder Storm`
-        - Gains **7% Lightning Damage** per level of `Static Field`
+        - Gains **+7% Lightning Damage** per level of `Static Field`
         - Base duration increased from 32 seconds to **144** seconds
         - Duration per level increased from 5 seconds to **24** seconds
         - Display **Radius**
@@ -116,7 +116,7 @@ Param=-direct -txt
     - `Blaze`
         - Fire damage per level has been increased
         - Fire damage synergy from `Warmth` increased from 4% to **6%**
-        - Gains **+2%** `Walk/Run Speed` per level when activated
+        - Gains **+2% Walk/Run Speed** per level when activated
         - Removed synergy from `Fire Wall`
     - `Fire Ball`
         - Radius display has been corrected to **2.6** yards
@@ -305,6 +305,10 @@ Param=-direct -txt
     - `Shock Web`
         - Synergy increased from 11% to **17%**
         - Removed synergy from `Death Sentry`
+    - `Blade Sentinel`
+        - Weapon damage has been increased from 3/8 to **3/4**
+        - Gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
+        - Cast delay reduced from 2 seconds to **1** second
     - `Charged Sentry`
         - Synergy increased from 6% → **9%**
         - Removed synergy from `Death Sentry`
@@ -313,25 +317,21 @@ Param=-direct -txt
         - Removed synergy from `Death Sentry`
     - `Wake of Fire`
         - Synergy increased from 8% to **10%**
+    - `Blade Fury`
+        - Gains **+10% Damage** per level of `Blade Sentinel` and `Blade Shield`
     - `Wake of Inferno`
         - Synergy increased from 7% / 10% to **18%**
         - Base fire damage has been significantly increased
         - Removed synergy from `Death Sentry`
         - Display inferno range
-    - `Blade Sentinel`
-        - Weapon damage has been increased from 3/8 to **3/4**
-        - Gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
-        - Cast delay reduced from 2 seconds to **1** second
-    - `Blade Fury`
-        - Gains **+10% Damage** per level of `Blade Sentinel` and `Blade Shield`
     - `Blade Shield`
         - Weapon damage has been increased from 1/4 to **3/4**
         - Gains **+10% Damage** per level of `Blade Sentinel` and `Blade Fury`
         - Base duration increased from 20 seconds to **120** seconds
         - Duration per level increased from 5 seconds to **12** seconds
-    - `Fade`
-        - Display damage resist
 - Shadow Disciplines
+    - `Fade`
+        - Display **Damage Resist**
     - `Shadow Warrior`
         - Cast delay reduced from 6 seconds to **0.6** second
         - Defense display has been corrected
