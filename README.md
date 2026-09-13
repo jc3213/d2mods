@@ -312,13 +312,13 @@ Param=-direct -txt
     - `Charged Sentry`
         - Synergy increased from 6% → **9%**
         - Removed synergy from `Death Sentry`
-    - `Lightning Sentry`
-        - Synergy increased from 12% to **18%**
-        - Removed synergy from `Death Sentry`
     - `Wake of Fire`
         - Synergy increased from 8% to **10%**
     - `Blade Fury`
         - Gains **+10% Damage** per level of `Blade Sentinel` and `Blade Shield`
+    - `Lightning Sentry`
+        - Synergy increased from 12% to **18%**
+        - Removed synergy from `Death Sentry`
     - `Wake of Inferno`
         - Synergy increased from 7% / 10% to **18%**
         - Base fire damage has been significantly increased
