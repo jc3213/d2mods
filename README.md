@@ -37,13 +37,14 @@ Param=-direct -txt
 
 - Bow and Crossbow Skills
     - `Multiple Shot`
+        - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
         - Gains **+12% Damage** per level of `Guided Arrow`
         - May not working
     - `Guided Arrow`
         - Gains **+12% Damage** per level of `Multiple Shot`
         - Damage per level increased from 5% to **7%**
     - `Strafe`
-        - Removed 3/4 weapon damage
+        - Removed `Weapon Damage 3/4`
         - Gains **+5% Damage** per level of `Multiple Shot`
         - Gains **+10% Damage** per level of `Guided Arrow`
         - Gains **30%** base attack rating
@@ -60,6 +61,8 @@ Param=-direct -txt
         - Removed synergy from `Lightning Fury`
     - `Poison Javelin`
         - Maximum poison damage over skill level 28 has been increased
+    - `Lightning Bolt`
+        - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
     - `Charged Strike`
         - Synergy increased from 10% to **14%**
         - Removed synergy from `Lightning Fury`
@@ -307,6 +310,7 @@ Param=-direct -txt
         - Removed synergy from `Death Sentry`
     - `Blade Sentinel`
         - Weapon damage has been increased from 3/8 to **3/4**
+        - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
         - Gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
         - Cast delay reduced from 2 seconds to **1** second
     - `Charged Sentry`
@@ -326,6 +330,7 @@ Param=-direct -txt
         - Display inferno range
     - `Blade Shield`
         - Weapon damage has been increased from 1/4 to **3/4**
+        - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
         - Gains **+10% Damage** per level of `Blade Sentinel` and `Blade Fury`
         - Base duration increased from 20 seconds to **120** seconds
         - Duration per level increased from 5 seconds to **12** seconds
