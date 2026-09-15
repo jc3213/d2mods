@@ -294,6 +294,7 @@ Param=-direct -txt
         - Display **Physic Damage**
         - Physic damage has been significantly increased
         - Gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
+        - Removed restriction to player sight
         - Removed restriction to `Hurricane`
         - Removed cast delay
     - `Hurricane`
