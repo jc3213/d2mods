@@ -210,10 +210,14 @@ Param=-direct -txt
         - Attack rating per level increased from 15% to **20%**
         - Mana cost increased from 9 to **10**
         - Not area attack yet, **Help wanted**
+    - `Frenzy`
+        - Gains **0.4 seconds** per level of `Increased Stamina`
     - `Whirlwind`
         - Base damage increased from -50% to **+30%**
         - Damage per level reduced from 8% to **5%**
         - Gains **50%** base attack rating
+    - `Berserk`
+        - Damage synergy from `Shout` changed to `Battle Orders`
 - Warcries
     - `Shout`
         - Base duration increased from 20 seconds to **30** seconds
