@@ -211,7 +211,7 @@ Param=-direct -txt
         - Mana cost increased from 9 to **10**
         - Not area attack yet, **Help wanted**
     - `Frenzy`
-        - Gains **0.4 seconds** per level of `Increased Stamina`
+        - Gains **0.4 Seconds** per level of `Increased Stamina`
     - `Whirlwind`
         - Base damage increased from -50% to **+30%**
         - Damage per level reduced from 8% to **5%**
