@@ -42,37 +42,37 @@ Param=-direct -txt
         - May not working
     - `Guided Arrow`
         - Gains **+12% Damage** per level of `Multiple Shot`
-        - Damage per level increased from 5% to **7%**
+        - Damage per level increased from +5% to **+7%**
     - `Strafe`
         - Removed `Weapon Damage 3/4`
         - Gains **+5% Damage** per level of `Multiple Shot`
         - Gains **+10% Damage** per level of `Guided Arrow`
-        - Gains **30%** base attack rating
-        - Gains **9%** attack rating per level
+        - Gains **+30%** base attack rating
+        - Gains **+9%** attack rating per level
     - `Exploding Arrow`
-        - Synergy increased from 12% to **14%**
+        - Fire damage synergy increased from +12% to **+14%**
         - Fire damage has been increased
     - `Immolation Arrow`
         - Cast delay reduced from 1 second to **0.6** second
         - Average fire damage has been increased
 - Javelin and Spear Skills
     - `Power Strike`
-        - Synergy increased from 10% to **14%**
+        - Lightning damage synergy increased from +10% to **+14%**
         - Removed synergy from `Lightning Fury`
     - `Poison Javelin`
         - Maximum poison damage over skill level 28 has been increased
     - `Lightning Bolt`
         - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
     - `Charged Strike`
-        - Synergy increased from 10% to **14%**
+        - Synergy increased from +10% to **+14%**
         - Removed synergy from `Lightning Fury`
     - `Plague Javelin`
-        - Synergy increased from 10% to **14%**
+        - Poison damage synergy increased from +10% to **+14%**
         - Poison damage has been significantly increased
         - Reduced poison length
         - Cast delay reduced from 4 seconds to **1** second
     - `Lightning Strike`
-        - Synergy increased from 8% to **11%**
+        - Lightning damage synergy increased from +8% to **+11%**
         - Removed synergy from `Lightning Fury`
 - Passive and Magic Skills
     - `Inner Sight`
@@ -95,30 +95,30 @@ Param=-direct -txt
         - Cold damage per level has been increased
     - `Chilling Armor`
         - Cold damage has been increased
-        - Cold damage synergy increased from 7% to **9%**
-        - Base defense increased from 45% to **60%**
-        - Defense per level increased from 5% to **9%**
-        - Duration per level increased from 6 seconds to **12** seconds
+        - Cold damage synergy increased from +7% to **+9%**
+        - Base defense increased from +45% to **+60%**
+        - Defense per level increased from +5% to **+9%**
+        - Duration per level increased from +6 seconds to **+12** seconds
 - Lightning Spells
     - `Nova`
         - Gains **+5% Lightning Damage** per level of `Static Field`
     - `Thunder Storm`
         - Gains **+7% Lightning Damage** per level of `Static Field`
         - Base duration increased from 32 seconds to **144** seconds
-        - Duration per level increased from 5 seconds to **24** seconds
+        - Duration per level increased from +5 seconds to **+24** seconds
         - Display **Radius**
     - `Energy Shield`
-        - Duration per level reduced from 60 seconds to **24** seconds
+        - Duration per level reduced from +60 seconds to **+24** seconds
         - Display **Mana Consumption**
 - Fire Spells
     - `Inferno`
         - Base range increased from 3.3 yards to **5.3** yards
         - Fire damage has been increased
-        - Fire damage synergy increased from 13% to **16%**
+        - Fire damage synergy from `Warmth` increased from +13% to **+16%**
         - Mana per second reduced from 7 to **4**
     - `Blaze`
         - Fire damage per level has been increased
-        - Fire damage synergy from `Warmth` increased from 4% to **6%**
+        - Fire damage synergy from `Warmth` increased from +4% to **+6%**
         - Gains **+2% Walk/Run Speed** per level when activated
         - Removed synergy from `Fire Wall`
     - `Fire Ball`
@@ -134,12 +134,12 @@ Param=-direct -txt
     - `Blood Golem`
         - Gains **+20% Life** per level
         - Base damage has been increased
-        - Damage per level increased from 35% to **55%**
+        - Damage per level increased from +35% to **+55%**
 - Poison and Bone Spells
     - `Bone Spear`
-        - Damage synergy increased from 7% to **8%**
+        - Damage synergy increased from +7% to **+8%**
     - `Bone Spirit`
-        - Damage synergy increased from 6% to **8%**
+        - Damage synergy increased from +6% to **+8%**
 - Curses
     - `Weaken`
         - Gains **-1% Enemy Damage** per level
@@ -151,10 +151,10 @@ Param=-direct -txt
 - Offensive Auras
     - `Holy Fire`
         - Fire damage damage has been significantly increased
-        - Fire damage synergy from `Resist Fire` increased from 18% to **21%**
-        - Fire damage synergy from `Salvation` increased from 6% to **10%**
+        - Fire damage synergy from `Resist Fire` increased from +18% to **+21%**
+        - Fire damage synergy from `Salvation` increased from +6% to **+10%**
     - `Thorns`
-        - Gains extra `Attacker Takes Damage of` property when activated
+        - Gains extra `Attacker Takes Damage of` thorn damage when activated
     - `Blessed Aim`
         - Display **Attack Rating (Passive)**
     - `Holy Freeze`
@@ -172,10 +172,10 @@ Param=-direct -txt
         - Display additional **Maximum Lightning Resist**
 - Combat Skills
     - `Sacrifice`
-        - Damage to self is **reduced by 1% every 3 skill levels**
+        - Damage to self is reduced by 1% every 3 skill levels
         - Minimum damage to self is **1%**
     - `Holy Bolt`
-        - Heal synergy increased from 15% to **20%**
+        - Heal synergy increased from +15% to **+20%**
     - `Conversion`
         - Maximum chance of conversion increased from 50% to **90%**
     - `Fist of the Heavens`
@@ -185,18 +185,18 @@ Param=-direct -txt
 
 - Combat Masteries
     - `Sword Master`
-        - Base attack rating increased from 28% to **40%**
+        - Base attack rating increased from +28% to **+40%**
     - `Axe Master`
-        - Base attack rating increased from 28% to **40%**
+        - Base attack rating increased from +28% to **+40%**
     - `Mace Master`
-        - Base attack rating increased from 28% to **40%**
+        - Base attack rating increased from +28% to **+40%**
     - `Pole Arm Master`
-        - Base attack rating increased from 30% to **44%**
+        - Base attack rating increased from +30% to **+44%**
     - `Throwing Master`
-        - Base attack rating increased from 30% to **44%**
-        - Gains **8-55%** chance to pierce
+        - Base attack rating increased from +30% to **+44%**
+        - Gains **+8-55%** chance to pierce
     - `Spear Master`
-        - Base attack rating increased from 30% to **44%**
+        - Base attack rating increased from +30% to **+44%**
 - Combat Skills
     - `Leap`
         - Base radius increased from 4.6 yards to **7.3** yards
@@ -205,17 +205,18 @@ Param=-direct -txt
         - Added **+8% Damage** per level
     - `Leap Attack`
         - Base radius increased from 4.6 yards to **7.3** yards
-        - Base damage increased from 100% to **200%**
-        - Base attack rating increased from 50% to **100%**
-        - Attack rating per level increased from 15% to **20%**
+        - Base damage increased from +100% to **+200%**
+        - Base attack rating increased from +50% to **+100%**
+        - Attack rating per level increased from +15% to **+20%**
         - Mana cost increased from 9 to **10**
-        - Not area attack yet, **Help wanted**
+        - Gains base physic damage
+            - Not area attack yet, **Help wanted**
     - `Frenzy`
-        - Gains **0.4 Seconds** per level of `Increased Stamina`
+        - Gains **+0.4 Seconds** per level of `Increased Stamina`
     - `Whirlwind`
         - Base damage increased from -50% to **+30%**
-        - Damage per level reduced from 8% to **5%**
-        - Gains **50%** base attack rating
+        - Damage per level reduced from +8% to **+5%**
+        - Gains **+50%** base attack rating
     - `Berserk`
         - Damage synergy from `Shout` changed to `Battle Orders`
 - Warcries
@@ -232,22 +233,22 @@ Param=-direct -txt
 
 - Shape Shifting
     - `Werebear`
-        - Damage per level increased from 8% to **15%**
-        - Base defense increased from 25% to **40%**
-        - Defense per level increased from 6% to **10%**
+        - Damage per level increased from +8% to **1+5%**
+        - Base defense increased from +25% to **+40%**
+        - Defense per level increased from +6% to **+10%**
     - `Maul`
-        - Damage per charge increased from 20% to **30%**
+        - Damage per charge increased from +20% to **+30%**
         - Gains **+3% Attack Speed** per charge
-        - Base attack rating increased from 20% to **40%**
-        - Attack rating per level increased from 10% to **15%**
+        - Base attack rating increased from +20% to **+40%**
+        - Attack rating per level increased from +10% to **+15%**
     - `Rabies`
-        - Synergy increased from 18% to **20%**
-        - Attack rating per level increased from 7% to **10%**
+        - Poison damage synergy increased from +18% to **+20%**
+        - Attack rating per level increased from +7% to **+10%**
     - `Fire Claw`
         - Synergies removed from `Fissure` and `Volcano`
         - Fire damage has been significantly increased
     - `Shock Wave`
-        - Synergy increased from 5% to **10%**
+        - Damage synergy from `Maul` increased from +5% to **+10%**
     - `Fury`
         - Attack rating per level increased from 7% to **10%**
 - Summoning
@@ -255,7 +256,7 @@ Param=-direct -txt
         - Gains **+12% Damage** per level of `Summon Spirit Wolf`, `Summon Dire Wolf` and `Summon Grizzly`
         - Physic damage has been significantly increased
         - Display **Attack Rating**
-        - Attack rating per level increased from 15% to **30%**
+        - Attack rating per level increased from +15% to **+30%**
     - `Poison Creeper`
         - Gains **+10% Poison Damage** per level of `Rabies`
         - Poison damage has been significantly increased
@@ -279,7 +280,7 @@ Param=-direct -txt
         - Gains **+1% Mana Steal** per level
     - `Spirit of Barbs`
         - Removed base radius ~~20 yards~~
-        - Use `Attacker Takes Damage of` instead of `% Damage Returned`
+        - Changed `% Damage Returned` to `Attacker Takes Damage of`
     - `Summon Grizzly`
         - Won't replace **Spirit Wolves** and **Dire Wolves**
         - Base life has been increased
@@ -287,13 +288,13 @@ Param=-direct -txt
         - Life synergy from `Summon Dire Wolf` reduced from 25% to **15%**
 - Elemental
     - `Molten Boulder`
-        - Synergy increased from 10% to **12%**
+        - Damage synergy increased from +10% to **+12%**
         - Cast delay reduced from 2 seconds to **1** second
     - `Arctic Blast`
         - Cold damage has been increased
         - Removed synergy from `Hurricane`
     - `Volcano`
-        - Synergy increased from 12% to **16%**
+        - Damage synergy increased from +12% to **+16%**
     - `Armageddon`
         - Display **Physic Damage**
         - Physic damage has been significantly increased
@@ -308,37 +309,35 @@ Param=-direct -txt
 
 - Traps
     - `Fire Blast`
-        - Synergy increased from 9% to **11%**
+        - Fire damage synergy increased from +9% to **+11%**
         - Removed synergy from `Death Sentry`
     - `Shock Web`
-        - Synergy increased from 11% to **17%**
+        - Lightning damage synergy increased from 11% to **17%**
         - Removed synergy from `Death Sentry`
     - `Blade Sentinel`
-        - Weapon damage has been increased from 3/8 to **3/4**
-        - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
+        - Changed **Weapon Damage 3/8** aka (37.5%) to **75% Weapon Damage**
         - Gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
         - Cast delay reduced from 2 seconds to **1** second
     - `Charged Sentry`
-        - Synergy increased from 6% → **9%**
+        - Lightning damage synergy increased from +6% to **+9%**
         - Removed synergy from `Death Sentry`
     - `Wake of Fire`
-        - Synergy increased from 8% to **10%**
+        - Fire damage synergy increased from +8% to **+10%**
     - `Blade Fury`
         - Gains **+10% Damage** per level of `Blade Sentinel` and `Blade Shield`
     - `Lightning Sentry`
-        - Synergy increased from 12% to **18%**
+        - Lightning damage synergy increased from +12% to **+18%**
         - Removed synergy from `Death Sentry`
     - `Wake of Inferno`
-        - Synergy increased from 7% / 10% to **18%**
+        - Fire damage synergy increased from +7% / +10% to **+18%**
         - Base fire damage has been significantly increased
         - Removed synergy from `Death Sentry`
         - Display inferno range
     - `Blade Shield`
-        - Weapon damage has been increased from 1/4 to **3/4**
-        - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
+        - Changed **Weapon Damage 1/4** aka (25%) to **75% Weapon Damage**
         - Gains **+10% Damage** per level of `Blade Sentinel` and `Blade Fury`
         - Base duration increased from 20 seconds to **120** seconds
-        - Duration per level increased from 5 seconds to **12** seconds
+        - Duration per level increased from +5 seconds to **+12** seconds
 - Shadow Disciplines
     - `Fade`
         - Display **Damage Resist**
@@ -349,34 +348,34 @@ Param=-direct -txt
         - Duration per level increased from 4 seconds to **12** seconds
     - `Shadow Master`
         - Cast delay reduced from 6 seconds to **0.6** second
-        - Minimum resist all increased from 5% to **17%**
+        - Minimum resist all increased from +5% to **+17%**
 - Martial Arts
     - `Tiger Strike`
-        - Base attack rating increased from 15% to **25%**
-        - Attack rating per level increased from 7% to **10%**
+        - Base attack rating increased from +15% to **+25%**
+        - Attack rating per level increased from +7% to **+10%**
     - `Fists of Fire`
-        - Base attack rating increased from 15% to **25%**
-        - Attack rating per level increased from 7% to **10%**
+        - Base attack rating increased from +15% to **+25%**
+        - Attack rating per level increased from +7% to **+10%**
         - Fire damage radius increased from 2.6 yards to **4** yards
     - `Dragon Claw`
-        - Damage per level increased from 5% to **15%**
+        - Damage per level increased from +5% to **+15%**
     - `Cobra Strike`
-        - Base attack rating increased from 15% to **25%**
-        - Attack rating per level increased from 7% to **10%**
+        - Base attack rating increased from +15% to **+25%**
+        - Attack rating per level increased from +7% to **+10%**
     - `Claws of Thunder`
-        - Base attack rating increased from 15% to **25%**
-        - Attack rating per level increased from 7% to **10%**
+        - Base attack rating increased from +15% to **+25%**
+        - Attack rating per level increased from +7% to **+10%**
     - `Dragon Tail`
-        - Damage per level increased from 10% to **20%**
+        - Damage per level increased from +10% to **+20%**
     - `Blades of Ice`
-        - Base attack rating increased from 15% to **25%**
-        - Attack rating per level increased from 7% to **10%**
+        - Base attack rating increased from +15% to **+25%**
+        - Attack rating per level increased from +7% to **+10%**
     - `Dragon Flight`
-        - Damage per level increased from 25% to **35%**
+        - Damage per level increased from +25% to **+35%**
         - Removed cast delay
     - `Phoenix Strike`
-        - Base attack rating increased from 15% to **25%**
-        - Attack rating per level increased from 7% to **10%**
+        - Base attack rating increased from +15% to **+25%**
+        - Attack rating per level increased from +7% to **+10%**
 
 ### Unique Items
 
