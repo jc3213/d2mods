@@ -184,18 +184,18 @@ Param=-direct -txt
 #### Barbarian
 
 - Combat Masteries
-    - `Sword Master`
+    - `Sword Mastery`
         - Base attack rating increased from +28% to **+40%**
-    - `Axe Master`
+    - `Axe Mastery`
         - Base attack rating increased from +28% to **+40%**
-    - `Mace Master`
+    - `Mace Mastery`
         - Base attack rating increased from +28% to **+40%**
-    - `Pole Arm Master`
+    - `Pole Arm Mastery`
         - Base attack rating increased from +30% to **+44%**
-    - `Throwing Master`
+    - `Throwing Mastery`
         - Base attack rating increased from +30% to **+44%**
         - Gains **+8-55%** chance to pierce
-    - `Spear Master`
+    - `Spear Mastery`
         - Base attack rating increased from +30% to **+44%**
 - Combat Skills
     - `Leap`
@@ -209,7 +209,7 @@ Param=-direct -txt
         - Base attack rating increased from +50% to **+100%**
         - Attack rating per level increased from +15% to **+20%**
         - Mana cost increased from 9 to **10**
-        - Gains base physic damage
+        - Gains base physical damage
             - Not area attack yet, **Help wanted**
     - `Frenzy`
         - Gains **+0.4 Seconds** per level of `Increased Stamina`
@@ -225,7 +225,7 @@ Param=-direct -txt
     - `Find Item`
         - Gains **+1% Chance** per level of `Find Potion`
     - `War Cry`
-        - Physic damage has been increased
+        - Physical damage has been increased
     - `Battle Command`
         - Base duration increased from 5 seconds to **30** seconds
 
@@ -254,7 +254,7 @@ Param=-direct -txt
 - Summoning
     - `Raven`
         - Gains **+12% Damage** per level of `Summon Spirit Wolf`, `Summon Dire Wolf` and `Summon Grizzly`
-        - Physic damage has been significantly increased
+        - Physical damage has been significantly increased
         - Display **Attack Rating**
         - Attack rating per level increased from +15% to **+30%**
     - `Poison Creeper`
@@ -296,8 +296,8 @@ Param=-direct -txt
     - `Volcano`
         - Damage synergy increased from +12% to **+16%**
     - `Armageddon`
-        - Display **Physic Damage**
-        - Physic damage has been significantly increased
+        - Display **Physical Damage**
+        - Physical damage has been significantly increased
         - Gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
         - Removed restriction to player sight
         - Removed restriction to `Hurricane`
@@ -626,8 +626,28 @@ Param=-direct -txt
 - `Winged Harpoon`
     - Quantity increased from 80 to **120**
 
+### Quiver
+
+- `Arrows`
+    - Quantity increased from 350 to **500**
+- `Bolts`
+    - Quantity increased from 250 to **500**
+
+### Gem
+
+- `Ruby`
+    - Same drop rate as `Amethyst`
+- `Topaz`
+    - Same drop rate as `Amethyst`
+- `Sapphire`
+    - Same drop rate as `Amethyst`
+- `Diamond`
+    - Same drop rate as `Amethyst`
+- `Emerald`
+    - Same drop rate as `Amethyst`
+- `Skull`
+    - Same drop rate as `Amethyst`
+
 ### Misc
 
 - `Stash` size increased from 6x8 to **10x10**
-- `Arrow` and `Bolts` quantity incresed to **500**
-- All **Gems** share the same drop rate as `Amethyst`
