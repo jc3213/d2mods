@@ -39,9 +39,20 @@ jobs:
 
           ORIGDIR="${REPO}-${TAG}"
 
-          echo "Renaming $ORIGDIR to d2mods-full"
           rm -rf d2mods-full
-          mv "$ORIGDIR" d2mods-full
+          mkdir -p d2mods-full
+
+          if [ -d "$ORIGDIR/data" ]; then
+            mv "$ORIGDIR/data" d2mods-full/
+          fi
+
+          shopt -s nocaseglob
+          if [ -f "$ORIGDIR/readme.md" ]; then
+            mv "$ORIGDIR/readme.md" d2mods-full/
+          fi
+          shopt -u nocaseglob
+
+          rm -rf "$ORIGDIR" source.zip
 
       - name: Download PlugY
         run: |
