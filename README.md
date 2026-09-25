@@ -22,6 +22,13 @@ Param=-direct -txt
 ```
 - Run **PlugY.exe**
 
+### Patch_D2.mpq
+- Download latest [Patch_D2.mpq](https://github.com/jc3213/d2mods/releases/download/latest/Patch_D2.mpq)
+- Backup the original one
+- Copy to game folder
+- Enjoy
+- **1.14 only**
+
 ### Full Version
 
 - Download latest [d2mods-full.zip](https://github.com/jc3213/d2mods/releases/latest/download/d2mods-full.zip)
