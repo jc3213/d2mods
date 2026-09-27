@@ -45,17 +45,17 @@ Param=-direct -txt
 - Bow and Crossbow Skills
     - `Multiple Shot`
         - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
-        - Gains **+12% Damage** per level of `Guided Arrow`
+        - Gains **+12% Damage** per level from `Guided Arrow`
         - May not working
     - `Guided Arrow`
-        - Gains **+12% Damage** per level of `Multiple Shot`
+        - Gains **+12% Damage** per level from `Multiple Shot`
         - Damage per level increased from +5% to **+7%**
     - `Strafe`
         - Removed `Weapon Damage 3/4`
-        - Gains **+5% Damage** per level of `Multiple Shot`
-        - Gains **+10% Damage** per level of `Guided Arrow`
-        - Gains **+30%** base attack rating
-        - Gains **+9%** attack rating per level
+        - Gains **+5% Damage** per level from `Multiple Shot`
+        - Gains **+10% Damage** per level from `Guided Arrow`
+        - Gains **+30% Attack Rating**
+        - Gains **+9% Attack Rating** per level
     - `Exploding Arrow`
         - Fire damage synergy increased from +12% to **+14%**
         - Fire damage has been increased
@@ -108,9 +108,9 @@ Param=-direct -txt
         - Duration per level increased from +6 seconds to **+12** seconds
 - Lightning Spells
     - `Nova`
-        - Gains **+5% Lightning Damage** per level of `Static Field`
+        - Gains **+5% Lightning Damage** per level from `Static Field`
     - `Thunder Storm`
-        - Gains **+7% Lightning Damage** per level of `Static Field`
+        - Gains **+7% Lightning Damage** per level from `Static Field`
         - Base duration increased from 32 seconds to **144** seconds
         - Duration per level increased from +5 seconds to **+24** seconds
         - Display **Radius**
@@ -161,7 +161,7 @@ Param=-direct -txt
         - Fire damage synergy from `Resist Fire` increased from +18% to **+21%**
         - Fire damage synergy from `Salvation` increased from +6% to **+10%**
     - `Thorns`
-        - Gains extra `Attacker Takes Damage of` thorn damage when activated
+        - Gains `Attacker Takes Damage of` when activated
     - `Blessed Aim`
         - Display **Attack Rating (Passive)**
     - `Holy Freeze`
@@ -201,7 +201,7 @@ Param=-direct -txt
         - Base attack rating increased from +30% to **+44%**
     - `Throwing Mastery`
         - Base attack rating increased from +30% to **+44%**
-        - Gains **+8-55%** chance to pierce
+        - Gains **+8-55% Chance to Pierce**
     - `Spear Mastery`
         - Base attack rating increased from +30% to **+44%**
 - Combat Skills
@@ -209,7 +209,8 @@ Param=-direct -txt
         - Base radius increased from 4.6 yards to **7.3** yards
         - Display **Knockback Radius**
     - `Double Throw`
-        - Added **+8% Damage** per level
+        - Gains **+16% Damage**
+        - Gains **+8% Damage** per level
     - `Leap Attack`
         - Base radius increased from 4.6 yards to **7.3** yards
         - Base damage increased from +100% to **+200%**
@@ -219,18 +220,18 @@ Param=-direct -txt
         - Gains base physical damage
             - Not area attack yet, **Help wanted**
     - `Frenzy`
-        - Gains **+0.4 Seconds** per level of `Increased Stamina`
+        - Gains **+0.4 Seconds** per level from `Increased Stamina`
     - `Whirlwind`
         - Base damage increased from -50% to **+30%**
         - Damage per level reduced from +8% to **+5%**
-        - Gains **+50%** base attack rating
+        - Gains **+50% Attack Rating**
     - `Berserk`
         - Damage synergy from `Shout` changed to `Battle Orders`
 - Warcries
     - `Shout`
         - Base duration increased from 20 seconds to **30** seconds
     - `Find Item`
-        - Gains **+1% Chance** per level of `Find Potion`
+        - Gains **+1% Chance** per level from `Find Potion`
     - `War Cry`
         - Physical damage has been increased
     - `Battle Command`
@@ -260,12 +261,12 @@ Param=-direct -txt
         - Attack rating per level increased from 7% to **10%**
 - Summoning
     - `Raven`
-        - Gains **+12% Damage** per level of `Summon Spirit Wolf`, `Summon Dire Wolf` and `Summon Grizzly`
+        - Gains **+12% Damage** per level from `Summon Spirit Wolf`, `Summon Dire Wolf` and `Summon Grizzly`
         - Physical damage has been significantly increased
         - Display **Attack Rating**
         - Attack rating per level increased from +15% to **+30%**
     - `Poison Creeper`
-        - Gains **+10% Poison Damage** per level of `Rabies`
+        - Gains **+10% Poison Damage** per level from `Rabies`
         - Poison damage has been significantly increased
     - `Summon Spirit Wolf`
         - Won't replace **Dire Wolves** and **Grizzly**
@@ -305,7 +306,7 @@ Param=-direct -txt
     - `Armageddon`
         - Display **Physical Damage**
         - Physical damage has been significantly increased
-        - Gains **+18% Damage** instead of **+14% Fire Damage** per level of `Volcano`
+        - Gains **+18% Damage** instead of **+14% Fire Damage** per level from `Volcano`
         - Removed restriction to player sight
         - Removed restriction to `Hurricane`
         - Removed cast delay
@@ -323,7 +324,7 @@ Param=-direct -txt
         - Removed synergy from `Death Sentry`
     - `Blade Sentinel`
         - Changed **Weapon Damage 3/8** aka (37.5%) to **75% Weapon Damage**
-        - Gains **+10% Damage** per level of `Blade Fury` and `Blade Shield`
+        - Gains **+10% Damage** per level from `Blade Fury` and `Blade Shield`
         - Cast delay reduced from 2 seconds to **1** second
     - `Charged Sentry`
         - Lightning damage synergy increased from +6% to **+9%**
@@ -331,7 +332,7 @@ Param=-direct -txt
     - `Wake of Fire`
         - Fire damage synergy increased from +8% to **+10%**
     - `Blade Fury`
-        - Gains **+10% Damage** per level of `Blade Sentinel` and `Blade Shield`
+        - Gains **+10% Damage** per level from `Blade Sentinel` and `Blade Shield`
     - `Lightning Sentry`
         - Lightning damage synergy increased from +12% to **+18%**
         - Removed synergy from `Death Sentry`
@@ -342,7 +343,7 @@ Param=-direct -txt
         - Display inferno range
     - `Blade Shield`
         - Changed **Weapon Damage 1/4** aka (25%) to **75% Weapon Damage**
-        - Gains **+10% Damage** per level of `Blade Sentinel` and `Blade Fury`
+        - Gains **+10% Damage** per level from `Blade Sentinel` and `Blade Fury`
         - Base duration increased from 20 seconds to **120** seconds
         - Duration per level increased from +5 seconds to **+12** seconds
 - Shadow Disciplines
