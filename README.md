@@ -36,6 +36,9 @@ Param=-direct -txt
 #### Amazon
 
 - Bow and Crossbow Skills
+    - `Magic Arrow`
+        - Base magic damage convertion increased from 1% to **5%**
+        - Magic damage conversion per level increased from 1% to **2**
     - `Multiple Shot`
         - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
         - Gains **+12% Damage** per level from `Guided Arrow`
