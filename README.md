@@ -237,7 +237,7 @@ Param=-direct -txt
 
 - Shape Shifting
     - `Werebear`
-        - Damage per level increased from +8% to **1+5%**
+        - Damage per level increased from +8% to **+15%**
         - Base defense increased from +25% to **+40%**
         - Defense per level increased from +6% to **+10%**
     - `Maul`
