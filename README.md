@@ -342,7 +342,6 @@ Param=-direct -txt
         - Gains **+10% Damage** per level from `Blade Sentinel` and `Blade Fury`
         - Base duration increased from 20 seconds to **120** seconds
         - Duration per level increased from +5 seconds to **+12** seconds
-        - Display **Radius**
 - Shadow Disciplines
     - `Fade`
         - Display **Damage Resist**
