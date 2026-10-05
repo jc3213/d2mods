@@ -166,6 +166,7 @@ Param=-direct -txt
         - Maximum aura lightning damage has been doubled
     - `Sancturary`
         - Maximum aura magic damage has been doubled
+        - Removed hidden **Mana Cost: 1**
 - Defensive Auras
     - `Resist Fire`
         - Display additional **Maximum Fire Resist**
