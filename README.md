@@ -152,6 +152,8 @@ Param=-direct -txt
 #### Paladin
 
 - Offensive Auras
+    - `Might`
+        - Removed **Minimum Mana Cost: 1**
     - `Holy Fire`
         - Fire damage damage has been significantly increased
         - Fire damage synergy from `Resist Fire` increased from +18% to **+21%**
@@ -166,6 +168,7 @@ Param=-direct -txt
         - Maximum aura lightning damage has been doubled
     - `Sancturary`
         - Maximum aura magic damage has been doubled
+        - Removed **Minimum Mana Cost: 1**
         - Removed hidden **Mana Cost: 1**
 - Defensive Auras
     - `Resist Fire`
