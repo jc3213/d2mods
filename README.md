@@ -208,6 +208,8 @@ Param=-direct -txt
     - `Leap`
         - Base radius increased from 4.6 yards to **7.3** yards
         - Display **Knockback Radius**
+    - `Double Swing`
+        - Fixed mana cost calibration
     - `Double Throw`
         - Gains **+16% Damage**
         - Gains **+8% Damage** per level
