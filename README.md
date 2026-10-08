@@ -496,18 +496,19 @@ Param=-direct -txt
 ### Hireling
 
 - Rogue scout
-    - **Cold Arrow** rogue now fires `Insight`, `Cold Arrow`, and **`Freezing Arrow`**
-        - **D2R data needed**
-    - **Fire Arrow** rogue now fires `Insight`, `Cold Arrow`, and **`Exploding Arrow`**
-        - **D2R data needed**
+    - **Cold Arrow**
+        - Added `Freezing Arrow`
+    - **Fire Arrow**
+        - Added `Exploding Arrow`
 - Iron wolf
-    - **Fire** iron wolf now casts **`Fire Bolt`**, `Fire Ball` and **`Enchant`**
-        - **D2R data needed**
-    - **Lightning** iron wolf now casts `Charged Bolt`, `Lightning`, and **`Static Field`**
-        - **D2R data needed**
+    - **Fire**
+        - Changed `Inferno` to `Fire Bolt`
+        - Added `Enchant`
+    - **Lightning**
+        - Added `Static Field`
 - Barbarian
-    - Now ues `Bash`, `Stun` and **`Battle Cry`**
-        - **D2R data needed**
+    - Adde `Battle Cry`
+
 
 ### Horadric Cube
 
