@@ -42,7 +42,7 @@ Param=-direct -txt
     - `Multiple Shot`
         - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
         - Gains **+12% Damage** per level from `Guided Arrow`
-        - May not working
+            - May not working
     - `Guided Arrow`
         - Gains **+12% Damage** per level from `Multiple Shot`
         - Damage per level increased from +5% to **+7%**
