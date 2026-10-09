@@ -129,13 +129,14 @@ jobs:
         run: |
           cd d2mods-full
           zip -r ../d2mods-full.zip .
-
+          zip -r ../data.zip data
+      
       - name: Upload Mod Package
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TAG="${{ steps.rel.outputs.tag }}"
-          ZIPFILE="d2mods-full.zip"
 
-          echo "Uploading asset: $ZIPFILE"
-          gh release upload "$TAG" "$ZIPFILE" --clobber || true
+          echo "Uploading assets..."
+          gh release upload "$TAG" d2mods-full.zip --clobber || true
+          gh release upload "$TAG" data.zip --clobber || true
