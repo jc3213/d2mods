@@ -2,32 +2,43 @@
 
 ## About
 
-This mod backported all possible changes inspired by Diablo II: Resurrected
+This mod backported all possible changes inspired by Diablo II: Resurrected to Diablo II: Lord of Destruction v1.14d
 
-## How to use
+## Installation
 
-### Vanilla
+### Option 1: Pre-compiled MPQ (Recommended)
 
-- Download latest [release](//github.com/jc3213/d2mods/releases/latest)
-- Extract to the folder where your Diablo II installed
-- Run **Game.exe** with parameters `-direct -txt`
-    - Create a shortcut to run `C:\Diablo II\Game.exe -direct -txt` for example
+1. Download the latest pre-compiled [Patch_D2.mpq](https://github.com/jc3213/d2mods/releases/latest/download/Patch_D2.mpq)
+2. **Back up** your original `Patch_D2.mpq` file in Diablo II installation directory
+3. Copy the downloaded `Patch_D2.mpq` into Diablo II installation directory
+4. Launch `Game.exe`
 
-### Play with PlugY
+---
 
-- Modify **PlugY.ini** and add `-direct -txt` to `[LAUNCHING] > Param`
+### Option 2: Direct Mode (Vanilla + Source Files)
+
+1. Download the latest release package from the [Releases Page](https://github.com/jc3213/d2mods/releases/latest)
+2. Extract the archive into your Diablo II installation directory
+3. Launch `Game.exe` with `-direct -txt` parameters
+
+---
+
+### Option 3: Play with PlugY
+
+1. Open `PlugY.ini` in your game directory
+2. Locate the `[LAUNCHING]` section and set `Param` to `-direct -txt`
 ```ini
 [LAUNCHING]
 Param=-direct -txt
 ```
-- Run **PlugY.exe**
+3. Launch `PlugY.exe`
 
-### Full Version
+### Option 4: Full Package (All-in-One)
 
-- Download latest [d2mods-full.zip](https://github.com/jc3213/d2mods/releases/latest/download/d2mods-full.zip)
-    - Full package includes `PlugY` by [Yohann](http://plugy.free.fr), and `D2DX` /w `D2FPS` & `SGD2FreeRes` by [Jarcho](https://github.com/Jarcho/d2dx)
-- Extract to the folder where your Diablo II installed
-- Run `PlugY.exe`, and enjoy
+1. Download the latest [d2mods-full.zip](https://github.com/jc3213/d2mods/releases/latest/download/d2mods-full.zip)
+   > **Note:** The full package includes pre-configured [PlugY](http://plugy.free.fr) (by Yohann), along with [D2DX](https://github.com/Jarcho/d2dx) combined with `D2FPS`, and `SGD2FreeRes` (by Jarcho)
+2. Extract all contents into your Diablo II installation directory
+3. Launch `PlugY.exe`
 
 ## Changes
 
