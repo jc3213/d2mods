@@ -17,7 +17,7 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
 
 ### Option 2: Direct Mode (Vanilla + Source Files)
 
-1. Download the latest release package from the [Releases Page](https://github.com/jc3213/d2mods/releases/latest)
+1. Download the latest [data.zip](https://github.com/jc3213/d2mods/releases/latest/download/data.zip)
 2. Extract the archive into your Diablo II installation directory
 3. Launch `Game.exe` with `-direct -txt` parameters
 
