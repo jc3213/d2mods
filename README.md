@@ -1,4 +1,4 @@
-# Diablo II LoD Mods
+# Diablo II: Lord of Destruction - Resurrected Mod
 
 ## About
 
@@ -9,7 +9,7 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
 ### Option 1: Pre-compiled MPQ (Recommended)
 
 1. Download the latest pre-compiled [Patch_D2.mpq](https://github.com/jc3213/d2mods/releases/latest/download/Patch_D2.mpq)
-2. **Back up** your original `Patch_D2.mpq` file in Diablo II installation directory
+2. Back up your original `Patch_D2.mpq` file in Diablo II installation directory
 3. Copy the downloaded `Patch_D2.mpq` into Diablo II installation directory
 4. Launch `Game.exe`
 
@@ -27,10 +27,10 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
 
 1. Open `PlugY.ini` in your game directory
 2. Locate the `[LAUNCHING]` section and set `Param` to `-direct -txt`
-```ini
-[LAUNCHING]
-Param=-direct -txt
-```
+   ```ini
+   [LAUNCHING]
+   Param=-direct -txt
+   ```
 3. Launch `PlugY.exe`
 
 ### Option 4: Full Package (All-in-One)
