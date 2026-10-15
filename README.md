@@ -346,6 +346,8 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
         - Fire damage synergy increased from +8% to **+10%**
     - `Blade Fury`
         - Gains **+10% Damage** per level from `Blade Sentinel` and `Blade Shield`
+        - Gains **+10% Attack Rating** per level
+        - Display **Attack Rating**
     - `Lightning Sentry`
         - Lightning damage synergy increased from +12% to **+18%**
         - Removed synergy from `Death Sentry`
