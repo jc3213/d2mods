@@ -77,6 +77,7 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
         - Maximum poison damage over skill level 28 has been increased
     - `Impale`
         - **Uninterruptable**
+        - Still affected by `Dodge`, `Avoid`, and `Evade` due to LoD engine
     - `Lightning Bolt`
         - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
     - `Charged Strike`
