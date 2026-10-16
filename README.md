@@ -515,12 +515,15 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
 
 ### Hireling
 
+- **General**
+    - Same status in all difficulty
 - Rogue scout
     - **Cold Arrow**
         - Added `Freezing Arrow`
     - **Fire Arrow**
         - Added `Exploding Arrow`
 - Iron wolf
+    - Increased **Resistance**
     - **Fire**
         - Changed `Inferno` to `Fire Bolt`
         - Added `Enchant`
@@ -529,6 +532,8 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
     - **Lightning**
         - Added `Static Field`
 - Barbarian
+    - Increased **Life**
+    - Increased **Defense**
     - Adde `Battle Cry`
 
 
