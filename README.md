@@ -524,6 +524,8 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
     - **Fire**
         - Changed `Inferno` to `Fire Bolt`
         - Added `Enchant`
+    - **Cold**
+        - Changed `Frozen Armor` to `Chilling Armor`
     - **Lightning**
         - Added `Static Field`
 - Barbarian
