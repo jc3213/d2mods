@@ -75,6 +75,8 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
         - Removed synergy from `Lightning Fury`
     - `Poison Javelin`
         - Maximum poison damage over skill level 28 has been increased
+    - `Impale`
+        - **Uninterruptable**
     - `Lightning Bolt`
         - Display `75% Weapon Damage` instead of **Weapon Damage 3/4**
     - `Charged Strike`
@@ -376,6 +378,8 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
     - `Tiger Strike`
         - Base attack rating increased from +15% to **+25%**
         - Attack rating per level increased from +7% to **+10%**
+    - `Dragon Talon`
+        - **Uninterruptable**
     - `Fists of Fire`
         - Base attack rating increased from +15% to **+25%**
         - Attack rating per level increased from +7% to **+10%**
@@ -389,11 +393,13 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
         - Base attack rating increased from +15% to **+25%**
         - Attack rating per level increased from +7% to **+10%**
     - `Dragon Tail`
+        - **Uninterruptable**
         - Damage per level increased from +10% to **+20%**
     - `Blades of Ice`
         - Base attack rating increased from +15% to **+25%**
         - Attack rating per level increased from +7% to **+10%**
     - `Dragon Flight`
+        - **Uninterruptable**
         - Damage per level increased from +25% to **+35%**
         - Removed cast delay
     - `Phoenix Strike`
