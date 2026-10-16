@@ -513,29 +513,21 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
     - Works on `Helms`
     - `Pul Rune` + `Ith Rune` + `Eld Rune`
 
-### Hireling
+### Hirelings
 
 - **General**
-    - Same status in all difficulty
-- Rogue scout
-    - **Cold Arrow**
-        - Added `Freezing Arrow`
-    - **Fire Arrow**
-        - Added `Exploding Arrow`
-- Iron wolf
-    - Increased **Resistance**
-    - **Fire**
-        - Changed `Inferno` to `Fire Bolt`
-        - Added `Enchant`
-    - **Cold**
-        - Changed `Frozen Armor` to `Chilling Armor`
-    - **Lightning**
-        - Added `Static Field`
-- Barbarian
-    - Increased **Life**
-    - Increased **Defense**
-    - Adde `Battle Cry`
-
+  - Unified base stats and scaling across all difficulties
+- **Rogue Scout (Act 1)**
+  - **Cold**: Added `Freezing Arrow`
+  - **Fire**: Added `Exploding Arrow`
+- **Iron Wolf (Act 3)**
+  - Increased base **Resistances**.
+  - **Fire**: Replaced `Inferno` with `Fire Bolt`; added `Enchant`
+  - **Cold**: Replaced `Frozen Armor` with `Chilling Armor`
+  - **Lightning**: Added `Static Field`
+- **Barbarian (Act 5)**
+  - Increased base **Life** and **Defense**
+  - Added `Battle Cry`
 
 ### Horadric Cube
 
