@@ -152,6 +152,9 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
         - Gains **+20% Life** per level
         - Base damage has been increased
         - Damage per level increased from +35% to **+55%**
+    - `Iron Golem`
+        - Thorns now does flat damage
+        - Display **Thorns Damage**
 - Poison and Bone Spells
     - `Bone Spear`
         - Damage synergy increased from +7% to **+8%**
