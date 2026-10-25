@@ -200,6 +200,7 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
         - Minimum damage to self is **1%**
     - `Holy Bolt`
         - Heal synergy increased from +15% to **+20%**
+        - Removed magic damage synergy from `Blessed Hammer`
     - `Conversion`
         - Maximum chance of conversion increased from 50% to **90%**
     - `Fist of the Heavens`
