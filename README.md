@@ -576,13 +576,13 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
 
 ### Runewords
 
-- Bulwark
+- **Bulwark**
     - Works on `Helms`
     - `Shael Rune` + `Io Rune` + `Sol Rune`
-- Cure
+- **Cure**
     - Works on `Helms`
     - `Shael Rune` + `Io Rune` + `Tal Rune`
-- Eternity
+- **Eternity**
     - Works on `Melee Weapons`, and **`Missile Weapons`**
     - `Amn Rune` + `Ber Rune` + `Ist Rune` + `Sol Rune` + `Sur Rune`
     - 5 Socket Melee Weapons → 5 Socket Melee and Missile Weapons
@@ -592,52 +592,52 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
             - Due to LoD Engine limit
         - Changed ~~Regenerate Mana 16%~~ to **+3-297 To Maximum Damage (Based on Character Level)**
             - Due to LoD Engine limit
-- Flickering Flame
+- **Flickering Flame**
     - Works on `Helms`
     - `Nef Rune` + `Pul Rune` + `Vex Rune`
-- Ground
+- **Ground**
     - Works on `Helms`
     - `Shael Rune` + `Io Rune` + `Ort Rune`
-- Hearth
+- **Hearth**
     - Works on `Helms`
     - `Shael Rune` + `Io Rune` + `Thul Rune`
-- Hysteria
+- **Hysteria**
     - Works on `Body Armors`
     - `Shael Rune` + `Ko Rune` + `Eld Rune`
-- Infinity
+- **Infinity**
     - Works on `Polearms`, and **`Spears`**
     - `Ber Rune` + `Mal Rune` + `Ber Rune` + `Ist Rune`
-- Insight
+- **Insight**
     - Works on `Polearms`, `Staves`, and **`Missile Weapons`**
     - `Ral Rune` + `Tir Rune` + `Tal Rune` + `Sol Rune`
-- Mania
+- **Mania**
     - Works on `Weapons`
     - `Shael Rune` + `Ko Rune` + `Eld Rune`
-- Metamorphosis
+- **Metamorphosis**
     - Works on `Healms`
     - `Io Rune` + `Cham Rune` + `Fal Rune`
-- Mist
+- **Mist**
     - Works on `Missile Weapons`
     - `Cham Rune` + `Shael Rune` + `Gul Rune` + `Thul Rune` + `Ith Rune`
-- Obedience
+- **Obedience**
     - Works on `Polearms`, and **`Spears`**
     - `Hel Rune` + `Ko Rune` + `Thul Rune` + `Eth Rune` + `Fal Rune`
-- Obsession
+- **Obsession**
     - Works on `Staves`
     - `Zod Rune` + `Ist Rune` + `Lem Rune` + `Lum Rune` + `Io Rune` + `Nef Rune`
-- Plague
+- **Plague**
     - Works on `Swords`, `Knives`, and `Claws`
     - `Cham Rune` + `Shael Rune` + `Um Rune`
-- Pride
+- **Pride**
     - Works on `Polearms`, and **`Spears`**
     - `Cham Rune` + `Sur Rune` + `Io Rune` + `Lo Rune`
-- Temper
+- **Temper**
     - Works on `Helms`
     - `Shael Rune` + `Io Rune` + `Thul Rune`
-- Unbending Will
+- **Unbending Will**
     - Works on `Swords`
     - `Fal Rune` + `Io Rune` + `Ith Rune` + `Eld Rune` + `El Rune` + `Hel Rune`
-- Wisdom
+- **Wisdom**
     - Works on `Helms`
     - `Pul Rune` + `Ith Rune` + `Eld Rune`
 
