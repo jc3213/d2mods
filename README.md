@@ -414,36 +414,125 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
 ### Unique Items
 
 - `Pluckeye`
-    - Short Bow
+    - **Short Bow**
     - Added **+25% Increased Attack Speed**
 - `Rogue's Bow`
-    - Composite Bow
+    - **Composite Bow**
     - Added **+1-3 Fire Arrow (Amazon Only)** or **+1-3 Cold Arrow (Amazon Only)**
 - `Bane Ash`
-    - Short Staff
+    - **Short Staff**
     - Removed **+20% Increased Attack Speed**
     - Removed **+50-60% Enhanced Damage**
     - Added **+20% Faster Cast Rate**
 - `Gravenspine`
-    - Yew Wand
+    - **Yew Wand**
     - Added **+10% Faster Cast Rate**
 - `Blinkbat's Form`
-    - Leather Armor
+    - **Leather Armor**
     - Faster Run/Walk increased from 10% to **30%**
     - Added **+1 Mana After Each Kill**
 - `The Battlebranch`
-    - Poleaxe
+    - **Poleaxe**
     - Base item level reduced from 34 to **30**
     - Required level reduced from 25 to **17**
 - `The Ward`
-    - Gothic Shield
+    - **Gothic Shield**
     - Added **Socketed (1)**
 - `Bloodletter`
-    - Gladius
+    - **Gladius**
     - Added **+20% Faster Run/Walk**
 - `Manald Heal`
-    - Ring
+    - **Ring**
     - Added **+10% Faster Cast Rate**
+- `Dimoak's Hew`
+  - **Bardiche**
+  - Enhanced Damage increased from +100% to **+100-150%**
+  - Changed ~~+15 Dexterity~~ to **+20 Strength**
+- `Serpent Lord`
+  - **Long Staff**
+  - Enhanced Damage increased from +30-40% to **+40-80%**
+  - Added **+15% Increased Attack Speed**
+  - Added **+5 Minimum Damage**
+- `Griswold's Edge`
+  - **Broad Sword**
+  - Changed ~~Knockback~~ to **4% Chance To Cast Level 1 Amplify Damage On Striking**
+  - Enhanced Damage increased from +80-120% to **+100-160%**
+  - Added **Slows Target By 25%**
+- `The Salamander`
+  - **Battle Staff**
+  - Added **+10% Faster Cast Rate**
+  - Fire Skills increased from +2 to **+3**
+  - Fire Ball (Sorceress) increased from +2 to **=4**
+- `The Tannr Gorerod`
+  - **Pike**
+  - Enhanced Damage increased from +80-100% to **+200-220%**
+  - Added **5-9% Life Stolen Per Hit**
+- `The Grim Reaper`
+  - **War Scythe**
+  - Enhanced Damage increased from +20% to **+80-120%**
+  - Mana Stolen Per Hit increased from 5% to **5-9%**
+- `Silks of the Victor`
+  - **Ancient Armor**
+  - Added **+20% Faster Run/Walk**
+  - Added **+30% Increased Attack Speed**
+  - Added **+50-100% Enhanced Damage**
+  - Added **+15% Chance To Find Magic Items**
+- `The Impaler`
+  - **War Spear**
+  - Enhanced Damage increased from +140-170% to **+170-240%**
+  - Added **Repairs 1 Durability in 4 Seconds**
+- `Coldkill`
+  - **Hatchet**
+  - Cold Damage increased from +40 to **+80-100 Cold Damage**
+  - Enhanced Damage increased from +150-190% to **+160-200%**
+- `The Atlantean`
+  - **Ancient Sword**
+  - Enhanced Damage increased from +200-250% to **+250-300%**
+  - Added **+2-5 To Zeal (Paladin Only)**
+  - Added **+100-125 Attack Rating**
+  - Added **Requirements -20%**
+  - Required Level reduced from 42 to **35**
+- `Lava Gout`
+  - **Battle Gauntlets**
+  - Chance To Cast Level 10 Enchant On Striking increased from 2% to **5%**
+  - Changed ~~Half Freeze Duration~~ to **Cannot Be Frozen**
+- `Earthshaker`
+  - **Battle Hammer**
+  - Added **+3-5 To Fire Claw (Druid Only)**
+- `Grim's Burning Dead`
+  - **Grim Scythe**
+  - Added **15% Reanimate As: Burning Dead Archer**
+  - Added **+3-5 To Fire Golem (Necromancer Only)**
+  - Necromancer Skill Levels increased from +3 to **+4**
+- `Swordguard`
+  - **Executioner Sword**
+  - All Resistances increased from +10-20 to **+20-30**
+  - Enhanced Damage increased from +170-180% to **+180-230%**
+  - Defense (Based on Character Level) increased from +5-495 to **+7-779**
+  - Added **Replenish Life +10-15**
+  - Added **Attacker takes damage of 15-25**
+- `Demonhorn's Edge`
+  - **Destroyer Helm**
+  - Increased Attack Speed increased from +10% to **+20%**
+  - Added **+1 To Barbarian Skills**
+- `Veil of Steel`
+  - **Spired Helm**
+  - Added **+2 To All Skills**
+  - Added **Physical Damage Received Reduced by 15-25%**
+  - Added **Magic Resist +20-40%**
+- `Ethereal Edge`
+  - **Silver-Edged Axe**
+  - Enhanced Damage increased from +150-180% to **+220-260%**
+  - Increased Attack Speed increased from +25% to **+40%**
+  - Added **+2-198 To Maximum Damage (Based on Character Level)**
+- `Executioner's Justice`
+  - **Glorious Axe**
+  - Enhanced Damage increased from +240-290% to **+260-300%**
+  - Changed ~~50% Chance To Cast Level 6 Decrepify~~ to **25% Chance To Cast Level 13 Amplify Damage** When You Kill An Enemy
+  - Increased Attack Speed increased from +30% to **+40%**
+  - Added **+15 Life After Each Kill**
+  - Added **+5 To Mana After Each Kill**
+
 
 ### Set Items
 
