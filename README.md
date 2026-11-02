@@ -450,15 +450,40 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
 #### Angelic Raiment
 
 - `Angelic Sickle`
-    - Sabre
+    - **Sabre**
     - Added **+6 Damage** 
-        - 3 pieces equipped
+        - 3 pieces bonus
 - `Angelic Mantle`
-    - Ring Mail
+    - **Ring Mail**
     - Added **+100% Damage to Undead**
-        - 3 pieces equipped
+        - 3 pieces bonus
 - **Full Set**
     - Added **+1 to All Skills**
+
+#### Isenhart's Armory
+
+- `Isenhart's Lightbrand`
+    - **Broad Sword**
+    - Increased Attack Speed increased from +20% to **+40%**
+    - Added **+5-495 Attack Rating (Based on Character Level)**
+    - Removed ~~2-Piece Set Bonus +5-495 Attack Rating (Based on Character Level)~~
+    - Added **+2-198 To Maximum Damage (Based on Character Level)**
+        - 3 pieces bonus
+- `Isenhart's Parry`
+    - **Gothic Shield**
+    - Added **Cold Resist +15%**
+        - 3 pieces bonus due to LoD engine limit
+    - Added **Fire Resist +15%**
+        - 3 pieces bonus due to LoD engine limit
+- `Isenhart's Case`
+    - **Breast Plate**
+    - Added **Magic Resist +25%**
+- `Isenhart's Horns`
+    - **Full Helm**
+    - Added **+5% Life stolen per hit**
+- **Full Set**
+    - Faster Run/Walk increased from +20% to **+30%**
+    - Added **+25% Faster Hit Recovery**
 
 ### Runewords
 
@@ -470,13 +495,14 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
     - `Shael Rune` + `Io Rune` + `Tal Rune`
 - Eternity
     - Works on `Melee Weapons`, and **`Missile Weapons`**
+    - `Amn Rune` + `Ber Rune` + `Ist Rune` + `Sol Rune` + `Sur Rune`
     - 5 Socket Melee Weapons → 5 Socket Melee and Missile Weapons
         - Enhanced Damage increased from +260-310% to **+300-390%**
         - Changed to ~~Level 8 Revive (88 Charges)~~ to **+5 To Revive (O skill)**
         - Changed ~~Replenish Life +16~~ to **+30% Increased Attack Speed**
-            - Due to property limits in LoD Engine
+            - Due to LoD Engine limit
         - Changed ~~Regenerate Mana 16%~~ to **+3-297 To Maximum Damage (Based on Character Level)**
-            - Due to property limits in LoD Engine
+            - Due to LoD Engine limit
 - Flickering Flame
     - Works on `Helms`
     - `Nef Rune` + `Pul Rune` + `Vex Rune`
