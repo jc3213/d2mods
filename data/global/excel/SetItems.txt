@@ -12,10 +12,10 @@ Iratha's Collar	Iratha's Finery	amu	Amulet	7	21	15	lgry	lgry						5	2500	2	res-p
 Iratha's Cuff	Iratha's Finery	tgl	Light Gauntlets	7	21	15	lgry	lgry						5	2500	2	res-cold		30	30	half-freeze		1	1																													swing2		20	20																																					0
 Iratha's Coil	Iratha's Finery	crn	Crown	7	21	15	lgry	lgry						5	2500	2	res-fire		30	30	res-ltng		30	30																													ac/lvl	16																																							0
 Iratha's Cord	Iratha's Finery	tbl	Heavy Belt	7	21	15	lgry	lgry						5	2500	2	ac		25	25	dmg-min		5	5																													dex		10	10																																					0
-Isenhart's Lightbrand	Isenhart's Armory	bsd	Broad Sword	7	11	8	lgld	lgld						5	2500	2	dmg-min		10	10	swing2		20	20																													att/lvl	10																																							0
-Isenhart's Parry	Isenhart's Armory	gts	Gothic Shield	7	11	8	lgld	lgld						5	2500	2	ac		40	40	light-thorns		4	4																													res-all		8	8																																					0
-Isenhart's Case	Isenhart's Armory	brs	Breast Plate	7	11	8	lgld	lgld						5	2500	2	ac		40	40	red-mag		2	2																													ac/lvl	16																																							0
-Isenhart's Horns	Isenhart's Armory	fhl	Full Helm	7	11	8	lgld	lgld						5	2500	2	dex		6	6	red-dmg		2	2																													res-all		8	8																																					0
+Isenhart's Lightbrand	Isenhart's Armory	bsd	Broad Sword	7	11	8	lgld	lgld						5	2500	2	dmg-min		10	10	swing3		40	40	att/lvl	10																																			dmg/lvl	16																															0
+Isenhart's Parry	Isenhart's Armory	gts	Gothic Shield	7	11	8	lgld	lgld						5	2500	2	ac		40	40	light-thorns		4	4																													res-all		8	8					res-fire		15	15	res-cold		15	15																									0
+Isenhart's Case	Isenhart's Armory	brs	Breast Plate	7	11	8	lgld	lgld						5	2500	2	ac		40	40	red-mag		2	2	res-mag		25	25																									ac/lvl	16																																							0
+Isenhart's Horns	Isenhart's Armory	fhl	Full Helm	7	11	8	lgld	lgld						5	2500	2	dex		6	6	red-dmg		2	2	lifesteal		5	5																									res-all		8	8																																					0
 Vidala's Barb	Vidala's Rig	lbb	Long Battle Bow	7	19	14	blac	blac						5	2500	2	ltng-min		1	1	ltng-max		20	20																													att/lvl	16																																							0
 Vidala's Fetlock	Vidala's Rig	tbt	Light Plated Boots	7	19	14	blac	blac						5	2500	2	stam		150	150	move3		30	30																													res-all		8	8																																					0
 Vidala's Ambush	Vidala's Rig	lea	Leather Armor	7	19	14	blac	blac						5	2500	2	ac		50	50	dex		11	11																													res-fire		24	24					ac/lvl	20																															0
