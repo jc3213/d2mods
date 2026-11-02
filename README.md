@@ -246,7 +246,7 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
         - Damage per level reduced from +8% to **+5%**
         - Gains **+50% Attack Rating**
     - `Berserk`
-        - Damage synergy from `Shout` changed to `Battle Orders`
+        - Damage synergy from ~~`Shout`~~ changed to `Battle Orders`
 - Warcries
     - `Shout`
         - Base duration increased from 20 seconds to **30** seconds
@@ -308,7 +308,7 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
         - Gains **+1% Mana Steal** per level
     - `Spirit of Barbs`
         - Removed base radius ~~20 yards~~
-        - Changed `% Damage Returned` to `Attacker Takes Damage of`
+        - Changed ~~`% Damage Returned`~~ to `Attacker Takes Damage of`
     - `Summon Grizzly`
         - Won't replace **Spirit Wolves** and **Dire Wolves**
         - Base life has been increased
@@ -343,7 +343,7 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
         - Lightning damage synergy increased from 11% to **17%**
         - Removed synergy from `Death Sentry`
     - `Blade Sentinel`
-        - Changed **Weapon Damage 3/8** aka (37.5%) to **75% Weapon Damage**
+        - Changed ~~**Weapon Damage 3/8**~~ aka (37.5%) to **75% Weapon Damage**
         - Gains **+10% Damage** per level from `Blade Fury` and `Blade Shield`
         - Cast delay reduced from 2 seconds to **1** second
     - `Charged Sentry`
@@ -364,7 +364,7 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
         - Removed synergy from `Death Sentry`
         - Display inferno range
     - `Blade Shield`
-        - Changed **Weapon Damage 1/4** aka (25%) to **75% Weapon Damage**
+        - Changed ~~**Weapon Damage 1/4**~~ aka (25%) to **75% Weapon Damage**
         - Gains **+10% Damage** per level from `Blade Sentinel` and `Blade Fury`
         - Base duration increased from 20 seconds to **120** seconds
         - Duration per level increased from +5 seconds to **+12** seconds
@@ -468,6 +468,15 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
 - Cure
     - Works on `Helms`
     - `Shael Rune` + `Io Rune` + `Tal Rune`
+- Eternity
+    - Works on `Melee Weapons`, and **`Missile Weapons`**
+    - 5 Socket Melee Weapons → 5 Socket Melee and Missile Weapons
+        - Enhanced Damage increased from +260-310% to **+300-390%**
+        - Changed to ~~Level 8 Revive (88 Charges)~~ to **+5 To Revive (O skill)**
+        - Changed ~~Replenish Life +16~~ to **+30% Increased Attack Speed**
+            - Due to property limits in LoD Engine
+        - Changed ~~Regenerate Mana 16%~~ to **+3-297 To Maximum Damage (Based on Character Level)**
+            - Due to property limits in LoD Engine
 - Flickering Flame
     - Works on `Helms`
     - `Nef Rune` + `Pul Rune` + `Vex Rune`
