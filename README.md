@@ -462,7 +462,7 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
   - **Battle Staff**
   - Added **+10% Faster Cast Rate**
   - Fire Skills increased from +2 to **+3**
-  - Fire Ball (Sorceress) increased from +2 to **=4**
+  - Fire Ball (Sorceress) increased from +2 to **+4**
 - `The Tannr Gorerod`
   - **Pike**
   - Enhanced Damage increased from +80-100% to **+200-220%**
