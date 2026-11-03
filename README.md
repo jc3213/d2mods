@@ -585,7 +585,6 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
 - **Eternity**
     - Works on `Melee Weapons`, and **`Missile Weapons`**
     - `Amn Rune` + `Ber Rune` + `Ist Rune` + `Sol Rune` + `Sur Rune`
-    - 5 Socket Melee Weapons → 5 Socket Melee and Missile Weapons
         - Enhanced Damage increased from +260-310% to **+300-390%**
         - Changed to ~~Level 8 Revive (88 Charges)~~ to **+5 To Revive (O skill)**
         - Changed ~~Replenish Life +16~~ to **+30% Increased Attack Speed**
