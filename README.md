@@ -418,7 +418,7 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
     - Added **+25% Increased Attack Speed**
 - `Rogue's Bow`
     - **Composite Bow**
-    - Added **+1-3 Fire Arrow (Amazon Only)** or **+1-3 Cold Arrow (Amazon Only)**
+    - Added **+1-3 Fire/Cold Arrow (Amazon Only)**
 - `Bane Ash`
     - **Short Staff**
     - Removed **+20% Increased Attack Speed**
