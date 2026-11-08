@@ -15,30 +15,27 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
 
 ---
 
-### Option 2: Direct Mode (Vanilla + Source Files)
+### Option 2: Direct Mode
 
 1. Download the latest [data.zip](https://github.com/jc3213/d2mods/releases/latest/download/data.zip)
 2. Extract the archive into your Diablo II installation directory
-3. Launch `Game.exe` with `-direct -txt` parameters
+   - For example, `E:\Diablo II\data\**`
+3. Play with Vanilla
+    - Launch `Game.exe` with `-direct -txt` parameters
+4. Play with PlugY
+    - Locate the `[LAUNCHING]` section and set `Param` to `-direct -txt`
+    ```ini
+    [LAUNCHING]
+    Param=-direct -txt
+    ```
+    - Launch `PlugY.exe`
 
----
-
-### Option 3: Play with PlugY
-
-1. Download the latest [data.zip](https://github.com/jc3213/d2mods/releases/latest/download/data.zip)
-2. Extract the archive into your Diablo II installation directory
-3. Open `PlugY.ini` in your game directory
-4. Locate the `[LAUNCHING]` section and set `Param` to `-direct -txt`
-   ```ini
-   [LAUNCHING]
-   Param=-direct -txt
-   ```
-5. Launch `PlugY.exe`
-
-### Option 4: Full Package (All-in-One)
+### Option 3: Full Package (All-in-One)
 
 1. Download the latest [d2mods-full.zip](https://github.com/jc3213/d2mods/releases/latest/download/d2mods-full.zip)
-   > **Note:** The full package includes pre-configured [PlugY](http://plugy.free.fr) (by Yohann), along with [D2DX](https://github.com/Jarcho/d2dx) combined with `D2FPS`, and `SGD2FreeRes` (by Jarcho)
+   - **Note:** The full package includes pre-configured [PlugY](http://plugy.free.fr), along with [D2DX](https://github.com/Jarcho/d2dx)
+   - [PlugY](http://plugy.free.fr) is a Diablo II Lord of Destruction UX kit made by Yohann
+   - [D2DX](https://github.com/Jarcho/d2dx) combined with D2FPS and SGD2FreeRes is made by Jarcho
 2. Extract all contents into your Diablo II installation directory
 3. Launch `PlugY.exe`
 
