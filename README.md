@@ -25,13 +25,15 @@ This mod backported all possible changes inspired by Diablo II: Resurrected to D
 
 ### Option 3: Play with PlugY
 
-1. Open `PlugY.ini` in your game directory
-2. Locate the `[LAUNCHING]` section and set `Param` to `-direct -txt`
+1. Download the latest [data.zip](https://github.com/jc3213/d2mods/releases/latest/download/data.zip)
+2. Extract the archive into your Diablo II installation directory
+3. Open `PlugY.ini` in your game directory
+4. Locate the `[LAUNCHING]` section and set `Param` to `-direct -txt`
    ```ini
    [LAUNCHING]
    Param=-direct -txt
    ```
-3. Launch `PlugY.exe`
+5. Launch `PlugY.exe`
 
 ### Option 4: Full Package (All-in-One)
 
